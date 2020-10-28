@@ -22,6 +22,7 @@ Blue Nile is a choice based supernatural-horror novel about a man who finds an a
 
 - Drug mention
 
+- childhood death
 
 ===intro===
 
@@ -59,3 +60,5 @@ I tell the surgeon to leave me be for awhile. Then I lay and fold my hands on my
 ->intro_camptrial
 
 ===intro_camptrial===
+
+I recieved 5 years of labor for the murder of my friend.  
