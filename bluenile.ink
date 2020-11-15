@@ -307,9 +307,27 @@ Before I could introduce myself as "Abraham" the bus stops with a sudden jerk.->
 
 We act now as if we will eventually makes bonds and our shoulders will be lighter as the concept of our humanity remains in our heads, giving us hope, reminding us that we are not just in cages.
 
-But that will always dissolve soon after. We become friends one day and a week later, someone will gut me in my sleep, let me bleed out till I'm cold and incapable of last words. Then blame it on another and my blue lips will not be able to utter his name.
+But that will always dissolve soon after. We become friends one day and a week later, someone will gut me in my sleep, let me bleed out till I'm cold, incapable of last words. Then blame it on another and my blue lips will not be able to utter his name.
 
 I must protect myself and sleep with a knife under my shirt. The bus jerks to a stop. The trenches are opening wide.->inside_prison
 
 
 ===inside_prison===
+
+
+
+===flashback_kiss3===
+
+The thought of this still sends shivers down my spine. Just like the cold fingers of his as they ran down my back. 
+
+We laid in the truck parked under a bridge that led to a park, where a river that once was dried up. It was midnight. Not a soul goes there, especially at that time. The willows wept, the frogs chirped. Fireflies illuminated only a small, indistinct piece of the canvas composed of our faces. They knew something was direly wrong. They assumed we could do nothing about it. 
+
+He held me close as I try my best to swallow down the bile and suppress the wails deep in my stomach. The air from his nostrils blewing against my neck. The last moment of her struggle still projected in my mind. It haunts me now even as I lay in this bed with the whistles of the wind from the bars.
+
+With his chest on my back, I could hear the beat of his heart through my ribs. He puts his hand on my chest knowing that my heart will not stop racing. Tracing a circle, a soothing spell. Finally the hand goes down to my stomach as if he wants to ease the trouble down there too. The car heat is down as the engine is aged and it makes too much noise.
+
+It feels so cold to my skin. He said something totally inaudible to me as my fears became much like the sound of an engine. My ears ringing. Then to attempt appyling further nurturing to my mental wound, he craned my head towards his, and his lip touched mine. The wet feeling of his lips against my shamefully windburned pair. The cut on the middle of his lip had split slightly as he grew more intense in his kiss. I tasted his iron. 
+
+I never went there again. I don’t even know if that bridge is still there.
+
+===flashback_kiss1
