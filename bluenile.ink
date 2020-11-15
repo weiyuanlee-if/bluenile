@@ -364,5 +364,22 @@ He lightly smacked my abs. I wasn't sure if it was a joke or not because I was m
 
 Abra: "I'm not walking out there like that, you out of your mind."
 
-Mal: "I didn't say I was gonna do that. That's all in your mind."
+Mal: "I didn't say I was gonna do that. That's all in YOUR mind."
+
+I took my own pants and throw them at him. Then as I attempt taking off one my socks, I winced in pain.
+
+Mal: "You're worried about being naked? You might not even leave here. Might as well."
+
+Abra: "It's not like it's broken. If it was I'd be crying for -"
+
+Mal picks me up and cradles me in his arms without a warning. Suddenly I saw his face close to mine and my heart began running. 
+
+Mal: "It's okay, man. I'm only helping you. We're 'friends' you know."
+
+When he says "friends" his eyebrows lifts up. There's this glow to his eyes that just envelops me in this pool of a feeling I couldn't even describe at the moment. But I would say it was bit sinful. I knew that he also could feel the boiling inside. That was how we binded for the first time. 
+
+I couldn't stop touching my lips after. 
+
+
+
 
