@@ -16,13 +16,13 @@ epigraph
 ===contentwarning===
 
 
-Blue Nile is a choice based surrealist novel about a man who finds an angelic being trapped in the tree and what he must do to protect them from evil. Due to the subject manner of this story, violence will be a thing, so this content warning is a heads up. (obvs im gonna make a better summary than this)
+Blue Nile is a choice based magical realist novel about a man who finds an angelic being floating in a river and what he must do to protect them from evil. Due to the subject manner of this story, violence will be a thing, so this content warning is a heads up. (obvs im gonna make a better summary than this)
 
 
-- Gore/Body Horror
+- Gore/Body Horror (literally a nice in the first scene)
 - Labor camp
 - Emotional manipulation
-- Antiblackness
+- Anti-blackness
 - Drug mention
 - childhood death
 
@@ -133,7 +133,7 @@ Assuming I am in mourning, not wanting to waste a word with me, he returns to hi
 
 This town was called the cradle of the country. Through it flows, the Blue Nile. But that’s what they say. I personally think it’s a hunk of shit. 
 
-But my father swam through it one. They claim his eyes glowed and his skin shimmered gold.
+But my father swam through the river. They claim his eyes glowed and his skin shimmered gold.
 
 ->intro_camptrial
 ===intro_camptrial===
@@ -196,8 +196,13 @@ I hang my head low as I’m taken away. ->the_bus
 I cry even though I can’t fully through all my orifices. I let out a croak and cup my mouth with my two hands as if preventing a flood from my throat. The judge slams the hammer and two men pull my arms and wrap them behind me because I am a disturbance to my own predicament.
 
 
-I’m led out of the courtroom with my head hanging low. ->the_bus
+I’m led out of the courtroom with my head hanging low. ->flashback_three
 
+===flashback_three===
+
+He retired his swimming career, decided to follow in the path of my pastor grandfather who had died when he was born. The pastor son's awakening was late. But nonetheless he began to build a following, claiming that if you drink from here, you will live a decade more. They say the river was so beautiful that no one thought to swim in it.
+
+Sparking blue as the skies, 
 
 ===the_bus===
 
@@ -275,5 +280,15 @@ Perhaps this will be my redemption. I've spent all my years in the shadow of my 
 He thought he was destined to rule the skies, you would think.
 
 I've had no friends. Well, there was one. But I don't want to think of that now.
+
 Before I could introduce myself as "Abraham" the bus stops with a sudden jerk.
 ===dont_trust===
+
+We act now as if we will eventually makes bonds and our shoulders will be lighter as the concept of our humanity remains in our heads, giving us hope, reminding us that we are not just in cages.
+
+But that will always dissolve soon after. We become friends one day and a week later, someone will gut me in my sleep, let me bleed out till I'm cold and incapable of last words. Then blame it on another and my blue lips will not be able to utter his name.
+
+I must protect myself and sleep with a knife under my shirt. The bus jerks to a stop. The trenches are opening wide.
+
+
+===
