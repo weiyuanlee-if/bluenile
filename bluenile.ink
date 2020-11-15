@@ -202,7 +202,11 @@ I’m led out of the courtroom with my head hanging low. ->flashback_three
 
 He retired his swimming career, decided to follow in the path of my pastor grandfather who had died when he was born. The pastor son's awakening was late. But nonetheless he began to build a following, claiming that if you drink from here, you will live a decade more. They say the river was so beautiful that no one thought to swim in it.
 
-Sparking blue as the skies, 
+Sparking blue as the skies, when you look into the deepness you see your face reflecting you.
+
+But all I saw as a small child was a mere river. I would wade in the river, then lay on my back looking at the moon, her reflecting off on my dark stomach. Only thing I noticed was that the water never lets you go, it hold you with such care. I also never got a disease when I would drink from it.
+
+It would fill my stomach and I would feel no pain.->the_bus 
 
 ===the_bus===
 
