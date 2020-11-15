@@ -229,18 +229,37 @@ There is no return from here.
 
 I lean back, try to make myself seem cool, apathetic to my sentencing. There are only 5 men on this bus. I eye one across from me, give him a flick of the chin.
 
-“What’s you’re name, what’s all of you’s names?”->campersintro
+“What’s you’re name, what’s all of you’s names?”
+
+note: write the introductions of them then loop to the descriptions below
+
+->campersintro
 
 
 ===corner-eyes===
 
 I remain in the corner and close my eyes. But my mind never shuts off. The theater of sight is dark but my mind keeps running, echoing all the scenes before the sentencing.
 
-Then someone’s foot comes through the leather and hits my back.->campersintro
+Then someone’s foot comes through the leather and hits my back. I turn around and a blonde man looks at me coldly, strongly feigning that it was merely the limb of a ghost and not his mud stained sneakers.
+
+I tell him: "Ay don't you mess with me man, this ain't grade school." He wimpers that it was an accident. But I don't believe him due to the smirk creeping in the corner. 
+
+I don't need another charge on my back. All of the other passengers turn to see who's talking.
+
+Blonde: "You hear me? I said sorry, now accept it."
+
+I look back at him and offer yet another gift of cold silence.
+
+Blonde: "Looks like we got a tough one here."
+
+A man with a braided rope of hair rolls his eyes and says: "He isn't in grade school but he attends one mentally still."
+
+
+->campersintro
 
 ===hum_song===
 
-I hum the first couple of “Go Tell It On the Mountain.” It was song I’d hear all the time as a child. Nothing out of the norm, at least I think so. 
+I hum the first couple notes of “Go Tell It On the Mountain.” It was song I’d hear all the time as a child. Nothing out of the norm. This is an average tune heard every day in this town. It's practically our anthem. 
 
 It was one of my father’s favorite songs of course. If you think about the lyrics, it’s kind of obvious as to why. He is a child of God that sounds the horn for the children. That led us to a river that he claimed is blessed.
 
@@ -253,9 +272,7 @@ Each face I do not recognize before. They all supposodly come from the same town
 
 Mount Ezekial only houses prisoners from our town and usually they are the untouchable kinds, like me. But lately over the years, laws have been passed that has now expanded these prison walls for other wrong doers. I’ve heard troubled juveniles coming to stay here to learn their lesson and coming back mute. Single mothers shipped here for truancy. People who took too many pills. 
 
-Supposdly this is least of the worst prison conditions.
-
-There are five men here sitting in each. In the row in front of me, is a blonde man with brown eyes, who  looks at me as if I’m not wearing the same orange jump suit as him. His pubescent cheeks pink with the chilling of his facial muscles. His hair shaven except one lock of hair making a curved finger over his forehead.  Across from him is a dark skinned man, the coils of his hair slick with jheri curl. The structure of cheeks bones lovingly made to reflect the shadows and lights of the environment that graces him. In another row ahead: two more men sit and they are facing the window, but the blonde coaxes them to offer their attention to me. Twin long men, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare.
+The five men here sitting in each booth. In the row in front of me, is a blonde man with brown eyes, who  looks at me as if I’m not wearing the same orange jump suit as him. His pubescent cheeks pink with the chilling of his facial muscles. His hair shaven except one lock of hair making a curved finger over his forehead.  Across from him is a dark skinned man, the coils of his hair slick with jheri curl. The structure of cheeks bones lovingly made to reflect the shadows and lights of the environment that graces him. In another row ahead: two more men sit and they are facing the window, but the blonde coaxes them to offer their attention to me. Twin long men, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare.
 
 These passengers are supposed to share a prison with me.
 
@@ -276,7 +293,7 @@ I did not come here to make friends or allies. I have come here to mourn my past
 
 I am bound to my father's corpse till I become one. There is no one that can save me from that. 
 
-The bus jerks and I bang my forehead against the window.
+The bus jerks and I bang my forehead against the window.->inside_prison
 
 ===coalition===
 Perhaps this will be my redemption. I've spent all my years in the shadow of my father. Him standing tall in a gown, holding his head up higher to appear even more taller.
@@ -285,14 +302,14 @@ He thought he was destined to rule the skies, you would think.
 
 I've had no friends. Well, there was one. But I don't want to think of that now.
 
-Before I could introduce myself as "Abraham" the bus stops with a sudden jerk.
+Before I could introduce myself as "Abraham" the bus stops with a sudden jerk.->inside_prison
 ===dont_trust===
 
 We act now as if we will eventually makes bonds and our shoulders will be lighter as the concept of our humanity remains in our heads, giving us hope, reminding us that we are not just in cages.
 
 But that will always dissolve soon after. We become friends one day and a week later, someone will gut me in my sleep, let me bleed out till I'm cold and incapable of last words. Then blame it on another and my blue lips will not be able to utter his name.
 
-I must protect myself and sleep with a knife under my shirt. The bus jerks to a stop. The trenches are opening wide.
+I must protect myself and sleep with a knife under my shirt. The bus jerks to a stop. The trenches are opening wide.->inside_prison
 
 
-===
+===inside_prison===
