@@ -326,8 +326,43 @@ He held me close as I try my best to swallow down the bile and suppress the wail
 
 With his chest on my back, I could hear the beat of his heart through my ribs. He puts his hand on my chest knowing that my heart will not stop racing. Tracing a circle, a soothing spell. Finally the hand goes down to my stomach as if he wants to ease the trouble down there too. The car heat is down as the engine is aged and it makes too much noise.
 
-It feels so cold to my skin. He said something totally inaudible to me as my fears became much like the sound of an engine. My ears ringing. Then to attempt appyling further nurturing to my mental wound, he craned my head towards his, and his lip touched mine. The wet feeling of his lips against my shamefully windburned pair. The cut on the middle of his lip had split slightly as he grew more intense in his kiss. I tasted his iron. 
+It feels so cold to my skin. He said something totally inaudible to me as my fears became much like the sound of an engine. My ears ringing. Then to attempt appyling further nurturing to my mental wound, he craned my head towards his, and his lip touched mine. The wettness of his lips snuffing out the inflamation of my shamefully windburned pair. The cut on the middle of his lip had split slightly as he grew more intense in his kiss. I tasted his iron. 
 
 I never went there again. I don’t even know if that bridge is still there.
 
-===flashback_kiss1
+===flashback_kiss1===
+
+I sit on a bucket with my hair dripping wet in front of the open window, where the sun's ray settles on my back. Heat searing my dry neck. My clothes hung on me like I'm the hanger. One side of my body feeling heavier than the other. My sprained foot pumps with blood, I can feel it increasing in mass. My right side now the weighed down side of the seesaw. 
+
+This shed used to house a pig from a long dead neighbor. I scrunch up my nose at the stench.
+
+Mal: "Guess you didn't inherit the swimming from your dad."
+
+He appears at the doorway, still shirtless, Doing that smile with all the grooves showing. While I'm sitting here looking like a downed scarecrow. While pinching his nose, making his voice all nasal: 
+
+Mal: "What's with the stank face?"
+
+I look at him, tilt my head to the side, shaking it:
+
+Abra: "What do you fucking think?"
+
+I hold out my hands presenting the disarray I'm in. 
+
+Mal: "Come on out, you're gonna get sick. Gonna be all Sick and sad walking back home looking like a lost puppy."
+
+Abra: "Then father will really know what we doing."
+
+He comes to me and begins pulling off my shirt. 
+
+Mal: "Get this off at least and squeeze it."
+
+I was too weak and dispondent to even reject this. It relieves the weight anyway.
+
+Mal: "If you can't swim, at least you can lift."
+
+He lightly smacked my abs. I wasn't sure if it was a joke or not because I was mostly soft. Now I'm bones. My arms were toned from drumming for the church, but even that I hadn't done in awhile. Mal wrings my shirt, the water floods onto the floor. The black inks stains his fingers. Then he turns. I know he's looking at denim pants weighed down with liquid.
+
+Abra: "I'm not walking out there like that, you out of your mind."
+
+Mal: "I didn't say I was gonna do that. That's all in your mind."
+
