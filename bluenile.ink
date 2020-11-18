@@ -1,5 +1,23 @@
 /*
-You are a man sent to a camp after the murder of your father, an esteemed self-proclaimed preacher who believed that his method of burial will bring ppl to life again, by drowning them in the blue nile. When a young girl goes missing and you find out it is due to a secret plan between her parents and father who believed drowning her would rid her of her disabilities, you kill your father and bury him in an abandoned well. Years before this, a boyfriend of yours had died in a freak car accident and he was buried in the blue nile. When you go to the camp to work, you are met with a group of other people who plan to overthrow this camp and escape across the blue nile as winter approaches and freezes over the river. One day as you ppl work and make these plans, you try to leave the camp where the forest is, which the workers usually advice not to due to fear of getting snipped nd you find hanging from a tree, an angelic man that you later find out is your friend, who had died, and somehow was brought to life. Which then turns the story on its head, bc it means people are brought to life by the nile. But the nile has been used for evil. Which has ppl debate: should you use the nile to have your father admit to his crimes, to bring bck the victim, or simply leave altogether. Bc of this: you have to hide your friend and protect him nd feed him. Eventually you both have to leave with or without the members. You hve to gain trust in one of them.
+Plot Note Smash: You are a man sent to a camp after the murder of your father, an esteemed self-proclaimed preacher who believed that his method of burial will bring ppl to life again, by drowning them in the blue nile. When a young girl goes missing and you find out it is due to a secret plan between her parents and father who believed drowning her would rid her of her disabilities, you kill your father and bury him in an abandoned well. Years before this, a boyfriend of yours had died in a freak car accident and he was buried in the blue nile. When you go to the camp to work, you are met with a group of other people who plan to overthrow this camp and escape across the blue nile as winter approaches and freezes over the river. One day as you ppl work and make these plans, you try to leave the camp where the forest is, which the workers usually advice not to due to fear of getting snipped nd you find hanging from a tree, an angelic man that you later find out is your friend, who had died, and somehow was brought to life. Which then turns the story on its head, bc it means people are brought to life by the nile. But the nile has been used for evil. Which has ppl debate: should you use the nile to have your father admit to his crimes, to bring bck the victim, or simply leave altogether. Bc of this: you have to hide your friend and protect him nd feed him. Eventually you both have to leave with or without the members. You hve to gain trust in one of them.
+
+Story idea: for the choices you are supposed to either put more trust in the prison members for escape along with your bf or leave him behind due to lost of trust/not knowing if he is real. Or you can backstab them all and leave with your bf so essentially this game has like more than 3 endings with slight variances in the endings depending on who you leave with and whether or not they survive or get killed or they leave with you
+
+Character name list: Blonde guy is name Merrick Jorgensen. Twins are Rodrigo and Raya Posada
+
+Black guy described with a prominent jaw is named: Floyd Mayweather
+
+Rodrigo and Raya: twins from Puerto Rico. Rodrigo has long hair and is always found to be combing it. Is rather vain about his looks bc he was an aspiring model. He doesn’t do shit and loves to talk about his adventures in Spain as a model.    He’s also pretty flirt with everyone he talks to. A lot of your choices with him is around compliments, accepting his compliments, and feeding into his stories about his modeling career. Either your nice or you don’t care. If you’re too nice he’s going to get annoyed and snarky with you. If you’re too rude he’s going to get a bit cold. If you have a balance or lean a bit on the mean side tho. He might open a bit. And reveal some of his insecurities. He’s probably the most likely to help you leave as he’s the strongest person due to a history of sports
+
+Raya is non-binary and is more on the introverted side. If you get sick of Rodrigo and piss him off or whatever and try to interact with them more by asking them question listening to their queues. you will talk to Raya more. They aren’t a model nor are they into sports but rather instead they like to paint but they’re paintings aren’t really marketable. It’s more noise but you can be nice to them anyway or be honest. Then they will eventually engage in disappearing and if you don’t find them they will be to have escaped before  everyone else. A person who can tell the future by dreams they predicated that the symbol of a gong and feather was an indicator of an escape but you will never find this out until you achieve a friendship with them
+
+Merrick Jorgensen is a delinquent child imprisoned for terrorism. He’s incredibly bratty and likes to tease you. He is around 20 years old and a single child who’s really mad at his dad. When you talk to him you find out his father is a dead beat black metal singer who ran to Norway after having an affair. He’s not actually full Norwegian. He’s half Chinese. Develop his story more later. But basically his school bombing threat was due to a cover up of nazis in the school. This is a shit edgy plot. Develop better later
+
+*/
+
+/*
+Edit Note: Keep in mind this is a draft so just write and worry about it later. But here's one issue im already noticing. The writing for the flashbacks are much longer than the present day scenes. THere needs to be a balance for that. I do feel like when i design the UI, the borders will be different for flashbacks I will use years/chapter headings to indicate this. But already I am noticing an inconsistent writing style. */
+
 */
 ->quote
 
@@ -15,26 +33,67 @@ epigraph
 
 ===contentwarning===
 
+Blue Nile is a magical realist BL interactive novel about a son executing his cult pastor father after finding out the drowning of a child in a mystic river. The game takes place mostly in a prison camp where he plans to escape with another prisoner. But then the myth of  the Blue Nile turns out to be true and a past love is brought from the dead but is incomplete. Choices are centered around your relationship with a prisoner and whether or not you want to continue God’s abominable mistake and change the lives of your town forever. 
 
-Blue Nile is a choice based magical realist novel about a man who finds an angelic being floating in a river and what he must do to protect them from evil. Due to the subject manner of this story, violence will be a thing, so this content warning is a heads up. (obvs im gonna make a better summary than this)
 
-
-- Gore/Body Horror (literally a nice in the first scene)
-- Labor camp
+- Gore/Body Horror (literally a knife animation cutting the air with a description of the loss of an eye from a surgical procedure in the first scene)
+- Labor/prison camp/incarceration/surveillance
+- patricide 
 - Emotional manipulation
-- Anti-blackness
 - Drug mention
-- childhood death
+- child murder (no description just mentioned) 
+- cult 
+- one implied sex scene (meaning the MC wakes up in bed with his partner)
+- Reactionary Catholicism
+
+===credits===
+
+Writing, coding, music, pixel art by Xian Xian
+
+Made in Ink + Unity
+
+Pixel art made in Aseprite
+
+Beta-played/Tested by Jian, Nashira, Isak, and Iris
+
+Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. Inspired by 空中ブランコ  by Plastic Tree, track 11 on Chandelier.
+
+Thank you for your help and critique:
+
+
+Variables
+
+Godlike = 0 (the more sass, lies, sinning you do, the stronger you get, the temptation grows)
+
+Humanlike = 0 (the more humanity you preserve the weaker you are, the more rooted you are. Meaning enduring more pain, choosing logical choices, preserving human emotion etc.)
+
+Twin1 = 0
+
+Twin2 = 0
+
+Jorgensen = 0
+
+Mayweather = 0
 
 
 
+
+
+  
 ===flashbackintro===
-
-
 They say my father was a great swimmer, that he would’ve brought this town the first gold medal. But he came home with bronze and said he had a prophecy.
+
+/* image of mountain and water flowing through. Logo of game. */
+
+
 
 
 ===intro===
+
+/* heading, blank screen then transition to the knife */
+Part I
+
+Go Tell It On The Mountain
 
 
 The coldness of the steel, scraping against my skin, the theft of my all knowing left eye. I don't know if I can ever forget such a thing. But I had no choice but to bid farewell to a part of me. I swear I heard, while the instrument began to cut the nerves,  the singing, the forlorn stretching notes of my mother when she cradled me on that Christmas evening. After all I am the inheritor of her continuation.  
@@ -131,9 +190,15 @@ Assuming I am in mourning, not wanting to waste a word with me, he returns to hi
 
 ===flashbackintro===
 
-This town was called the cradle of the country. Through it flows, the Blue Nile. But that’s what they say. I personally think it’s a hunk of shit. 
+This town was called the cradle of the country. Through it flows, the Blue Nile. But that’s what they say. I personally think it’s a hunk of shit.  The true story is like this:
 
-But my father swam through the river. They claim his eyes glowed and his skin shimmered gold.
+This small town was named after an English nobleman, Blaire Morrow. It was found in 1834 by the settlers, who saw this magnificent river flowing out of a mountain. They described it as a miracle. God pouring nourishment from one of the earth's open wounds as a gift, they believed, rewarded them for simply stepping foot here. The settlers sat down, drank from it, and felt a freedom and solace they never had before. 
+
+Morrow was built a year later. The slaves would be forced to tow the land and expand it. Generations would go on, the descendents of Morrow would then leave for better soil and leave the slave descendent behind to decay with the dying soil.
+
+But the Blue Nile always shone despite the darkness in the roots of this settlement. We sang our songs of field toiling, blood and sweat drenched skin washed by this holy water. We said we were free in these hills finally. So we thought.
+
+After World War II, the son of a pastor, my father swam through the Blue Nile one day after failing to achieve gold. They claimed his eyes glowed and his skin shimmered gold despite all else.
 
 ->intro_camptrial
 ===intro_camptrial===
@@ -183,7 +248,7 @@ They take me out of court, I hang my head low.->the_bus
 I accept my fate and thank the honor for reducing it to 10 rather than life. He said after all, this town was built on forgiveness, on chances. 
 
 
-After all my father had made it. Dropped In a well without eyes to see the sky turn blue, it would only make sense to die on the land you founded. But not in that way. 
+After all my father had made it's revival. Dropped In a well without eyes to see the sky turn blue, it would only make sense to die on the land you lived on. But not in that way. 
 
 
 The townsfolk murmur about me. They have eyes sotten with tears over a man they don’t know, they never sat across him at the table. 
@@ -268,11 +333,11 @@ The men all turn to look at me. “Ay man, shut ya trap.” One of them says. He
 
 ===campersintro===
 
-Each face I do not recognize before. They all supposodly come from the same town yet I have never crossed paths with them. 
+Each face I do not recognize before. They all supposedly come from the same town yet I have never crossed paths with them. 
 
 Mount Ezekial only houses prisoners from our town and usually they are the untouchable kinds, like me. But lately over the years, laws have been passed that has now expanded these prison walls for other wrong doers. I’ve heard troubled juveniles coming to stay here to learn their lesson and coming back mute. Single mothers shipped here for truancy. People who took too many pills. 
 
-The five men here sitting in each booth. In the row in front of me, is a blonde man with brown eyes, who  looks at me as if I’m not wearing the same orange jump suit as him. His pubescent cheeks pink with the chilling of his facial muscles. His hair shaven except one lock of hair making a curved finger over his forehead.  Across from him is a dark skinned man, the coils of his hair slick with jheri curl. The structure of cheeks bones lovingly made to reflect the shadows and lights of the environment that graces him. In another row ahead: two more men sit and they are facing the window, but the blonde coaxes them to offer their attention to me. Twin long men, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare.
+The four men here sitting in each booth. In the row in front of me, is a blonde man with brown eyes, who  looks at me as if I’m not wearing the same orange jump suit as him. His pubescent cheeks pink with the chilling of his facial muscles. His hair shaven except one lock of hair making a curved finger over his forehead.  Across from him is a dark skinned man, the coils of his hair slick with jheri curl. The structure of cheeks bones lovingly made to reflect the shadows and lights of the environment that graces him. In another row ahead: two more men sit and they are facing the window, but the blonde coaxes them to offer their attention to me. Twin long men, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare.
 
 These passengers are supposed to share a prison with me.
 
@@ -314,7 +379,30 @@ I must protect myself and sleep with a knife under my shirt. The bus jerks to a 
 
 ===inside_prison===
 
+ I got my picture and my prints done. One of the guards literally said to me  white teeth showing in full, "Never thought I'd see the pastor's son here." Then the other whispered in his ear, the obvious ever so publicized story, and his mouth went agape.
 
+Does the television screen morph my image into a handsomer me or am I distorted into a demonic entity? Because as I sat there having myself recorded into this institution's fabric, no one ever seems to notice at a first glance: I am a heretic. 
+
+None of the other prisoners cared, after all they are more than likely no different than me. Hence why they don't hesitate when the chief says: that they have to spare some of their cold shelter's limited space to me. 
+
+Our cells are small with white walls and no windows. Much like a shrink room. Are we also going to be wrapped in cloth, having our hands behind our backs, incapacited?
+
+I choose to reside with:
+
+* [The twins, they seem eclectic]
+->twin_cell
+
+* [The blonde, I need more torment]
+->blonde_cell
+* [The tattooed man, I need the ambiguity]
+->tattoo_cell
+
+===twin_cell===
+
+The cell for the twins is only bigger than the others by width. 
+===blonde_cell===
+
+===tattoo_cell===
 
 ===flashback_kiss3===
 
@@ -376,10 +464,19 @@ Mal picks me up and cradles me in his arms without a warning. Suddenly I saw his
 
 Mal: "It's okay, man. I'm only helping you. We're 'friends' you know."
 
-When he says "friends" his eyebrows lifts up. There's this glow to his eyes that just envelops me in this pool of a feeling I couldn't even describe at the moment. But I would say it was bit sinful. I knew that he also could feel the boiling inside. That was how we binded for the first time. 
+When he says "friends" his eyebrows lifts up. There's this glow to his eyes that just envelops me in this pool of a feeling I couldn't even describe at the moment. But I would say it was bit sinful. Petrifying like the blue eyes of Mary at confessional. I knew that he also could feel the boiling inside. That was how we binded for the first time. 
 
 I couldn't stop touching my lips after. 
 
 
+===flashback_bed===
+
+The bell tolls. I woke up right as it struck, pangs of panic resonating through my chest. Was it because I felt exposed or was it really because of how sudden the waves of the bell came in? 
+
+I turned in bed and looked at Mal. He is still naked under the blankets and with his eyes closed, he looked more beautiful than the Blue Nile when it reflected the evergreen. I traced my finger on his thick brow. He murmurs about church music and turns away from me.
+
+It's time for me to return to the church. I put my pants back on, turn to see if the lines on my back are gone. They are turning purple. Having Mal on top of me didn’t make it better. When I finish dressing, I put a ice pack on my bruises, looked out the window, raining pouring down and rivelets pouring through the roads. I know my father got the other church boys looking for me. They are laughing with the lamps in their hands, probably singing for my demise. The runaway, whipped boy crying on the pew.
+
+It was times like this I don't regret burying him in a well.
 
 
