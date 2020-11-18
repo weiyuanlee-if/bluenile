@@ -67,14 +67,15 @@ Godlike = 0 (the more sass, lies, sinning you do, the stronger you get, the temp
 
 Humanlike = 0 (the more humanity you preserve the weaker you are, the more rooted you are. Meaning enduring more pain, choosing logical choices, preserving human emotion etc.)
 
-Twin1 = 0
+Raya = 0
 
-Twin2 = 0
+Rodrigo = 0
 
 Jorgensen = 0
 
 Mayweather = 0
 
+Mal = 0
 
 
 
@@ -189,16 +190,19 @@ I turn away and look out the window, gazing at the beginnings of a blizzard. Sof
 Assuming I am in mourning, not wanting to waste a word with me, he returns to his tools. After all, it’s just a stepping stone therapeutic maneuver taught to every medical student. A mere script permattached to their ingrained literature. -> flashbackintro
 
 ===flashbackintro===
+/* the mountain and lake image again this time but without the logo */ 
 
-This town was called the cradle of the country. Through it flows, the Blue Nile. But that’s what they say. I personally think it’s a hunk of shit.  The true story is like this:
+This town was called the cradle of the country. Through it flows, the Blue Nile. But that’s what they say. I personally think it’s a hunk of bullshit. We are the smallest town in this state of Mississipi. We are the most underground, undereducated, the deepest in the drenches of the past out of most of the state. At one point, we were supposed to evacuate for flooding, but the last generation decided to stay and endure the drownings. Lucky enough, we're so used to hell that we tied ourselves to the cross of resilience and managed to keep breathing anyway.  
 
-This small town was named after an English nobleman, Blaire Morrow. It was found in 1834 by the settlers, who saw this magnificent river flowing out of a mountain. They described it as a miracle. God pouring nourishment from one of the earth's open wounds as a gift, they believed, rewarded them for simply stepping foot here. The settlers sat down, drank from it, and felt a freedom and solace they never had before. 
+This is the true story:
 
-Morrow was built a year later. The slaves would be forced to tow the land and expand it. Generations would go on, the descendents of Morrow would then leave for better soil and leave the slave descendent behind to decay with the dying soil.
+This small town carved and left to sink in the mountains was named after an English nobleman, Blaire Morrow. It was found in 1834 by the Euro settlers, who saw this magnificent river flowing out of a mountain. God pouring nourishment from one of the earth's open wounds as a gift, they believed, rewarding them for simply stepping foot here. The settlers sat down, drank from it, and felt a freedom and solace they never had before. They named the mountain, Ezekial believing this land's deep isolation, abandonment was done out of a disgrace, that settling here will grant forgiveness.  
 
-But the Blue Nile always shone despite the darkness in the roots of this settlement. We sang our songs of field toiling, blood and sweat drenched skin washed by this holy water. We said we were free in these hills finally. So we thought.
+Morrow Town was built a year later. The slaves would be forced to tow the land and expand it. Generations would go on, the descendents of Morrow would then leave for better soil and leave the slave descendents behind to decay with the dying soil, and extract resources from Mount Ezekial. But of course, we would get mostly coal and soil. As after all the gold and rich food has been drained and exported.
 
-After World War II, the son of a pastor, my father swam through the Blue Nile one day after failing to achieve gold. They claimed his eyes glowed and his skin shimmered gold despite all else.
+But the Blue Nile always shone despite the darkness in the roots of this settlement. We sang our songs of field toiling, blood and sweat drenched skin washed by this holy water. We said we were free in these mountains finally. So we thought.
+
+After World War II, the son of a pastor, my fathe,  swam through the Blue Nile one day after failing to achieve gold. They claimed his eyes glowed and his skin shimmered gold despite all else.
 
 ->intro_camptrial
 ===intro_camptrial===
@@ -385,7 +389,9 @@ Does the television screen morph my image into a handsomer me or am I distorted 
 
 None of the other prisoners cared, after all they are more than likely no different than me. Hence why they don't hesitate when the chief says: that they have to spare some of their cold shelter's limited space to me. 
 
-Our cells are small with white walls and no windows. Much like a shrink room. Are we also going to be wrapped in cloth, having our hands behind our backs, incapacited?
+Our cells are small with white walls and no windows. Much like a shrink room. Are we also going to be wrapped in cloth, having our hands behind our backs, incapacited, only allowed to gaze up at the judge above the ceiling?
+
+I think I'd rather be dead in a well myself.
 
 I choose to reside with:
 
