@@ -389,7 +389,7 @@ Does the television screen morph my image into a handsomer me or am I distorted 
 
 None of the other prisoners cared, after all they are more than likely no different than me. Hence why they don't hesitate when the chief says: that they have to spare some of their cold shelter's limited space to me. 
 
-Our cells are small with white walls and no windows. Much like a shrink room. Are we also going to be wrapped in cloth, having our hands behind our backs, incapacited, only allowed to gaze up at the judge above the ceiling?
+Our cells are small with white walls and no windows. Much like a shrink room. Are we also going to be wrapped in cloth, having our hands behind our backs, incapacited, only allowed to gaze up at the judge above the ceiling? In each room there are at least 2-3 bunks. The toilet resides in between the bunks. So I will smell my partners piss while I sleep.
 
 I think I'd rather be dead in a well myself.
 
@@ -405,8 +405,43 @@ I choose to reside with:
 
 ===twin_cell===
 
-The cell for the twins is only bigger than the others by width. 
+The cell for the twins is only bigger than the others by width.  Rodrigo sits on his bunk, undoing his braid and finger combing the unraveled stiches. His twin, Raya, sits facing the wall. chin tucked into their knees, closing their eyes in meditation. My bunk lays over Raya. 
+
+Which is fine with me because Rodrigo looks like the kind that croons in his sleep. I sit on my bunker legs crossed, hands folded, and wait for some kind of convo to occur under my nose.
+
+But the twins say nothing and pretend as if I don't exist. Don't even say "Hi" or "How are you?" until Rodrigo to the last stitches of his braids. 
+
+Rodrigo: "Can you pass the brush?"
+
+I look around the cell.
+
+Abra: "What this look like a hotel room. I don't see no brush."
+
+Rodrigo's eyes roll up and he sighs.
+
+Rodrigo: "I mean from Raya."
+
+He climb down from his bunk and tries reaching into the pockets of his sibling, who elbows him in the nose.
+
+Rodrigo: "OW, YOU LITTLE SHIT."
+
+His brauds smacks me on the cheek as he twists around, recoiling in pain like a badly produced soap drama. Blood runs down his shirt and right sleeve. It's only the first night and I already have to break up a fight. The guards are long gone. The lights are turning off. Soon, we need to sleep.
+
+[[I ask Raya, nicely, for the brush->rayabrush]]
+
+[[I let the looney tunes keep playing.->looneytunes]]
+
+[[I get a hold of Rodrigo and teach him a trick->teachtrick]]
+
+
 ===blonde_cell===
+Jorgen sits in his bunk, already fast asleep or at least that's what he's performing as I'm taken into the cell. I sit on my bunk and cross my legs. I think almost of kicking his bunk to see if he's truly sleeping. But the pale lids of his eyes don't tremble like a person who squeezes their eyes shut to avoid the light of wakeness. His breathing is gentle and he wrap himself in his arms, because without a blanket, only limbs accompany you. 
+
+Guard: "You will get blankets tomorrow, machines are finally working."
+
+I nod and turn to face my wall.
+
+
 
 ===tattoo_cell===
 
