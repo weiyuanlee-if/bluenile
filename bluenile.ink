@@ -448,7 +448,7 @@ I wish the walls would close in on me. But the only relief I get is the shutting
 
 ===jorgenwakes===
 
-
+I'm not sure if it was the dream or if a being from hell was finally taking vengeneance.
 
 
 
