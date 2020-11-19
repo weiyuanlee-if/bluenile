@@ -439,7 +439,16 @@ Jorgen sits in his bunk, already fast asleep or at least that's what he's perfor
 
 Guard: "You will get blankets tomorrow, machines are finally working."
 
-I nod and turn to face my wall.
+I nod and turn to face my wall to stare, to let the seams sear into my eyes until I finally fall temporarily dead.
+
+I wish the walls would close in on me. But the only relief I get is the shutting of my eyes
+
+
+[[I dream of the prison flooding->jorgenwakes]]
+
+===jorgenwakes===
+
+
 
 
 
