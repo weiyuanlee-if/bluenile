@@ -25,7 +25,14 @@ Edit Note: Keep in mind this is a draft so just write and worry about it later. 
 ===quote===
 
 
-epigraph
+The sins are scattered everywhere
+They're around me
+I can't see it
+It vainly comes just crashing down
+In this sad and forgotten little town
+The truth we tend to look away from lies down deep
+
+- "GLASS SKIN" by DIR EN GREY 
 
 
 ->contentwarning 
@@ -50,7 +57,7 @@ Blue Nile is a magical realist BL interactive novel about a son executing his cu
 
 Writing, coding, music, pixel art by Xian Xian
 
-Made in Ink + Unity
+Made in Twine & Unity
 
 Pixel art made in Aseprite
 
@@ -448,7 +455,14 @@ I wish the walls would close in on me. But the only relief I get is the shutting
 
 ===jorgenwakes===
 
-I'm not sure if it was the dream or if a being from hell was finally taking vengeneance.
+I'm not sure if it was the dream or if a being from hell was finally taking vengeneance. While I was floating to the surface of consciousness, I felt something tug at my feet. Coldness creeping on the pads under them, then its vice taking hold of my toes. 
+Of course, as soon as I see wake up I see nothing. Except the blonde facing the wall, fast asleep.
+
+Waking up in the cell, quiet, with no light, is such a disturbing experience. I begin to panic but choke down my screams. What if I am indeed already in purgatory?
+
+I lay back on my pillow, closing and opening my eyes makes no difference, except the sensation of my lid muscles performing the action. There is nothing else to do except hope the sun will rise. But nothing will shine through this walls. There are no windows nearby and no light switches.
+
+
 
 
 
