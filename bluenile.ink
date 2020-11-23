@@ -40,7 +40,7 @@ The truth we tend to look away from lies down deep
 
 ===contentwarning===
 
-Blue Nile is a magical realist BL interactive novel about a son executing his cult pastor father after finding out the drowning of a child in a mystic river. The game takes place mostly in a prison camp where he plans to escape with another prisoner. But then the myth of  the Blue Nile turns out to be true and a past love is brought from the dead but is incomplete. Choices are centered around your relationship with a prisoner and whether or not you want to continue God’s abominable mistake and change the lives of your town forever. 
+Blue Nile is a magical realist BL interactive novel about a son executing his cult pastor father after finding out the drowning of a child in a mystic river. The game takes place mostly in a prison camp where he plans to escape with another prisoner. But then the myth of  the Blue Nile turns out to be true and a past love is brought from the dead but is incomplete. Choices are centered around your relationship with a prisoner and whether or not you want to continue God’s abominable mistake and change the lives of your town forever. Other events occur depending on your choices and who you decided to build a friendship with.
 
 
 - Gore/Body Horror (literally a knife animation cutting the air with a description of the loss of an eye from a surgical procedure in the first scene)
@@ -49,7 +49,7 @@ Blue Nile is a magical realist BL interactive novel about a son executing his cu
 - Emotional manipulation
 - Drug mention
 - child murder (no description just mentioned) 
-- cult 
+- cult of personality
 - one implied sex scene (meaning the MC wakes up in bed with his partner)
 - Reactionary Catholicism
 
@@ -65,7 +65,7 @@ Beta-played/Tested by Jian, Nashira, Isak, and Iris
 
 Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. Inspired by 空中ブランコ  by Plastic Tree, track 11 on Chandelier.
 
-Thank you for your help and critique:
+Thank you for your help and critique: 
 
 
 Variables
@@ -460,13 +460,50 @@ Of course, as soon as I see wake up I see nothing. Except the blonde facing the 
 
 Waking up in the cell, quiet, with no light, is such a disturbing experience. I begin to panic but choke down my screams. What if I am indeed already in purgatory?
 
-I lay back on my pillow, closing and opening my eyes makes no difference, except the sensation of my lid muscles performing the action. There is nothing else to do except hope the sun will rise. But nothing will shine through this walls. There are no windows nearby and no light switches.
+I lay back on my pillow, closing and opening my eyes makes no difference in my surroundings, except the sensation of my lid muscles performing the action. There is nothing else to do except hope the sun will rise. But nothing will shine through these walls. 
 
+It's like I'm in a casket. Might as well cope with this. I close my eyes and fold my hands.
 
+Two seconds later there's on my eye. Like as if someone took one of those finger flashlights and aimed at my lids instead of down my throat.
 
+I awake. There is a light floating across, higher up. One sole dot of light, like a firefly sitting still. 
 
+It does not flicker. Neither does it sway. It's just static. 
+
+Jorgensen: "You see that too right?"
+
+Jorgensen's voice frightens me and I let out a yelp that echoes through the cell, down the hall. He smacks my shoulder and puts his pastey hands over my mouth. I would've bitten one those piano limbs if it didn't result in waking up the whole prison.
+
+Jorgensen: "It's like someone's pointing a laser at us or something."
+
+Abra: "Why would someone be doing that. You sure that's not you?"
+
+I can feel the eye rolling in the dark.
+
+Jorgensen: "Why would I be over there shooting a light, when I'm right here."
+
+Abra: "I'm playing, just playing."
+
+There's nothing we can do. So we go back to sleep. I closed my eyes but I didn't sleep though. It felt like only ten minutes passed when morning came.
 
 ===tattoo_cell===
+
+The tattooed man, who I now know as Floyd Mayweather, sits and watches with cold, dark eyes as I enter the cell. With every movement, every breathe of air, his eyes has caught it. His devishlish face makes me not even mind it.
+
+Will I wake up dead in his arms before dawn? 
+
+
+
+
+
+===the_meteor===
+===part2_template===
+
+Part 2
+Chrysalis
+
+/*meteor & river*/
+
 
 ===flashback_kiss3===
 
