@@ -11,7 +11,7 @@ Rodrigo and Raya: twins from Puerto Rico. Rodrigo has long hair and is always fo
 
 Raya is non-binary and is more on the introverted side. If you get sick of Rodrigo and piss him off or whatever and try to interact with them more by asking them question listening to their queues. you will talk to Raya more. They aren’t a model nor are they into sports but rather instead they like to paint but they’re paintings aren’t really marketable. It’s more noise but you can be nice to them anyway or be honest. Then they will eventually engage in disappearing and if you don’t find them they will be to have escaped before  everyone else. A person who can tell the future by dreams they predicated that the symbol of a gong and feather was an indicator of an escape but you will never find this out until you achieve a friendship with them
 
-Merrick Jorgensen is a delinquent child imprisoned for terrorism. He’s incredibly bratty and likes to tease you. He is around 20 years old and a single child who’s really mad at his dad. When you talk to him you find out his father is a dead beat black metal singer who ran to Norway after having an affair. He’s not actually full Norwegian. He’s half Chinese. Develop his story more later. But basically his school bombing threat was due to a cover up of nazis in the school. This is a shit edgy plot. Develop better later
+Merrick Jorgensen is a delinquent child imprisoned for supposed terrorism. He’s incredibly bratty and likes to tease you. He is around 20 years old and a single child who’s really mad at his dad. He is a Black/
 
 */
 
