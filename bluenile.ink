@@ -18,36 +18,44 @@ Merrick Jorgensen is a delinquent child imprisoned for supposed terrorism. He’
 /*
 Edit Note: Keep in mind this is a draft so just write and worry about it later. But here's one issue im already noticing. The writing for the flashbacks are much longer than the present day scenes. THere needs to be a balance for that. I do feel like when i design the UI, the borders will be different for flashbacks I will use years/chapter headings to indicate this. But already I am noticing an inconsistent writing style. */
 
-*/
+/* character variables */
+VAR jorgensen = 0
+VAR mal = 0
+VAR raya = 0
+VAR rodrigo = 0
+VAR floyd = 0
+
+/*Abra's variables */
+VAR humanity = 0
+VAR heretic = 0
+VAR malcompletion = false
+
+/*inventory */
+VAR admit_fail = false
+VAR broke_bot = false
+VAR legs = false
+VAR fingers = false
+
 ->quote
 
 
 ===quote===
 
 
-The sins are scattered everywhere
-They're around me
-I can't see it
-It vainly comes just crashing down
-In this sad and forgotten little town
-The truth we tend to look away from lies down deep
-
-- "GLASS SKIN" by DIR EN GREY 
-
-
+Quote
 ->contentwarning 
 
 
 ===contentwarning===
 
-Blue Nile is a magical realist BL interactive novel about a son executing his cult pastor father after finding out the drowning of a child in a mystic river. The game takes place mostly in a prison camp where he plans to escape with another prisoner. But then the myth of  the Blue Nile turns out to be true and a past love is brought from the dead but is incomplete. Choices are centered around your relationship with a prisoner and whether or not you want to continue God’s abominable mistake and change the lives of your town forever. Other events occur depending on your choices and who you decided to build a friendship with.
+Blue Nile is a dark fantasy BL interactive novel about a son executing his cult pastor father after finding out the drowning of a child in a mystic river. The game takes place mostly in a prison camp where he plans to escape with another prisoner. But then the myth of  the Blue Nile turns out to be true and a past love is brought from the dead but is incomplete. Choices are centered around your relationship with a prisoner and whether or not you want to continue God’s abominable mistake and change the lives of your town forever. Other events occur depending on your choices and who you decided to build a friendship with.
 
 
 - Gore/Body Horror (literally a knife animation cutting the air with a description of the loss of an eye from a surgical procedure in the first scene)
 - Labor/prison camp/incarceration/surveillance
-- patricide 
+- patricide (murder of a father)
 - Emotional manipulation
-- Drug mention
+- Drug mention (cigeratte, alcohol)
 - child murder (no description just mentioned) 
 - cult of personality
 - one implied sex scene (meaning the MC wakes up in bed with his partner)
@@ -57,36 +65,13 @@ Blue Nile is a magical realist BL interactive novel about a son executing his cu
 
 Writing, coding, music, pixel art by Xian Xian
 
-Made in Twine & Unity
+Made in Ink + Unity
 
 Pixel art made in Aseprite
 
-Beta-played/Tested by Jian, Nashira, Isak, and Iris
+Beta-played/Tested by Jian, Nashira, Isak, Jean, Hassan and Iris
 
 Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. Inspired by 空中ブランコ  by Plastic Tree, track 11 on Chandelier.
-
-Thank you for your help and critique: 
-
-
-Variables
-
-Godlike = 0 (the more sass, lies, sinning you do, the stronger you get, the temptation grows)
-
-Humanlike = 0 (the more humanity you preserve the weaker you are, the more rooted you are. Meaning enduring more pain, choosing logical choices, preserving human emotion etc.)
-
-Raya = 0
-
-Rodrigo = 0
-
-Jorgensen = 0
-
-Mayweather = 0
-
-Mal = 0
-
-
-
-
   
 ===flashbackintro===
 They say my father was a great swimmer, that he would’ve brought this town the first gold medal. But he came home with bronze and said he had a prophecy.
@@ -98,18 +83,22 @@ They say my father was a great swimmer, that he would’ve brought this town the
 
 ===intro===
 
-/* heading, blank screen then transition to the knife */
+
 Part I
 
 Go Tell It On The Mountain
+/* heading, blank screen then transition to the knife */
 
-
-The coldness of the steel, scraping against my skin, the theft of my all knowing left eye. I don't know if I can ever forget such a thing. But I had no choice but to bid farewell to a part of me. I swear I heard, while the instrument began to cut the nerves,  the singing, the forlorn stretching notes of my mother when she cradled me on that Christmas evening. After all I am the inheritor of her continuation.  
 
 /* Knife image */
 
+The coldness of the steel, scraping against my skin, the theft of my all knowing left eye. I don't know if I can ever forget such a thing. But I have no choice but to bid farewell to a part of me. I swear I heard - while the instrument began to cut the nerves - the singing, the forlorn stretching notes of my mother when she cradled me on that wretched day. I didn't think I could remember that.
+
+ After all I am the inheritor of her continuation.  
+
 It was also a part of her.
 
+/* Knife image stops, lay down0*/
 
 Sitting here on this gurney, the surgeon sterilizing his weapons, the wind outside this little cabin howling with avengence for all of our occupation on this earth, I contemplate what I should do for the next moment. Our minds are conductors and the world is a stage.
 
@@ -216,7 +205,6 @@ After World War II, the son of a pastor, my fathe,  swam through the Blue Nile o
 
 
 The next day, without a moment’s rest, I’m made to stand before the judge with a tight tie and waxed back hair to receive 5 years of back breaking labor. Ordered by the judge, I must serve my punishment at Mount Ezekiel Camp to repent for my crime. My wrongdoing? I murdered my father. I swear on God’s feet, with bleeding knees and gritted, split teeth, that I did not intend to.
-
 
 But they said justice should be served. And my father is rendered innocent despite his filthy hands proving otherwise. Plenty of voices beneath the floorboards say also. But they won't be heard in this courtroom.
 
@@ -579,5 +567,7 @@ I turned in bed and looked at Mal. He is still naked under the blankets and with
 It's time for me to return to the church. I put my pants back on, turn to see if the lines on my back are gone. They are turning purple. Having Mal on top of me didn’t make it better. When I finish dressing, I put a ice pack on my bruises, looked out the window, raining pouring down and rivelets pouring through the roads. I know my father got the other church boys looking for me. They are laughing with the lamps in their hands, probably singing for my demise. The runaway, whipped boy crying on the pew.
 
 It was times like this I don't regret burying him in a well.
+
+
 
 
