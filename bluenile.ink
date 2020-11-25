@@ -1,5 +1,5 @@
 /*
-Plot Note Smash: You are a man sent to a camp after the murder of your father, an esteemed self-proclaimed preacher who believed that his method of burial will bring ppl to life again, by drowning them in the blue nile. When a young girl goes missing and you find out it is due to a secret plan between her parents and father who believed drowning her would rid her of her disabilities, you kill your father and bury him in an abandoned well. Years before this, a boyfriend of yours had died in a freak car accident and he was buried in the blue nile. When you go to the camp to work, you are met with a group of other people who plan to overthrow this camp and escape across the blue nile as winter approaches and freezes over the river. One day as you ppl work and make these plans, you try to leave the camp where the forest is, which the workers usually advice not to due to fear of getting snipped nd you find hanging from a tree, an angelic man that you later find out is your friend, who had died, and somehow was brought to life. Which then turns the story on its head, bc it means people are brought to life by the nile. But the nile has been used for evil. Which has ppl debate: should you use the nile to have your father admit to his crimes, to bring bck the victim, or simply leave altogether. Bc of this: you have to hide your friend and protect him nd feed him. Eventually you both have to leave with or without the members. You hve to gain trust in one of them.
+Plot Note Smash: You are a man sent to a camp after the murder of your father, an esteemed self-proclaimed preacher who believed that his method of burial will bring ppl to life again, by drowning them in the blue nile. When a young girl goes missing and you find out it is due to a secret plan between her parents and father who believed drowning her would live , you kill your father and bury him in an abandoned well. Years before this, a boyfriend of yours had died in a freak car accident and he was buried in the blue nile. When you go to the camp to work, you are met with a group of other people who plan to overthrow this camp and escape across the blue nile as winter approaches and freezes over the river. One day as you ppl work and make these plans, you try to leave the camp where the forest is, which the workers usually advice not to due to fear of getting snipped nd you find hanging from a tree, an angelic man that you later find out is your friend, who had died, and somehow was brought to life. Which then turns the story on its head, bc it means people are brought to life by the nile. But the nile has been used for evil. Which has ppl debate: should you use the nile to have your father admit to his crimes, to bring bck the victim, or simply leave altogether. Bc of this: you have to hide your friend and protect him nd feed him. Eventually you both have to leave with or without the members. You hve to gain trust in one of them.
 
 Story idea: for the choices you are supposed to either put more trust in the prison members for escape along with your bf or leave him behind due to lost of trust/not knowing if he is real. Or you can backstab them all and leave with your bf so essentially this game has like more than 3 endings with slight variances in the endings depending on who you leave with and whether or not they survive or get killed or they leave with you
 
@@ -29,12 +29,23 @@ VAR floyd = 0
 VAR humanity = 0
 VAR heretic = 0
 VAR malcompletion = false
+VAR malbetray = false
+
 
 /*inventory */
 VAR admit_fail = false
 VAR broke_bot = false
 VAR legs = false
 VAR fingers = false
+
+/*some kind of function for the varibles apparently*/
+
+ === function lower(ref x) ===
+ 	~ x = x - 1
+
+ === function raise(ref x) ===
+ 	~ x = x + 1
+
 
 ->quote
 
@@ -48,7 +59,9 @@ Quote
 
 ===contentwarning===
 
-Blue Nile is a dark fantasy BL interactive novel about a son executing his cult pastor father after finding out the drowning of a child in a mystic river. The game takes place mostly in a prison camp where he plans to escape with another prisoner. But then the myth of  the Blue Nile turns out to be true and a past love is brought from the dead but is incomplete. Choices are centered around your relationship with a prisoner and whether or not you want to continue God’s abominable mistake and change the lives of your town forever. Other events occur depending on your choices and who you decided to build a friendship with.
+Content Warning
+
+Blue Nile is a magical realist BL interactive novel about a son executing his cult pastor father after finding out the drowning of a child in a mystic river. The game takes place mostly in a prison camp where he plans to escape with another prisoner. But then the myth of  the Blue Nile turns out to be true and a past love is brought from the dead but is incomplete. Choices are centered around your relationship with a prisoner and whether or not you want to continue God’s abominable mistake and change the lives of your town forever. Other events occur depending on your choices and who you decided to build a friendship with.
 
 
 - Gore/Body Horror (literally a knife animation cutting the air with a description of the loss of an eye from a surgical procedure in the first scene)
@@ -63,18 +76,24 @@ Blue Nile is a dark fantasy BL interactive novel about a son executing his cult 
 
 ===credits===
 
-Writing, coding, music, pixel art by Xian Xian
-
 Made in Ink + Unity
 
-Pixel art made in Aseprite
+Writing, coding, music, pixel art by Xian Xian
 
-Beta-played/Tested by Jian, Nashira, Isak, Jean, Hassan and Iris
+Edited by Meia
+
+Soundtrack made with my mini AKAI keyboard and an out of tune baritone ukulele in SunVox.
+
+Pixel art made in Aseprite.
+
+Beta-played/Tested by Jian, Nashira, Isak, Jean, Hassan and Iris.
 
 Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. Inspired by 空中ブランコ  by Plastic Tree, track 11 on Chandelier.
-  
-===flashbackintro===
-They say my father was a great swimmer, that he would’ve brought this town the first gold medal. But he came home with bronze and said he had a prophecy.
+
+Special thank you to Jian for amazing critique on my character writing.
+
+/* ===flashbackintro===
+They say my father was a great swimmer, that he would’ve brought this town the first gold medal. But he came home with bronze and said he had a prophecy.*/
 
 /* image of mountain and water flowing through. Logo of game. */
 
@@ -82,8 +101,6 @@ They say my father was a great swimmer, that he would’ve brought this town the
 
 
 ===intro===
-
-
 Part I
 
 Go Tell It On The Mountain
@@ -92,18 +109,19 @@ Go Tell It On The Mountain
 
 /* Knife image */
 
-The coldness of the steel, scraping against my skin, the theft of my all knowing left eye. I don't know if I can ever forget such a thing. But I have no choice but to bid farewell to a part of me. I swear I heard - while the instrument began to cut the nerves - the singing, the forlorn stretching notes of my mother when she cradled me on that wretched day. I didn't think I could remember that.
+The coldness of the steel, scraping against my skin, the theft of my all knowing left eye. I don't know if I can ever forget such a thing. But I have no choice but to bid farewell to a part of me. I swear I heard - while the instrument began to cut the nerves - the singing, the forlorn stretching notes of my mother when she cradled me on that wretched day. I didn't think I could remember that. But the pain made me return to my near fetus status.
 
- After all I am the inheritor of her continuation.  
+I am the inheritor of her continuation.  
 
 It was also a part of her.
 
 /* Knife image stops, lay down0*/
+/*cabin image with snow*/
 
 Sitting here on this gurney, the surgeon sterilizing his weapons, the wind outside this little cabin howling with avengence for all of our occupation on this earth, I contemplate what I should do for the next moment. Our minds are conductors and the world is a stage.
 
 
-* [If I could cry on this table, I would]
+* [If I could cry on this thing, I would]
 ->intro_crytable
 
 
@@ -118,12 +136,11 @@ Sitting here on this gurney, the surgeon sterilizing his weapons, the wind outsi
 ===intro_thanksurgeon===
 He doesn't respond to my gratitude. Likely because he is too busy observing his work upon me. 
 
-I look up at him, his lips beared in as if holding in utterance of success at his procedure or else it would backfire. He reaches, carress my chin between his thumb and first two digits, to observe one more time the structure of my face. Then he pulls away slowly, moving as if we are surrounded by the physical embodiment of what I feel now: a fragility that comes with the loss of a missing piece.
+I look up at him, his lips beared in as if holding in any utterance of success at his procedure or else it would backfire. He reaches, carress my chin between his thumb and first two digits, to observe one more time the structure of my face. Then he pulls away slowly, moving as if we are surrounded by the physical embodiment of what I feel now: a fragility that comes with the loss of a missing piece.
 ->surgeon_says
 
 
 ===intro_morphine===
-
 
 I hold onto the surgeon's hand. The pain is intense and I never realized it until it settled in me and spread like a blooming, invasive species of flower. The singing is still in me, still in the tunnel of where I lost my left tier sight. There is an emptiness that is now being filled with the coursing fires, inflammation of bodily reconstruction.
 
@@ -135,7 +152,7 @@ I am lain down again and given the medicine. Finally I hear silence, the quiet a
 ===intro_crytable===
 
 
-I tell the surgeon to leave me be for awhile. Then I lay and fold my hands on my lap like am I being sheathed away into the death tomb. I close my one eye and listen for the wailing but nothing comes. One tear rolls down one eye and from the other, I assume the empitiness sways and the veins pulse, trying to communicate that there is a member of this temple missing but it doesn’t mean some semblance of the waterworks can’t be done. The surgeon comes back and suggests that I need more painkiller. I told him I just needed a moment of mourning and nothing else should take that from me.
+I tell the surgeon to leave me be for awhile. Then I lay and fold my hands on my lap like am I being sheathed away into the death tomb. I close my one eye and listen for the wailing but nothing comes. One tear rolls down one eye and from the other, I assume the emptiness sways and the veins pulse, trying to communicate that there is a member of this temple missing but it doesn’t mean some semblance of the waterworks can’t be done. The surgeon comes back and suggests that I need more painkiller. I told him I just needed a moment of mourning and nothing else should take that from me.
 ->surgeon_says
 
 ===surgeon_says===
@@ -293,11 +310,7 @@ There is no return from here.
 
 I lean back, try to make myself seem cool, apathetic to my sentencing. There are only 5 men on this bus. I eye one across from me, give him a flick of the chin.
 
-“What’s you’re name, what’s all of you’s names?”
-
-note: write the introductions of them then loop to the descriptions below
-
-->campersintro
+Abra: “What’s your name, what’s all of y’all’s  names?” ->campersintro
 
 
 ===corner-eyes===
@@ -336,7 +349,93 @@ Each face I do not recognize before. They all supposedly come from the same town
 
 Mount Ezekial only houses prisoners from our town and usually they are the untouchable kinds, like me. But lately over the years, laws have been passed that has now expanded these prison walls for other wrong doers. I’ve heard troubled juveniles coming to stay here to learn their lesson and coming back mute. Single mothers shipped here for truancy. People who took too many pills. 
 
-The four men here sitting in each booth. In the row in front of me, is a blonde man with brown eyes, who  looks at me as if I’m not wearing the same orange jump suit as him. His pubescent cheeks pink with the chilling of his facial muscles. His hair shaven except one lock of hair making a curved finger over his forehead.  Across from him is a dark skinned man, the coils of his hair slick with jheri curl. The structure of cheeks bones lovingly made to reflect the shadows and lights of the environment that graces him. In another row ahead: two more men sit and they are facing the window, but the blonde coaxes them to offer their attention to me. Twin long men, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare.
+The four men here sitting in each booth. In the row in front of me, is a blonde man with brown eyes, who  looks at me as if I’m not wearing the same orange jump suit as him. His pubescent cheeks pink with the chilling of his facial muscles. His hair shaven except one lock of hair making a curved finger over his forehead. 
+
+Across from him is a dark skinned man, the bleached tipped coils of his hair slick with jheri curl. The structure of his cheeks bones lovingly made to reflect the shadows and lights of the environment that graces him.
+
+In another row ahead: two more people sit and they are facing the window, but the blonde coaxes them to offer their attention to me. Twins, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare. But the one sporting the queue seems more vibrant, ready to gnaw my ear off with stories.
+
+
+	===RRintro===
+
+	The man with the long braid down to his waist, smiles and rises from his booth. Swings his braid to his back.
+
+	“Rodrigo. Came all the way from the city, just to end up here.” a smooth deep voice comes out of a fresh face with delicate structure, like a brown porcelain doll painted with a hand experienced in doing so. He curves tongue around the Rs of his name in an exaggerated Spanish accent. He is rooted here. 
+
+	A person near him rises slightly, revealing only their eyes and their shaven head, that reflects the light of the sun and snow from the driver window.
+
+	“He’s lying sir. We’ve always been here. He just like talking about his dream. A lot.”
+
+	Rodrigo sheepishly retreats, mutters "Shut up. Raya.". Settles back down and tucks his braid with him.
+
+	* [That's ok, I don't have problem with that]->RRintro_prob
+
+	* [Might as well leave your dreams behind for now]->RRintro_dreams
+
+
+	= RRintro_prob 
+
+	Rodrigo: "Raya is just jealous of me, is all."
+
+	Raya: "I give you a fair warning."
+	
+	Abra: "If y'all from here, how come I ain't seen you?"
+
+	Rodrigo: "Probably because we lived at the very bottom of Morrow."
+
+	Raya: "We lived on the fringe. Near the city. But we've never left. Never took the train out."
+
+	Abra: "Only time I took that train was when my father wanted to buy me a bike."
+
+	Rodrigo: "Yea, we luxurious."
+
+	Abra: "What you dreaming about anyway? Tell me about it."
+
+	Rodrigo: "Isn't it obvious? I almost made it one day."
+
+	I shrug to show him, I really can't guess his fantasies from the exterior of his little head.
+
+	Rodrigo: "To be a model - "
+
+	Raya retreats back into the booth. Pulls Rodrigo by the braid with them. 
+
+	Folks who lived near the Blue Nile have never left. They were too busy tending to the mountains. Usually couldn't even afford to. Except us once in a moon, since after all my father took the money from the collection. With the reccession, that was halted and the money would be shelved into a golden cage my father claimed Jesus lived in. 
+	
+	I was then no different than the average Morrow kid, sitting in class with rips in the shoe interiors.
+
+
+
+	= RRintro_dreams
+
+	Rodrigo: "Who said we're staying here. I sure as hell am not."
+
+	Abra: "Just trying to be real here kid. You're being shipped to one of the worst prisons of the Southern states."
+
+	Rodrigo: "Yea, so. Doesn't mean I can't handle it."
+
+	Raya seems visibly annoyed at their twin now. It's not showing much, but I can see a slight twinge in their glabella. The arch in their brows.
+
+	Abra: "Rodrigo. I don't know if you've seen the news. But I know what this prison is like. I've been here with my father for services. You will not leave...You will die."
+
+	It takes him awhile to process. When realizations hits the right wire, it actives. 
+
+	Rodrigo: "Holy fucking shit. You're that guy. YOU'RE THE MURDERER."
+
+	All eyes are on me now. I can take more than a missing eye now.
+
+	Rodrigo: "So what do you know. That we don't."
+
+	Abra: "I just told you. You will die. Nothing more."
+
+	Blonde: "We should kill this guy on the bus."
+
+	/* Car Horn*/
+
+	Driver: "Shut the hale up, I'm driving, and sit the fuck down. All of you. Can't believe grown ass men." /*Text need to be modified to show muttering */
+
+
+
+
 
 These passengers are supposed to share a prison with me.
 
@@ -367,6 +466,7 @@ He thought he was destined to rule the skies, you would think.
 I've had no friends. Well, there was one. But I don't want to think of that now.
 
 Before I could introduce myself as "Abraham" the bus stops with a sudden jerk.->inside_prison
+
 ===dont_trust===
 
 We act now as if we will eventually makes bonds and our shoulders will be lighter as the concept of our humanity remains in our heads, giving us hope, reminding us that we are not just in cages.
@@ -378,7 +478,7 @@ I must protect myself and sleep with a knife under my shirt. The bus jerks to a 
 
 ===inside_prison===
 
- I got my picture and my prints done. One of the guards literally said to me  white teeth showing in full, "Never thought I'd see the pastor's son here." Then the other whispered in his ear, the obvious ever so publicized story, and his mouth went agape.
+I got my picture and my prints done. One of the guards literally said to me  white teeth showing in full, "Never thought I'd see the pastor's son here." Then the other whispered in his ear, the obvious ever so publicized story, and his mouth went agape.
 
 Does the television screen morph my image into a handsomer me or am I distorted into a demonic entity? Because as I sat there having myself recorded into this institution's fabric, no one ever seems to notice at a first glance: I am a heretic. 
 
@@ -422,11 +522,14 @@ Rodrigo: "OW, YOU LITTLE SHIT."
 
 His brauds smacks me on the cheek as he twists around, recoiling in pain like a badly produced soap drama. Blood runs down his shirt and right sleeve. It's only the first night and I already have to break up a fight. The guards are long gone. The lights are turning off. Soon, we need to sleep.
 
-[[I ask Raya, nicely, for the brush->rayabrush]]
+*[I ask Raya, nicely, for the brush]
+->rayabrush
 
-[[I let the looney tunes keep playing.->looneytunes]]
+ * [I let the looney tunes keep playing.]
+ ->looneytunes
 
-[[I get a hold of Rodrigo and teach him a trick->teachtrick]]
+* [I get a hold of Rodrigo and teach him a trick]
+->teachtrick
 
 
 ===blonde_cell===
@@ -439,7 +542,8 @@ I nod and turn to face my wall to stare, to let the seams sear into my eyes unti
 I wish the walls would close in on me. But the only relief I get is the shutting of my eyes
 
 
-[[I dream of the prison flooding->jorgenwakes]]
+* [I dream of the prison flooding]
+->jorgenwakes
 
 ===jorgenwakes===
 
@@ -476,9 +580,23 @@ There's nothing we can do. So we go back to sleep. I closed my eyes but I didn't
 
 ===tattoo_cell===
 
-The tattooed man, who I now know as Floyd Mayweather, sits and watches with cold, dark eyes as I enter the cell. With every movement, every breathe of air, his eyes has caught it. His devishlish face makes me not even mind it.
+The tattooed man, who I now know as Floyd Mayweather, sits and watches with cold, dark eyes as I enter the cell. With every movement, every breathe that leaves my lips, his eyes has caught it. His devishlish face makes me not even mind it.
 
 Will I wake up dead in his arms before dawn? 
+
+I sit on my bunker and face the other way. He moves his arms or feet. Fluffs his pillow. Evening is coming soon. There's nothing else we can do here except lay in our regrets. I turn around, he's laying down eyes close.
+
+His tight curled, coarse hair is bleached on the tips, reminding me of the tips of molten glass ready for twisting.
+
+Something about him is alluring. But Also familiar. I notice on the back of his neck, a tattoo of Our Lady. The only ink piece I can give a name to, everything else is just streaks and swirls from origins unknown to me.
+
+Is he perhaps. Someone who knows my father?
+
+* [Wake him, it's an urgent question]
+->wakequestiontattoo
+
+* [Go to sleep]
+->tattoo_cellsleep
 
 
 
@@ -567,7 +685,3 @@ I turned in bed and looked at Mal. He is still naked under the blankets and with
 It's time for me to return to the church. I put my pants back on, turn to see if the lines on my back are gone. They are turning purple. Having Mal on top of me didn’t make it better. When I finish dressing, I put a ice pack on my bruises, looked out the window, raining pouring down and rivelets pouring through the roads. I know my father got the other church boys looking for me. They are laughing with the lamps in their hands, probably singing for my demise. The runaway, whipped boy crying on the pew.
 
 It was times like this I don't regret burying him in a well.
-
-
-
-
