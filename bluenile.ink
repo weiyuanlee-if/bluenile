@@ -30,10 +30,12 @@ VAR humanity = 0
 VAR heretic = 0
 VAR malcompletion = false
 VAR malbetray = false
+VAR admit_fail = false
+VAR trulyalone = false
 
 
 /*inventory */
-VAR admit_fail = false
+
 VAR broke_bot = false
 VAR legs = false
 VAR fingers = false
