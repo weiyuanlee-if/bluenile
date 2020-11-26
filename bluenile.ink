@@ -129,7 +129,7 @@ To my right, Malachi no longer was sitting. I assumed he was up somewhere in the
 
 I don't think he will ever come back. I laughed at the thought of that. Laughed at the man deep in the well too. I also didn't think it would end like this. When I was 5 I wanted to ride airplanes not dead on a steering wheel.
 
-God works his puppet strings in the most fucked up ways.
+God works his puppet strings in the most fucked up ways. This time by giving me a literal eye for an eye.
 
 * Doesn't he? ->knifetable
 
@@ -226,7 +226,7 @@ If only I could tell the world. What my own reality is.->flashbackintro
 
 I turn away and look out the window, gazing at the beginnings of a blizzard. Soft snow covering the windshield. A faint lamp glows from across, illuminating the whiteness.
 
-Assuming I am in mourning, not wanting to waste a word with me, he returns to his tools. After all, it’s just a stepping stone therapeutic maneuver taught to every medical student. A mere script permattached to their ingrained literature. -> flashbackintro
+Assuming I am in mourning, not wanting to waste a word with me, he returns to his tools. After all, it’s just a stepping stone therapeutic maneuver taught to every medical student. A mere script permattached to their mentally ingrained literature. -> flashbackintro
 
 ===flashbackintro===
 /* the mountain and lake image again this time but without the logo */ 
@@ -255,7 +255,7 @@ After World War II, the son of a pastor, my father,  swam through the Blue Nile 
 
 The next day, without a moment’s rest, I’m made to stand before the judge with a tight tie and waxed back hair to receive 5 years of back breaking labor. Ordered by the judge, I must serve my punishment at Mount Ezekiel Camp to repent for my crime. My wrongdoing? I murdered my father. I swear on God’s feet, with bleeding knees and gritted, split teeth, that I did not intend to.
 
-But they said justice should be served. And my father is rendered innocent despite his filthy hands proving otherwise. Plenty of voices beneath the floorboards say also. But they won't be heard in this courtroom. They will say "Ming Yang is speaking the trut"
+But they said justice should be served. And my father is rendered innocent despite his filthy hands proving otherwise. Plenty of voices beneath the floorboards say also. But they won't be heard in this courtroom. They will say "Ming Yang is speaking the truth"
 
 
 * [I plead for an equal justice]
@@ -270,16 +270,16 @@ But they said justice should be served. And my father is rendered innocent despi
 ->Icry
 
 
-===plead===
+= plead
 
 
-Ming: "Your honor. At  least make this equal. 10 years of labor for me and an eternity of erasure for him."
+Ming: "Your honor. At least make this equal. 10 years of labor for me and an eternity of erasure for him."
 
 
 From the very back of the room, I hear a gasp of dismay. The judges thin lips form a line, the wrinkles stricken. He slams the hammer.
 
 
-The lawyer goes over the evidence again. They say my father was found beheaded in the bottom of the well. Rain water and dead leaves adorn his lifeless shell. A woman searching for him, then smelled his eroding remains. 
+The lawyer goes over the evidence again. They say my father was found beheaded in the bottom of the well. Rain water and dead leaves adorn his remains. A woman searching for him, then smelled him eroding from beneath. The land consuming him for its health. 
 
 
 The townspeople murmur, “Sick man.” What they don’t know is that it wasn’t sickness that inspired me.
@@ -288,24 +288,23 @@ The townspeople murmur, “Sick man.” What they don’t know is that it wasn�
 But they’re all trained for idolatry. 
 
 
-They take me out of court, I hang my head low.->the_bus
+They take me out of court, I hang my head low.->flashback_three
 
 
 
-===myfate===
-I accept my fate and thank the honor for reducing it to 10 rather than life. He said after all, this town was built on forgiveness, on chances. 
+= myfate
+I accept my fate and thank the honor for reducing it to 5 rather than life. He said after all, this town was built on forgiveness, on chances. 
 
 
-After all my father had made it's revival. Dropped In a well without eyes to see the sky turn blue, it would only make sense to die on the land you lived on. But not in that way. 
+After all my father had made the town's revival. Dropped In a well without eyes to see the sky turn blue, it would only make sense to die on the land you lived on. But not in that way. 
 
 
 The townsfolk murmur about me. They have eyes sotten with tears over a man they don’t know, they never sat across him at the table. 
 
 
-I hang my head low as I’m taken away. ->the_bus
-===Icry===
+I hang my head low as I’m taken away. ->flashback_three
 
-
+= Icry
 I cry even though I can’t fully through all my orifices. I let out a croak and cup my mouth with my two hands as if preventing a flood from my throat. The judge slams the hammer and two men pull my arms and wrap them behind me because I am a disturbance to my own predicament.
 
 
@@ -317,9 +316,9 @@ He retired his swimming career, decided to follow in the path of my pastor grand
 
 Sparking blue as the skies, when you look into the deepness you see your face reflecting you.
 
-But all I saw as a small child was a mere river. I would wade in the river, then lay on my back looking at the moon, her reflecting off on my dark stomach. Only thing I noticed was that the water never lets you go, it hold you with such care. I also never got a disease when I would drink from it.
+But all I saw as a small child was a mere river. I would wade in it, then lay on my back looking at the moon, her light reflecting off on my dark stomach. Only thing I noticed was that the water never lets you go, it hold you with such care. I also never got a disease when I would drink from it. Eventually I wouldn't be able to do this when my father began blessing the dead in the streams before burial.
 
-It would fill my stomach and I would feel no pain.->the_bus 
+She would fill my stomach and I would feel no pain.->the_bus 
 
 ===the_bus===
 
@@ -338,20 +337,24 @@ There is no return from here.
 * [I hum a familiar  song]->hum_song
 
 
-===my_known===
+= my_known
 
 I lean back, try to make myself seem cool, apathetic to my sentencing. There are only 5 men on this bus. I eye one across from me, give him a flick of the chin.
 
-Ming: “What’s your name, what’s all of y’all’s  names?” ->campersintro
+Ming: “What’s your name, what’s all of y’all’s  names?” 
+
+A man in a booth in front of me turns, greets me with a chin flick.
+
+->campersintro
 
 
-===corner-eyes===
+= corner-eyes
 
 I remain in the corner and close my eyes. But my mind never shuts off. The theater of sight is dark but my mind keeps running, echoing all the scenes before the sentencing.
 
 Then someone’s foot comes through the leather and hits my back. I turn around and a blonde man looks at me coldly, strongly feigning that it was merely the limb of a ghost and not his mud stained sneakers.
 
-I tell him: "Ay don't you mess with me man, this ain't grade school." He wimpers that it was an accident. But I don't believe him due to the smirk creeping in the corner. 
+I tell him: "Ay don't you mess with me man, this ain't grade school." He wimpers that it was an accident. But I don't believe him due to the dimple that appeared in the corner of smile. 
 
 I don't need another charge on my back. All of the other passengers turn to see who's talking.
 
@@ -366,7 +369,7 @@ A man with a braided rope of hair rolls his eyes and says: "He isn't in grade sc
 
 ->campersintro
 
-===hum_song===
+= hum_song
 
 I hum the first couple notes of “Go Tell It On the Mountain.” It was song I’d hear all the time as a child. Nothing out of the norm. This is an average tune heard every day in this town. It's practically our anthem. 
 
