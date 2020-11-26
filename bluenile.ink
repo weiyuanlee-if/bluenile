@@ -25,7 +25,7 @@ VAR raya = 0
 VAR rodrigo = 0
 VAR floyd = 0
 
-/*Abra's variables */
+/*Ming's variables */
 VAR humanity = 0
 VAR heretic = 0
 VAR malcompletion = false
@@ -49,31 +49,47 @@ VAR fingers = false
  	~ x = x + 1
 
 
+->startmenu
+
+
+
+
+====startmenu===
+
+/* image of mountain and water flowing through. Logo of game. */
+
+* [Start]
 ->quote
+
+* [Content Warning]
+->contentwarning
+
+* [Credits]
+->credits
 
 
 ===quote===
 
 
 Quote
-->contentwarning 
+->intro
 
 
 ===contentwarning===
 
 Content Warning
 
-Blue Nile is a magical realist BL interactive novel about a son executing his cult pastor father after finding out the drowning of a child in a mystic river. The game takes place mostly in a prison camp where he plans to escape with another prisoner. But then the myth of  the Blue Nile turns out to be true and a past love is brought from the dead but is incomplete. Choices are centered around your relationship with a prisoner and whether or not you want to continue God’s abominable mistake and change the lives of your town forever. Other events occur depending on your choices and who you decided to build a friendship with.
+Blue Nile is a magical realist BL interactive novel about a son murdering his cult pastor father after finding out the drowning of a child in a mystic river. The game takes place mostly in a prison camp where he plans to escape with another prisoner. But then the myth of the Blue Nile turns out to be true and a past love is brought from the dead but is incomplete. Choices are centered around your relationship with a prisoner and whether or not you want to continue God’s abominable mistake and change the lives of your town forever. Other events occur depending on your choices and who you decided to build a friendship with.
 
-
-- Gore/Body Horror (literally a knife animation cutting the air with a description of the loss of an eye from a surgical procedure in the first scene)
+- car crash (first scene, cracked window image)
+- Gore/Body Horror (literally a knife animation cutting the air with a description of the loss of an eye from a surgical procedure in the second scene after a car flashback)
 - Labor/prison camp/incarceration/surveillance
 - patricide (murder of a father)
 - Emotional manipulation
-- Drug mention (cigeratte, alcohol)
-- child murder (no description just mentioned) 
-- cult of personality
-- one implied sex scene (meaning the MC wakes up in bed with his partner)
+- Drug mention (cigeratte, alcohol, mention of medical morphine during knife scene)
+- child murder (just mentioned/described briefly) 
+- cult of personality 
+- one implied sex scene (MC wakes up in bed with his partner, do you think I would write full fledge sex scenes without God striking me down.)
 - Reactionary Catholicism
 
 ===credits===
@@ -94,21 +110,31 @@ Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. In
 
 Special thank you to Jian for amazing critique on my character writing.
 
-/* ===flashbackintro===
-They say my father was a great swimmer, that he would’ve brought this town the first gold medal. But he came home with bronze and said he had a prophecy.*/
-
-/* image of mountain and water flowing through. Logo of game. */
-
-
 
 
 ===intro===
 Part I
 
 Go Tell It On The Mountain
-/* heading, blank screen then transition to the knife */
+->flashback_car
+/* heading, blank screen */
+
+===flashback_car===
+/* cracked car window, snow flakes, further cracking*/  
+
+Through the crevices came a proud God blowing in my face. I told you so. Was what she was saying, as I laid back, with the glass falling on me. One branch struck in my eye. The blood seeping down into my mind, down my chin. I tasted it, mixed with the melted flakes. Salty and bitter.
+
+To my right, Malachi no longer was sitting. I assumed he was up somewhere in the trees, judging how far he flew. They say that Black men couldn't fly. He did then. 
 
 
+I don't think he will ever come back. I laughed at the thought of that. Laughed at the man deep in the well too. I also didn't think it would end like this. When I was 5 I wanted to ride airplanes not dead on a steering wheel.
+
+God works his puppet strings in the most fucked up ways.
+
+* Doesn't he? ->knifetable
+
+
+===knifetable=== 
 /* Knife image */
 
 The coldness of the steel, scraping against my skin, the theft of my all knowing left eye. I don't know if I can ever forget such a thing. But I have no choice but to bid farewell to a part of me. I swear I heard - while the instrument began to cut the nerves - the singing, the forlorn stretching notes of my mother when she cradled me on that wretched day. I didn't think I could remember that. But the pain made me return to my near fetus status.
@@ -135,14 +161,14 @@ Sitting here on this gurney, the surgeon sterilizing his weapons, the wind outsi
 ->intro_thanksurgeon
 
 
-===intro_thanksurgeon===
+=intro_thanksurgeon
 He doesn't respond to my gratitude. Likely because he is too busy observing his work upon me. 
 
 I look up at him, his lips beared in as if holding in any utterance of success at his procedure or else it would backfire. He reaches, carress my chin between his thumb and first two digits, to observe one more time the structure of my face. Then he pulls away slowly, moving as if we are surrounded by the physical embodiment of what I feel now: a fragility that comes with the loss of a missing piece.
 ->surgeon_says
 
 
-===intro_morphine===
+=intro_morphine
 
 I hold onto the surgeon's hand. The pain is intense and I never realized it until it settled in me and spread like a blooming, invasive species of flower. The singing is still in me, still in the tunnel of where I lost my left tier sight. There is an emptiness that is now being filled with the coursing fires, inflammation of bodily reconstruction.
 
@@ -151,8 +177,7 @@ I am lain down again and given the medicine. Finally I hear silence, the quiet a
 ->surgeon_says
 
 
-===intro_crytable===
-
+=intro_crytable
 
 I tell the surgeon to leave me be for awhile. Then I lay and fold my hands on my lap like am I being sheathed away into the death tomb. I close my one eye and listen for the wailing but nothing comes. One tear rolls down one eye and from the other, I assume the emptiness sways and the veins pulse, trying to communicate that there is a member of this temple missing but it doesn’t mean some semblance of the waterworks can’t be done. The surgeon comes back and suggests that I need more painkiller. I told him I just needed a moment of mourning and nothing else should take that from me.
 ->surgeon_says
@@ -169,8 +194,7 @@ But my face has been televised in every home and inked on every paper on commerc
 
 * [I say nothing at all]->say_nothing
 
-
-===a_new_story===
+=a_new_story
 “I escaped from another village. Then fell on a branch.”
 
 A totally bogus story. Now what? Is the guy on the TV who looks like me a secret twin. My Cain and I am Abel who could escape?
@@ -183,7 +207,7 @@ He nods as if he believes me.  I go on.
 
 It’s what keeps us fed, our thirst quenched. Everyone else wants cup. I don’t know why. It’s just water. ->flashbackintro
 
-===televised===
+=televised
 
 “You’ve seen me on TV. The newspapers. On every billboard. What more can I say about myself.”
 
@@ -198,7 +222,7 @@ To close one eyes to the outside world, to reality unlike your perspective.
 If only I could tell the world. What my own reality is.->flashbackintro
 
 
-===say_nothing===
+=say_nothing
 
 I turn away and look out the window, gazing at the beginnings of a blizzard. Soft snow covering the windshield. A faint lamp glows from across, illuminating the whiteness.
 
@@ -207,17 +231,23 @@ Assuming I am in mourning, not wanting to waste a word with me, he returns to hi
 ===flashbackintro===
 /* the mountain and lake image again this time but without the logo */ 
 
-This town was called the cradle of the country. Through it flows, the Blue Nile. But that’s what they say. I personally think it’s a hunk of bullshit. We are the smallest town in this state of Mississipi. We are the most underground, undereducated, the deepest in the drenches of the past out of most of the state. At one point, we were supposed to evacuate for flooding, but the last generation decided to stay and endure the drownings. Lucky enough, we're so used to hell that we tied ourselves to the cross of resilience and managed to keep breathing anyway.  
+This town was called the cradle of the country. Through it flows, the Blue Nile. But that’s what they say. I personally think it’s a hunk of bullshit. We are the smallest town in this state of Mississipi. We are the most underground, undereducated, the deepest in the drenches of the past, out of most of the state. At one point, we were supposed to evacuate for flooding, but the last generation decided to stay and endure the drownings. 
 
+* Lucky enough, we're so used to hell [] that we tied ourselves to the cross of resilience and managed to keep breathing anyway.  
+->the_truestory
+
+===the_truestory===
 This is the true story:
 
-This small town carved and left to sink in the mountains was named after an English nobleman, Blaire Morrow. It was found in 1834 by the Euro settlers, who saw this magnificent river flowing out of a mountain. God pouring nourishment from one of the earth's open wounds as a gift, they believed, rewarding them for simply stepping foot here. The settlers sat down, drank from it, and felt a freedom and solace they never had before. They named the mountain, Ezekial believing this land's deep isolation, abandonment was done out of a disgrace, that settling here will grant forgiveness.  
+This small town carved and left to sink in the mountains was named after an English nobleman, Blaire Morrow. It was found in 1834 by the Euro settlers, who saw this magnificent river flowing out of a mountain. God pouring nourishment from one of the earth's open wounds as a gift, they believed, rewarding them for simply stepping foot here. The settlers sat down, drank from it, and felt a freedom and solace they never had before. They named the mountain, Ezekial believing this land's deep isolation, abandonment was done out of a disgrace, that settling here will grant it forgiveness.  
 
 Morrow Town was built a year later. The slaves would be forced to tow the land and expand it. Generations would go on, the descendents of Morrow would then leave for better soil and leave the slave descendents behind to decay with the dying soil, and extract resources from Mount Ezekial. But of course, we would get mostly coal and soil. As after all the gold and rich food has been drained and exported.
 
 But the Blue Nile always shone despite the darkness in the roots of this settlement. We sang our songs of field toiling, blood and sweat drenched skin washed by this holy water. We said we were free in these mountains finally. So we thought.
 
-After World War II, the son of a pastor, my fathe,  swam through the Blue Nile one day after failing to achieve gold. They claimed his eyes glowed and his skin shimmered gold despite all else.
+After World War II, the son of a pastor, my father,  swam through the Blue Nile one day after failing to achieve gold. They claimed his eyes glowed and his skin shimmered gold despite all else. 
+
+* [He then turned to preaching.]
 
 ->intro_camptrial
 ===intro_camptrial===
@@ -225,7 +255,7 @@ After World War II, the son of a pastor, my fathe,  swam through the Blue Nile o
 
 The next day, without a moment’s rest, I’m made to stand before the judge with a tight tie and waxed back hair to receive 5 years of back breaking labor. Ordered by the judge, I must serve my punishment at Mount Ezekiel Camp to repent for my crime. My wrongdoing? I murdered my father. I swear on God’s feet, with bleeding knees and gritted, split teeth, that I did not intend to.
 
-But they said justice should be served. And my father is rendered innocent despite his filthy hands proving otherwise. Plenty of voices beneath the floorboards say also. But they won't be heard in this courtroom.
+But they said justice should be served. And my father is rendered innocent despite his filthy hands proving otherwise. Plenty of voices beneath the floorboards say also. But they won't be heard in this courtroom. They will say "Ming Yang is speaking the trut"
 
 
 * [I plead for an equal justice]
@@ -243,7 +273,7 @@ But they said justice should be served. And my father is rendered innocent despi
 ===plead===
 
 
-"Your honor. At  least make this equal. 10 years of labor for me and an eternity of erasure for him."
+Ming: "Your honor. At  least make this equal. 10 years of labor for me and an eternity of erasure for him."
 
 
 From the very back of the room, I hear a gasp of dismay. The judges thin lips form a line, the wrinkles stricken. He slams the hammer.
@@ -312,7 +342,7 @@ There is no return from here.
 
 I lean back, try to make myself seem cool, apathetic to my sentencing. There are only 5 men on this bus. I eye one across from me, give him a flick of the chin.
 
-Abra: “What’s your name, what’s all of y’all’s  names?” ->campersintro
+Ming: “What’s your name, what’s all of y’all’s  names?” ->campersintro
 
 
 ===corner-eyes===
@@ -381,17 +411,17 @@ In another row ahead: two more people sit and they are facing the window, but th
 
 	Raya: "I give you a fair warning."
 	
-	Abra: "If y'all from here, how come I ain't seen you?"
+	Ming: "If y'all from here, how come I ain't seen you?"
 
 	Rodrigo: "Probably because we lived at the very bottom of Morrow."
 
 	Raya: "We lived on the fringe. Near the city. But we've never left. Never took the train out."
 
-	Abra: "Only time I took that train was when my father wanted to buy me a bike."
+	Ming: "Only time I took that train was when my father wanted to buy me a bike."
 
 	Rodrigo: "Yea, we luxurious."
 
-	Abra: "What you dreaming about anyway? Tell me about it."
+	Ming: "What you dreaming about anyway? Tell me about it."
 
 	Rodrigo: "Isn't it obvious? I almost made it one day."
 
@@ -411,13 +441,13 @@ In another row ahead: two more people sit and they are facing the window, but th
 
 	Rodrigo: "Who said we're staying here. I sure as hell am not."
 
-	Abra: "Just trying to be real here kid. You're being shipped to one of the worst prisons of the Southern states."
+	Ming: "Just trying to be real here kid. You're being shipped to one of the worst prisons of the Southern states."
 
 	Rodrigo: "Yea, so. Doesn't mean I can't handle it."
 
 	Raya seems visibly annoyed at their twin now. It's not showing much, but I can see a slight twinge in their glabella. The arch in their brows.
 
-	Abra: "Rodrigo. I don't know if you've seen the news. But I know what this prison is like. I've been here with my father for services. You will not leave...You will die."
+	Ming: "Rodrigo. I don't know if you've seen the news. But I know what this prison is like. I've been here with my father for services. You will not leave...You will die."
 
 	It takes him awhile to process. When realizations hits the right wire, it actives. 
 
@@ -427,17 +457,13 @@ In another row ahead: two more people sit and they are facing the window, but th
 
 	Rodrigo: "So what do you know. That we don't."
 
-	Abra: "I just told you. You will die. Nothing more."
+	Ming: "I just told you. You will die. Nothing more."
 
 	Blonde: "We should kill this guy on the bus."
 
 	/* Car Horn*/
 
 	Driver: "Shut the hale up, I'm driving, and sit the fuck down. All of you. Can't believe grown ass men." /*Text need to be modified to show muttering */
-
-
-
-
 
 These passengers are supposed to share a prison with me.
 
@@ -467,7 +493,7 @@ He thought he was destined to rule the skies, you would think.
 
 I've had no friends. Well, there was one. But I don't want to think of that now.
 
-Before I could introduce myself as "Abraham" the bus stops with a sudden jerk.->inside_prison
+Before I could introduce myself as "Mingham" the bus stops with a sudden jerk.->inside_prison
 
 ===dont_trust===
 
@@ -512,7 +538,7 @@ Rodrigo: "Can you pass the brush?"
 
 I look around the cell.
 
-Abra: "What this look like a hotel room. I don't see no brush."
+Ming: "What this look like a hotel room. I don't see no brush."
 
 Rodrigo's eyes roll up and he sighs.
 
@@ -570,13 +596,13 @@ Jorgensen's voice frightens me and I let out a yelp that echoes through the cell
 
 Jorgensen: "It's like someone's pointing a laser at us or something."
 
-Abra: "Why would someone be doing that. You sure that's not you?"
+Ming: "Why would someone be doing that. You sure that's not you?"
 
 I can feel the eye rolling in the dark.
 
 Jorgensen: "Why would I be over there shooting a light, when I'm right here."
 
-Abra: "I'm playing, just playing."
+Ming: "I'm playing, just playing."
 
 There's nothing we can do. So we go back to sleep. I closed my eyes but I didn't sleep though. It felt like only ten minutes passed when morning came.
 
@@ -641,13 +667,13 @@ Mal: "What's with the stank face?"
 
 I look at him, tilt my head to the side, shaking it:
 
-Abra: "What do you fucking think?"
+Ming: "What do you fucking think?"
 
 I hold out my hands presenting the disarray I'm in. 
 
 Mal: "Come on out, you're gonna get sick. Gonna be all Sick and sad walking back home looking like a lost puppy."
 
-Abra: "Then father will really know what we doing."
+Ming: "Then father will really know what we doing."
 
 He comes to me and begins pulling off my shirt. 
 
@@ -659,7 +685,7 @@ Mal: "If you can't swim, at least you can lift."
 
 He lightly smacked my abs. I wasn't sure if it was a joke or not because I was mostly soft. Now I'm bones. My arms were toned from drumming for the church, but even that I hadn't done in awhile. Mal wrings my shirt, the water floods onto the floor. The black inks stains his fingers. Then he turns. I know he's looking at denim pants weighed down with liquid.
 
-Abra: "I'm not walking out there like that, you out of your mind."
+Ming: "I'm not walking out there like that, you out of your mind."
 
 Mal: "I didn't say I was gonna do that. That's all in YOUR mind."
 
@@ -667,7 +693,7 @@ I took my own pants and throw them at him. Then as I attempt taking off one my s
 
 Mal: "You're worried about being naked? You might not even leave here. Might as well."
 
-Abra: "It's not like it's broken. If it was I'd be crying for -"
+Ming: "It's not like it's broken. If it was I'd be crying for -"
 
 Mal picks me up and cradles me in his arms without a warning. Suddenly I saw his face close to mine and my heart began running. 
 
