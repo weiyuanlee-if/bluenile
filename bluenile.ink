@@ -79,14 +79,15 @@ Quote
 
 Content Warning
 
-Blue Nile is a magical realist BL interactive novel about a son murdering his cult pastor father after finding out the drowning of a child in a mystic river. The game takes place mostly in a prison camp where he plans to escape with another prisoner. But then the myth of the Blue Nile turns out to be true and a past love is brought from the dead but is incomplete. Choices are centered around your relationship with a prisoner and whether or not you want to continue God’s abominable mistake and change the lives of your town forever. Other events occur depending on your choices and who you decided to build a friendship with.
+Blue Nile is a magical realist BL interactive novel about a son murdering his cult pastor father after the drowning of a child in a mystic river. The game takes place mostly in a prison camp in a fictional predominately Black run-down town naturally drained by colonialism and eventually controlled by religious leaders and surveillance. 
 
 - car crash (first scene, cracked window image)
-- Gore/Body Horror (literally a knife animation cutting the air with a description of the loss of an eye from a surgical procedure in the second scene after a car flashback)
+- Gore/Body Horror 
+- knives (a knife animation cutting the air with a description of the loss of an eye from a surgical procedure in the second scene after a car flashback)
 - Labor/prison camp/incarceration/surveillance
 - patricide (murder of a father)
 - Emotional manipulation
-- Drug mention (cigeratte, alcohol, mention of medical morphine during knife scene)
+- Drug mention (cigarette, alcohol, medical morphine during knife scene)
 - child murder (just mentioned/described briefly) 
 - cult of personality 
 - one implied sex scene (MC wakes up in bed with his partner, do you think I would write full fledge sex scenes without God striking me down.)
@@ -98,18 +99,17 @@ Made in Ink + Unity
 
 Writing, coding, music, pixel art by Xian Xian
 
+Character art by 
+
 Edited by Meia
+
+Beta-played/Tested by Jian, Nashira, Isak, Jean, Hassan and Iris.
 
 Soundtrack made with my mini AKAI keyboard and an out of tune baritone ukulele in SunVox.
 
 Pixel art made in Aseprite.
 
-Beta-played/Tested by Jian, Nashira, Isak, Jean, Hassan and Iris.
-
-Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. Inspired by 空中ブランコ  by Plastic Tree, track 11 on Chandelier.
-
-Special thank you to Jian for amazing critique on my character writing.
-
+Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. Inspired by 空中ブランコ  by Plastic Tree, track 11 on Chandelier and Dark Matters: On the Surveillance of Blackness by Simone Browne. 
 
 
 ===intro===
@@ -122,12 +122,11 @@ Go Tell It On The Mountain
 ===flashback_car===
 /* cracked car window, snow flakes, further cracking*/  
 
-Through the crevices came a proud God blowing in my face. I told you so. Was what she was saying, as I laid back, with the glass falling on me. One branch struck in my eye. The blood seeping down into my mind, down my chin. I tasted it, mixed with the melted flakes. Salty and bitter.
+Through the crevices came a proud God blowing into my face, teasing me, implying "I told you so", as I laid back, with glass falling on me, snow pouring in. One branch struck in my eye. Blood seeping down into my mind, down my chin. I tasted it, mixed with the melted flakes. Salty and bitter.
 
-To my right, Malachi no longer was sitting. I assumed he was up somewhere in the trees, judging how far he flew. They say that Black men couldn't fly. He did then. 
+To my right, Malachi no longer was sitting. I assumed he was up somewhere in the trees, judging how far he flew. They say that Black men couldn't fly. He did then. Forgot to put his seatbelt in the whole rush of fleeing.
 
-
-I don't think he will ever come back. I laughed at the thought of that. Laughed at the man deep in the well too. I also didn't think it would end like this. When I was 5 I wanted to ride airplanes not dead on a steering wheel.
+I don't think he will ever come back down. I laughed at the thought of that. Laughed at the man deep in the well too. I also didn't think it would end like this. When I was 5 I wanted to ride airplanes not lay dead on a steering wheel.
 
 God works his puppet strings in the most fucked up ways. This time by giving me a literal eye for an eye.
 
@@ -186,7 +185,7 @@ I tell the surgeon to leave me be for awhile. Then I lay and fold my hands on my
 
 “Tell me more about yourself.” he asks and turns away to tinker at his assortment of tools. Shouldn’t he look at the speaker while requesting intimate details about one? Well, they’re not that intimate and they don’t need to be.
 
-But my face has been televised in every home and inked on every paper on commercial shelves. Shouldn’t he know all about my story? 
+But my face has been televised in every home and inked on every paper on commercial shelves. Shouldn’t he know all about my story?  I'm short, but toned from all my days of swimming and exercise after meditation, my head is always shaven bald, earning me the nickname "monk" as a child. It's not very easy to forget me. After all, I'm the only person in this town   
 
 * [I tell him a new story]->a_new_story
 
@@ -318,7 +317,24 @@ Sparking blue as the skies, when you look into the deepness you see your face re
 
 But all I saw as a small child was a mere river. I would wade in it, then lay on my back looking at the moon, her light reflecting off on my dark stomach. Only thing I noticed was that the water never lets you go, it hold you with such care. I also never got a disease when I would drink from it. Eventually I wouldn't be able to do this when my father began blessing the dead in the streams before burial.
 
-She would fill my stomach and I would feel no pain.->the_bus 
+She would fill my stomach and I would feel no pain.->the_priest_intro
+
+===the_priest_intro1===
+
+Mount Ezekial is in the highest part of Morrow Town. So when you live in the bottom part of the town, it takes awhile to get to the top. The ride is about 40 minutes. And because this is some kind of godly town, where my father had gotten the church to send their servants out whenever people start doubting the holiness, our positions in life, we have some priest standing in the bus aisle talking to us about fate waiting for us.
+
+Father Laurent sits on up in the front, near the bus driver,  holding onto a seat with one hand and a microphone in the other.  His balding head, concealed by a white toupee that flops up and down in his exaggerated expressions during his homily. 
+
+Something about a fish. Something about a fallen man. Then he eats the fish and asks God forgiveness.
+
+We prayed, had a eucharist. I let it melt on my tongue. [] I know that Father Laurent is pretending real hard not to notice the killer in the back of the bus. ->the_priest_intro2
+
+===the_priest_intro2===
+
+I swallow and realize it ain't hard to miss me, I'm the smallest guy here and I'm very bald, unless you really didn't like my father. A sip of wine would satisfy me, but instead Father Laurent decides that we should all play ice breaker.
+
+The Father: 
+
 
 ===the_bus===
 
@@ -339,13 +355,13 @@ There is no return from here.
 
 = my_known
 
-I lean back, try to make myself seem cool, apathetic to my sentencing. There are only 5 men on this bus. I eye one across from me, give him a flick of the chin.
+I lean back, try to make myself seem cool, apathetic to my sentencing. There are only 5 men on this bus. I eye one across from me, give him a flick of the chin. I want to make mark on at least a few more people before I die. Maybe at least make a redemption. Can one sin cancel out another? Who knows. But at least I can try to regain a few fragments of my humanity.
 
 Ming: “What’s your name, what’s all of y’all’s  names?” 
 
-A man in a booth in front of me turns, greets me with a chin flick.
+A man in a booth in front of me turns, greets me with a chin flick. Others turn and greet me. But They don't seem to interested to leave their booth. Except for one.
 
-->campersintro
+A man with a long braid, so long he can swing it to me and I would at least get the tip of the tail.->RRintro
 
 
 = corner-eyes
@@ -367,6 +383,8 @@ Blonde: "Looks like we got a tough one here."
 A man with a braided rope of hair rolls his eyes and says: "He isn't in grade school but he attends one mentally still."
 
 
+
+
 ->campersintro
 
 = hum_song
@@ -375,7 +393,11 @@ I hum the first couple notes of “Go Tell It On the Mountain.” It was song I�
 
 It was one of my father’s favorite songs of course. If you think about the lyrics, it’s kind of obvious as to why. He is a child of God that sounds the horn for the children. That led us to a river that he claimed is blessed.
 
-The men all turn to look at me. “Ay man, shut ya trap.” One of them says. He startles me out of my zone. I just wanted to fill up the space around me with past comforts.->campersintro
+The men all turn to look at me. “Ay man, shut ya trap.” One of them says. He startles me out of my zone. I just wanted to fill up the space around me with past comforts.
+
+I look up from my booth, a man with tattoo all down his neck. He looks like he's gonna beat my ass. But he instead gives me a brief acknowledgement, then returns to his own world. 
+
+->campersintro
 
 
 ===campersintro===
@@ -399,7 +421,7 @@ In another row ahead: two more people sit and they are facing the window, but th
 
 	A person near him rises slightly, revealing only their eyes and their shaven head, that reflects the light of the sun and snow from the driver window.
 
-	“He’s lying sir. We’ve always been here. He just like talking about his dream. A lot.”
+	“He’s lying sir. We’ve always been here. He just likes talking about his dream. A lot.”
 
 	Rodrigo sheepishly retreats, mutters "Shut up. Raya.". Settles back down and tucks his braid with him.
 
