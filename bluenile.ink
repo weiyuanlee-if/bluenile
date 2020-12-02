@@ -331,9 +331,32 @@ We prayed, had a eucharist. I let it melt on my tongue. [] I know that Father La
 
 ===the_priest_intro2===
 
-I swallow and realize it ain't hard to miss me, I'm the smallest guy here and I'm very bald, unless you really didn't like my father. A sip of wine would satisfy me, but instead Father Laurent decides that we should all play ice breaker.
+I swallow and realize it ain't hard to miss me, I'm the smallest guy here and I'm very bald, unless you really didn't like my father. A sip of wine would satisfy me, but instead Father Laurent decides that we should all play ice breaker. He pulls out a ball from some kind of compartment. 
 
-The Father: 
+Isn't this kind of dangerous?
+
+The Father: "Let's introduce ourselves with a game of...catch the ball."
+
+He dribbles the ball.
+
+The Father: "I was always good at basketball. If God didn't call me to an eternal duty of serving him, I would've been dribbling with the Knicks."
+
+Someone in the background forces out a laugh so mechanic, I thought it came from the speaker that only God provided to make Laurent feel better about himself.
+
+He looks around at the five faces who are longing to be freed of this carriage to prison. That we've heard about while a mate kicked his bully in the face, hit his head on a bathroom stall door. That I've heard about in the confessional booths from sullen mother's who felt they failed their sons.
+
+I will meet a confessor's child for committing the same sin.
+
+And Father Laurent doesn't know about this. His blue eyes settles on me.
+
+I'm going to be pass the ball.
+
+* [I can't say no.]->ice_breaakerintro
+
+===ice_breaakerintro===
+
+
+
 
 
 ===the_bus===
@@ -738,3 +761,47 @@ I turned in bed and looked at Mal. He is still naked under the blankets and with
 It's time for me to return to the church. I put my pants back on, turn to see if the lines on my back are gone. They are turning purple. Having Mal on top of me didn’t make it better. When I finish dressing, I put a ice pack on my bruises, looked out the window, raining pouring down and rivelets pouring through the roads. I know my father got the other church boys looking for me. They are laughing with the lamps in their hands, probably singing for my demise. The runaway, whipped boy crying on the pew.
 
 It was times like this I don't regret burying him in a well.
+
+===flashback_shed===
+
+Mal: "You live like this? Damn." when Mal entered the shed, I was startled out of my sleep. I don't even know how I slept that night with the window open and no blankets.
+
+It was our first day tending to my father's garden. I'm no longer a part of his parish, but yet he wants me to tend to the land that it occuppies. This was when the thread of our relationship started to unravel, and he wanted me out of the picture. The only thing that always made the wounded, limp rose rise again, was Malachi.
+
+He sat on a pile of wrapped hay. Took off his leather jacket, leaned his head on the chipping wood walls. I remember that I wanted to defend these conditions, but I knew Mal was bicker back about it and I would've had to argue it back. But what I shouldve done was accept the real picture. Mal was the witness and he knew an unbiased truth that my father is now the overseer of my life ever since I dreamed of the Blue Nile drying up.
+
+Ming: "For now I am. Gotta make do with what's left."
+
+Mal: "Do you want to leave this place?"
+
+Ming: "T-the shed? Yea."
+
+Mal: "Nah, I mean Morrow altogether."
+
+Ming: "No, why? Where do I go? The hell kind of convo is this?"
+
+I pulled the blanket over and looked away. Let the moon light interfere with my vision. 
+
+Mal: "Don't you want to look for your mother? For life outside here. Because there sure ain't much. What you doing at 21? Raking leaves at the back of the church?"
+
+Ming: "It's an honest living."
+
+Mal: "Come on, bro."
+
+Ming: "What you mean, man. Those guys with their big trucks and blowers, cleaning them White folks' houses? Big money."
+
+Mal: "You're more than that Ming. And it's uh. Competitive."
+
+Ming: "You right about that...So why you talking about this again?"
+
+Mal: "I think sometime next year I'm leaving."
+
+Ming: "And what you gonna do?"
+
+Mal: "I don't know as long as it doesn't involve bleeding for a mountain."
+
+During that time, I can't remember who it was, but a man had died in the coal mine before this. The elevator that lifted men up to the top had fallen on him and stain the coal red. His family didn't want him in the Nile, they said there was too many face bones broken or something weird like that.
+
+
+
+
