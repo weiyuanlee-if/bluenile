@@ -321,13 +321,15 @@ She would fill my stomach and I would feel no pain.->the_priest_intro
 
 ===the_priest_intro1===
 
-Mount Ezekial is in the highest part of Morrow Town. So when you live in the bottom part of the town, it takes awhile to get to the top. The ride is about 40 minutes. And because this is some kind of godly town, where my father had gotten the church to send their servants out whenever people start doubting the holiness, our positions in life, we have some priest standing in the bus aisle talking to us about fate waiting for us.
+Mount Ezekial is in the highest part of Morrow Town. So when you live in the bottom part of the town, it takes awhile to get to the top. The ride is about 40 minutes. And because this is some kind of godly town, where my father had gotten the church to send their servants out whenever people start doubting the holiness, our positions in life, we have some priest standing in the bus aisle talking to us about fate waiting for us. 
 
 Father Laurent sits on up in the front, near the bus driver,  holding onto a seat with one hand and a microphone in the other.  His balding head, concealed by a white toupee that flops up and down in his exaggerated expressions during his homily. 
 
 Something about a fish. Something about a fallen man. Then he eats the fish and asks God forgiveness.
 
-We prayed, had a eucharist. I let it melt on my tongue. [] I know that Father Laurent is pretending real hard not to notice the killer in the back of the bus. ->the_priest_intro2
+I have the misfortune of sitting next to him and I feel the wheel beneath grinding against the dirt, snow, and rock.
+
+We pray, have a eucharist. I let it melt on my tongue. [] I know that Father Laurent is pretending real hard not to notice the killer near him. Breathing his lively air. ->the_priest_intro2
 
 ===the_priest_intro2===
 
@@ -335,183 +337,69 @@ I swallow and realize it ain't hard to miss me, I'm the smallest guy here and I'
 
 Isn't this kind of dangerous?
 
-The Father: "Let's introduce ourselves with a game of...catch the ball."
+The Father: "Let's introduce ourselves with a game of...catch. The ball."
 
-He dribbles the ball.
+He dribbles the ball and he's got the most unholy of smiles. Crooked teeth yellowed with tobacco juices and age. Folds forming like an accordion unraveled.
 
 The Father: "I was always good at basketball. If God didn't call me to an eternal duty of serving him, I would've been dribbling with the Knicks."
 
-Someone in the background forces out a laugh so mechanic, I thought it came from the speaker that only God provided to make Laurent feel better about himself.
+Someone in the background forces out a laugh so hard, I thought it came from the speaker that only God provided to make Laurent feel better about himself. It could've been geniune. As they were the only one returning happiness.
 
-He looks around at the five faces who are longing to be freed of this carriage to prison. That we've heard about while a mate kicked his bully in the face, hit his head on a bathroom stall door. That I've heard about in the confessional booths from sullen mother's who felt they failed their sons.
+He looks around at the five faces who are longing to be freed of this carriage to prison. That we've heard about while a mate kicked his bully in the face, hit his head on a bathroom stall door. That I've heard about in the confessional booths from sullen mothers who felt they failed their sons.
 
 I will meet a confessor's child for committing the same sin.
 
-And Father Laurent doesn't know about this. His blue eyes settles on me.
+Father Laurent's blue eyes settles on me.
 
-I'm going to be pass the ball.
+I'm going to be passing the ball.
 
 * [I can't say no.]->ice_breaakerintro
 
 ===ice_breaakerintro===
 
+The ball is passed to me, but it was done when I was focusing on the minute detail of the etchings of the glass behind the driver's head. Was it a cross, a cuss, or a hieroglyphic? 
 
+I then look down when the priest starts urging me to pick a victim. But what he said to me was incomprehensible.
 
+/*Bus breaks down SFX */
 
+Father Laurent: "Oh my. Looks like God really wants us to know each other."
 
-===the_bus===
+The bus decides to buckle down in the middle of the forest. On a hill too. In the middle of 15 degree weather. The heat is quickly disseminated and I can see the Father's breathe floating from his mouth to above.
 
-I sit in the back, my hand on the glass that frosts over with my breathe. I have suppressed the jittering in my bones, tensed my muscles against the rhythmic twitch response to the blizzard outside the walls of this bus.
+He's the only one here producing kinetic energy. Father puts on a big panicked, stricken smile and an elated but quivering voice comes out of thin lips.
 
-The other men stay afar. They whisper about my crime. because my father was a blessed man. And they also believe I’d pounce them one evening after crawling in from the window. 
+Father Laurent: "Come on guys, lets get active. Keeps us warm." 
 
-Out the window I see the barbed wires and the tents, the evergreens that shield us from questioning eyes.
+He turns to me again, this time a serious glare, glasses down his nose.
 
-There is no return from here. 
-
-* [So I decide to make myself known]->my_known
-
-* [I remain in the corner and close my eyes]->corner_eyes
-
-* [I hum a familiar  song]->hum_song
-
-
-= my_known
-
-I lean back, try to make myself seem cool, apathetic to my sentencing. There are only 5 men on this bus. I eye one across from me, give him a flick of the chin. I want to make mark on at least a few more people before I die. Maybe at least make a redemption. Can one sin cancel out another? Who knows. But at least I can try to regain a few fragments of my humanity.
-
-Ming: “What’s your name, what’s all of y’all’s  names?” 
-
-A man in a booth in front of me turns, greets me with a chin flick. Others turn and greet me. But They don't seem to interested to leave their booth. Except for one.
-
-A man with a long braid, so long he can swing it to me and I would at least get the tip of the tail.->RRintro
-
-
-= corner-eyes
-
-I remain in the corner and close my eyes. But my mind never shuts off. The theater of sight is dark but my mind keeps running, echoing all the scenes before the sentencing.
-
-Then someone’s foot comes through the leather and hits my back. I turn around and a blonde man looks at me coldly, strongly feigning that it was merely the limb of a ghost and not his mud stained sneakers.
-
-I tell him: "Ay don't you mess with me man, this ain't grade school." He wimpers that it was an accident. But I don't believe him due to the dimple that appeared in the corner of smile. 
-
-I don't need another charge on my back. All of the other passengers turn to see who's talking.
-
-Blonde: "You hear me? I said sorry, now accept it."
-
-I look back at him and offer yet another gift of cold silence.
-
-Blonde: "Looks like we got a tough one here."
-
-A man with a braided rope of hair rolls his eyes and says: "He isn't in grade school but he attends one mentally still."
-
-
-
-
-->campersintro
-
-= hum_song
-
-I hum the first couple notes of “Go Tell It On the Mountain.” It was song I’d hear all the time as a child. Nothing out of the norm. This is an average tune heard every day in this town. It's practically our anthem. 
-
-It was one of my father’s favorite songs of course. If you think about the lyrics, it’s kind of obvious as to why. He is a child of God that sounds the horn for the children. That led us to a river that he claimed is blessed.
-
-The men all turn to look at me. “Ay man, shut ya trap.” One of them says. He startles me out of my zone. I just wanted to fill up the space around me with past comforts.
-
-I look up from my booth, a man with tattoo all down his neck. He looks like he's gonna beat my ass. But he instead gives me a brief acknowledgement, then returns to his own world. 
-
-->campersintro
-
+I look at the four faces, expectingly  waiting to be graced by a cheap plastic ball from an unknown playroom. I thought I was going to prison, not a retreat.
 
 ===campersintro===
 
-Each face I do not recognize before. They all supposedly come from the same town yet I have never crossed paths with them. 
+They all supposedly come from the same town yet I have never crossed paths with them. 
 
 Mount Ezekial only houses prisoners from our town and usually they are the untouchable kinds, like me. But lately over the years, laws have been passed that has now expanded these prison walls for other wrong doers. I’ve heard troubled juveniles coming to stay here to learn their lesson and coming back mute. Single mothers shipped here for truancy. People who took too many pills. 
 
-The four men here sitting in each booth. In the row in front of me, is a blonde man with brown eyes, who  looks at me as if I’m not wearing the same orange jump suit as him. His pubescent cheeks pink with the chilling of his facial muscles. His hair shaven except one lock of hair making a curved finger over his forehead. 
+Four men are sitting in each booth. In the row in behind me, is a blonde man with brown eyes, who  looks at me as if I’m not wearing the same orange jump suit as him. His pubescent cheeks pink with the chilling of his facial muscles. His hair shaven except one lock of hair making a curved finger over his forehead. He is so skinny, I can see his collar bones, probably play some glass music on them things.
 
-Across from him is a dark skinned man, the bleached tipped coils of his hair slick with jheri curl. The structure of his cheeks bones lovingly made to reflect the shadows and lights of the environment that graces him.
+Next to him is a dark skinned man, the bleached tipped coils of his hair slick with jheri curl. The structure of his sharo cheeks bones and jaw lovingly made to pierce the viewer. He is of a lean build, slouched over on the seat like he don't give a fuck if we all freeze and utter the most normative last words.
 
-In another row ahead: two more people sit and they are facing the window, but the blonde coaxes them to offer their attention to me. Twins, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare. But the one sporting the queue seems more vibrant, ready to gnaw my ear off with stories.
+In another row way in the back: two more people sit and they are facing the windows on opposite sides. The blonde coaxes them to offer their attention to me. Twins, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare and you will know eventually through that. But the one sporting the queue seems more vibrant, ready to gnaw my ear off with stories of granduer. 
 
+An interesting cast we got here. I equip my ball but no one seems to thrilled to play this.
 
-	===RRintro===
+* [Throw it all the way to the back]
 
-	The man with the long braid down to his waist, smiles and rises from his booth. Swings his braid to his back.
+* [Throw it to the front]
 
-	“Rodrigo. Came all the way from the city, just to end up here.” a smooth deep voice comes out of a fresh face with delicate structure, like a brown porcelain doll painted with a hand experienced in doing so. He curves tongue around the Rs of his name in an exaggerated Spanish accent. He is rooted here. 
-
-	A person near him rises slightly, revealing only their eyes and their shaven head, that reflects the light of the sun and snow from the driver window.
-
-	“He’s lying sir. We’ve always been here. He just likes talking about his dream. A lot.”
-
-	Rodrigo sheepishly retreats, mutters "Shut up. Raya.". Settles back down and tucks his braid with him.
-
-	* [That's ok, I don't have problem with that]->RRintro_prob
-
-	* [Might as well leave your dreams behind for now]->RRintro_dreams
-
-
-	= RRintro_prob 
-
-	Rodrigo: "Raya is just jealous of me, is all."
-
-	Raya: "I give you a fair warning."
-	
-	Ming: "If y'all from here, how come I ain't seen you?"
-
-	Rodrigo: "Probably because we lived at the very bottom of Morrow."
-
-	Raya: "We lived on the fringe. Near the city. But we've never left. Never took the train out."
-
-	Ming: "Only time I took that train was when my father wanted to buy me a bike."
-
-	Rodrigo: "Yea, we luxurious."
-
-	Ming: "What you dreaming about anyway? Tell me about it."
-
-	Rodrigo: "Isn't it obvious? I almost made it one day."
-
-	I shrug to show him, I really can't guess his fantasies from the exterior of his little head.
-
-	Rodrigo: "To be a model - "
-
-	Raya retreats back into the booth. Pulls Rodrigo by the braid with them. 
-
-	Folks who lived near the Blue Nile have never left. They were too busy tending to the mountains. Usually couldn't even afford to. Except us once in a moon, since after all my father took the money from the collection. With the reccession, that was halted and the money would be shelved into a golden cage my father claimed Jesus lived in. 
-	
-	I was then no different than the average Morrow kid, sitting in class with rips in the shoe interiors.
+* [Introduce myself first]
 
 
 
-	= RRintro_dreams
 
-	Rodrigo: "Who said we're staying here. I sure as hell am not."
+/*
 
-	Ming: "Just trying to be real here kid. You're being shipped to one of the worst prisons of the Southern states."
-
-	Rodrigo: "Yea, so. Doesn't mean I can't handle it."
-
-	Raya seems visibly annoyed at their twin now. It's not showing much, but I can see a slight twinge in their glabella. The arch in their brows.
-
-	Ming: "Rodrigo. I don't know if you've seen the news. But I know what this prison is like. I've been here with my father for services. You will not leave...You will die."
-
-	It takes him awhile to process. When realizations hits the right wire, it actives. 
-
-	Rodrigo: "Holy fucking shit. You're that guy. YOU'RE THE MURDERER."
-
-	All eyes are on me now. I can take more than a missing eye now.
-
-	Rodrigo: "So what do you know. That we don't."
-
-	Ming: "I just told you. You will die. Nothing more."
-
-	Blonde: "We should kill this guy on the bus."
-
-	/* Car Horn*/
-
-	Driver: "Shut the hale up, I'm driving, and sit the fuck down. All of you. Can't believe grown ass men." /*Text need to be modified to show muttering */
 
 These passengers are supposed to share a prison with me.
 
@@ -675,7 +563,7 @@ Is he perhaps. Someone who knows my father?
 ->tattoo_cellsleep
 
 
-
+*/
 
 
 ===the_meteor===
@@ -683,8 +571,6 @@ Is he perhaps. Someone who knows my father?
 
 Part 2
 Chrysalis
-
-/*meteor & river*/
 
 
 ===flashback_kiss3===
