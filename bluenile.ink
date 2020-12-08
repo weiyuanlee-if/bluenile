@@ -204,7 +204,7 @@ He nods as if he believes me.  I go on.
 
 “Our town’s landmark. It’s what keeps it thriving.”
 
-It’s what keeps us fed, our thirst quenched. Everyone else wants cup. I don’t know why. It’s just water. ->flashbackintro
+It’s what keeps us fed, our thirst quenched. Everyone else wants cup. I don’t know why. It’s just water. ->surgeon_end
 
 =televised
 
@@ -218,14 +218,29 @@ He gives me this quizzical look: “I don’t recall seeing your face. And it’
 
 To close one eyes to the outside world, to reality unlike your perspective. 
 
-If only I could tell the world. What my own reality is.->flashbackintro
-
+If only I could tell the world. What my own reality is.->surgeon_end
 
 =say_nothing
 
 I turn away and look out the window, gazing at the beginnings of a blizzard. Soft snow covering the windshield. A faint lamp glows from across, illuminating the whiteness.
 
-Assuming I am in mourning, not wanting to waste a word with me, he returns to his tools. After all, it’s just a stepping stone therapeutic maneuver taught to every medical student. A mere script permattached to their mentally ingrained literature. -> flashbackintro
+Assuming I am in mourning, not wanting to waste a word with me, he returns to his tools. After all, it’s just a stepping stone therapeutic maneuver taught to every medical student. A mere script permattached to their mentally ingrained literature. ->surgeon_end
+
+===surgeon_end===
+
+I only have one night to stay. After all the only medic in this village can only house one body, whether with or without soul, to nurse. I'm allowed to lay down and dream for a little bit. But these dreams only repeat my crime over and over, God laying down the right brain wires to remind me that I have wronged. I shall not forget. 
+
+But how the hell does anyone forget the largest imprint on their lifespan?
+
+The surgeon returns and gazes upon his work as I awake from sleep again. He lifts my face by the chin. It's like some kind of love story. 
+
+/*if took morphone */
+But his face takes on a form of a mosaic. One eye on the forehead and his ears gone. His lips stitched closed and the melanin of his brown skin drained into the whiteness of his medical uniform. The color of death, of cleansing for the lord to take you back. 
+
+
+
+
+
 
 ===flashbackintro===
 /* the mountain and lake image again this time but without the logo */ 
@@ -381,7 +396,7 @@ They all supposedly come from the same town yet I have never crossed paths with 
 
 Mount Ezekial only houses prisoners from our town and usually they are the untouchable kinds, like me. But lately over the years, laws have been passed that has now expanded these prison walls for other wrong doers. I’ve heard troubled juveniles coming to stay here to learn their lesson and coming back mute. Single mothers shipped here for truancy. People who took too many pills. 
 
-Four men are sitting in each booth. In the row in behind me, is a blonde man with brown eyes, who  looks at me as if I’m not wearing the same orange jump suit as him. His pubescent cheeks pink with the chilling of his facial muscles. His hair shaven except one lock of hair making a curved finger over his forehead. He is so skinny, I can see his collar bones, probably play some glass music on them things.
+Four men are sitting in each booth. In the row in behind me, is a blue haired man with brown eyes, who looks at me as if I’m not wearing the same orange jump suit as him.  His pubescent cheeks pink with the chilling of his facial muscles. His hair shaven except one puff node of hair, like a horn. He is so skinny, I can see his collar bones, probably play some glass music on them things.
 
 Next to him is a dark skinned man, the bleached tipped coils of his hair slick with jheri curl. The structure of his sharo cheeks bones and jaw lovingly made to pierce the viewer. He is of a lean build, slouched over on the seat like he don't give a fuck if we all freeze and utter the most normative last words.
 
@@ -416,7 +431,7 @@ I introduce myself instead so that no one else feels pressured. Ain't nothing wo
 
 Say my name and hope I don’t get jumped as soon as I stepped off. But maybe the sentence is just weighing my spine down. Perhaps I’m not as hated.
 
-Ming Ying: “Lets keep it real. I’m Ming Yang Johnson. And I killed Father Tyril for letting a child drown.”
+Ming Ying: “Lets keep it real. I’m Ming Yang Ganaway. And I killed Father Tyril for letting a child drown.”
 
 A heavy silence falls over us. Father Laurent stares in shock, pulls his collar up to hide his quivering  lips.
 
@@ -424,7 +439,23 @@ Ming Yang: “I’m sure you’ve all done equally bad things, that's why you al
 
 Bus Driver: “He talking bullshit sir.”
 
-Ming Yang: "It's not bullshit sir. I don't know why you all have collective amnesia. I'm not hard to forget. Now you all do the same, we all are the same. It's why you're here."
+Ming Yang: "It's not bullshit sir. I don't know why you all have collective amnesia. I'm not hard to forget. Now you all do the same, we all are the same. It's why you're all here."
+
+The blue haired lad stands up, smirk all cocky. I pass him the wall since he seems willing. He introduces himself as Ari Jorgensen.
+
+Ari: "You've killed one man? Well I've killed 30, so you're not special."
+
+* ["And I aint heard of ya?"] ->blue_heard
+
+* ["May be more blood, but an equal sin"] ->blue_equal
+
+* ["Damn, I don't feel so bad anymore."] ->damn_blue
+
+= blue_heard
+
+= blue_equal
+
+= damn_blue
 
 = elementary_bus
 
