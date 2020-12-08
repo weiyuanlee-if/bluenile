@@ -122,7 +122,7 @@ Go Tell It On The Mountain
 ===flashback_car===
 /* cracked car window, snow flakes, further cracking*/  
 
-Through the crevices came a proud God blowing into my face, teasing me, implying "I told you so", as I laid back, with glass falling on me, snow pouring in. One branch struck in my eye. Blood seeping down into my mind, down my chin. I tasted it, mixed with the melted flakes. Salty and bitter.
+Through the crevices came a proud God blowing into my face, teasing me, implying "I told you so", as I laid back, with glass falling on me, snow pouring in. One branch struck in my eye. Blood seeping down into my mind, dripping down my chin. I tasted it, mixed with the melted flakes. Salty and bitter.
 
 To my right, Malachi no longer was sitting. I assumed he was up somewhere in the trees, judging how far he flew. They say that Black men couldn't fly. He did then. Forgot to put his seatbelt in the whole rush of fleeing.
 
@@ -387,18 +387,56 @@ Next to him is a dark skinned man, the bleached tipped coils of his hair slick w
 
 In another row way in the back: two more people sit and they are facing the windows on opposite sides. The blonde coaxes them to offer their attention to me. Twins, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare and you will know eventually through that. But the one sporting the queue seems more vibrant, ready to gnaw my ear off with stories of granduer. 
 
-An interesting cast we got here. I equip my ball but no one seems to thrilled to play this.
+An interesting cast we got here. I equip my ball but no one seems too thrilled to play this.
 
 * [Throw it all the way to the back]
-
+->throw_back
 * [Throw it to the front]
+->throw_front
 
 * [Introduce myself first]
+->intro_myself
+
+= intro_myself
+
+I introduce myself instead so that no one else feels pressured. Ain't nothing worse than the first day of school and you present yourself, expose the name first and your first sign of weakness. All eyes are on me as I set the ball down in my lap instead of taking aim.
+
+* [I tell my truth]
+->bus_truth
 
 
 
+* [I keep it elementary] (lie)
+->elementary_bus
 
-/*
+* [I kid, close my eyes throw the ball]
+->throwball_closed
+
+ =bus_truth
+
+Say my name and hope I don’t get jumped as soon as I stepped off. But maybe the sentence is just weighing my spine down. Perhaps I’m not as hated.
+
+Ming Ying: “Lets keep it real. I’m Ming Yang Johnson. And I killed Father Tyril for letting a child drown.”
+
+A heavy silence falls over us. Father Laurent stares in shock, pulls his collar up to hide his quivering  lips.
+
+Ming Yang: “I’m sure you’ve all done equally bad things, that's why you all are on here.”
+
+Bus Driver: “He talking bullshit sir.”
+
+Ming Yang: "It's not bullshit sir. I don't know why you all have collective amnesia. I'm not hard to forget. Now you all do the same, we all are the same. It's why you're here."
+
+= elementary_bus
+
+No wants to do this. It's not fun, so let's get it over with. It's too damn cold in here for niceties. I make up a new name, in case I'm remembered.
+
+Ming Yang: 
+
+= throw_back
+
+
+= throw_front
+
 
 
 These passengers are supposed to share a prison with me.
@@ -429,7 +467,7 @@ He thought he was destined to rule the skies, you would think.
 
 I've had no friends. Well, there was one. But I don't want to think of that now.
 
-Before I could introduce myself as "Mingham" the bus stops with a sudden jerk.->inside_prison
+Before I could introduce myself as "Ming" the bus stops with a sudden jerk.->inside_prison
 
 ===dont_trust===
 
@@ -563,7 +601,7 @@ Is he perhaps. Someone who knows my father?
 ->tattoo_cellsleep
 
 
-*/
+
 
 
 ===the_meteor===
@@ -689,5 +727,21 @@ Mal: "I don't know as long as it doesn't involve bleeding for a mountain."
 During that time, I can't remember who it was, but a man had died in the coal mine before this. The elevator that lifted men up to the top had fallen on him and stain the coal red. His family didn't want him in the Nile, they said there was too many face bones broken or something weird like that.
 
 
+===flashback_confessional=== TODO: do later 12/8
 
+After discovering the hole in the booth, I couldn't help returning to it. It was a tunnel into a life unknown to me. To a side of my father I was never given. A soft voice filled compassion, the light brown of his right palm embracing the head of a dark person. He spoke a language foreign to me in its cadence and metaphorical value. It was different from his podium self. 
+
+Perhaps the walls of the box subdued his fire of anger and conflictive agony. This is the day though, where between those walls I discovered something much more.
+
+It would result in the man hanging in the tree. My eye for an eye. That day my knees were aching real bad and I had sat in the closet longer than I intended, hearing several confessionals. Cheaters and wife beaters. Liars and petty thieves. Some just needed a free therapy session. A brief silence, I already finished my bologne sandwich.
+
+/* door closed */
+
+Then the familar timbre of Brother Alek comes in. He whispers an apology as he slams the door harder than he intended. Already getting the second thoughts, the cold feet, I suppose.
+
+Alek: "I've got all the cash you need. Had to sell my own mother's heirloom for this. Not that she'd care, she's dead. Ain't like me either.""
+
+Tyril: "Just put it in here."
+
+My father reached down and till this day I haven't figured out what he did, but I assume he hid the money under a floorboard like we living in The Great Depression. The church is closed and whoever demolishes it is going to be running home with a fatter cheque. When he rose, Alek too also was wondering why he chose such an archaic method of banking.
 
