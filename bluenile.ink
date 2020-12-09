@@ -90,8 +90,9 @@ Blue Nile is a magical realist BL interactive novel about a son murdering his cu
 - Drug mention (cigarette, alcohol, medical morphine during knife scene)
 - child murder (just mentioned/described briefly) 
 - cult of personality 
-- one implied sex scene (MC wakes up in bed with his partner, do you think I would write full fledge sex scenes without God striking me down.)
+- Implied sex (MC wakes up in bed with his partner, touching)
 - Reactionary Catholicism
+- Crude language 
 
 ===credits===
 
@@ -235,13 +236,98 @@ But how the hell does anyone forget the largest imprint on their lifespan?
 The surgeon returns and gazes upon his work as I awake from sleep again. He lifts my face by the chin. It's like some kind of love story. 
 
 /*if took morphone */
-But his face takes on a form of a mosaic. One eye on the forehead and his ears gone. His lips stitched closed and the melanin of his brown skin drained into the whiteness of his medical uniform. The color of death, of cleansing for the lord to take you back. 
+But his face takes on a form of a mosaic. One blackened eye on the forehead and his ears gone. His lips stitched closed and the melanin of his brown skin drained into the whiteness of his medical uniform. The color of death, of cleansing for the lord before he takes you back, sheathes you in a new birth cloth of his own. 
 
+His lips split open. The voice of Malachi echoes out, the speakers of heaven or hell booming from the chest. 
 
+/*face drawn maybe if not too hard. */
+To the river, to the river, you will see, the child from the tree, the child from the tree. all god's children are dancing, dancing. But they never ever hear him.
 
+Then he tweaks one of his ears, as if he had the wrong speaker setting.
 
+Malachi: "Have you seen the river tonight? It is glowing blue as ever."
 
+* "Is that the first thing you say to me?"->say_morph
 
+* [I kiss his stitched lips]->cold_morph
+
+* [It's fake, punch him]->fake_morph
+
+=say_morph
+
+I'm frightened, yet so curious as to how this vision has come to me. Yet, I'm also angry. Imagine, your body flies out of car and all you could talk about is how pretty the weather is, how beautiful mother nature's visuals are. Mother Nature ain't make that for you. Especially in this town, where Mother Nature's ass is just used for control, for seduction by a man's who counterfeited God's eyes.
+
+Malachi: "When I flew into the sky, I fell into the river."
+
+The creature blinks and his eyes become blue like the caribbeaan sea in postcards.
+
+Malachi: "I saw your face, I saw the land before it became ruined. I saw my mother alive and well."
+
+Ming Yang: "Did you see mine?"
+
+Mal pauses.
+
+Malachi: "No."
+
+Ming Yang: "Then I don't believe it then."
+
+He closes his one eye and a great light shones from between his lips. 
+
+It is only the surgeon flashing into my pupils. Despite all that, I want to see him again. ->flashbackintro
+
+= cold_morph
+
+They are cold and rough. But I don't care because I know I'm going to miss them very much. His dark eyes look down, they seem neither pleased nor angry. But it's only a mere second they hold. 
+
+I lay back down and think of all the nice things we've shared with each other. But all the ugliness we had to swim in. If Malachi was able to leave the ugly behind and I'm not, is this even a fair trade off?  
+
+Ming Yang: "Talking about the river, when you could be talking about me? Disappointment."
+
+Malachi: "I'm only giving you a warning."
+
+Ming Yang: "Warning about what? Something pretty is a warning?"
+
+Malachi pauses and his one eye close. From the lid comes blood, it oozes and drips down his nose bridge. A droplet of him falls on my chin.
+
+Malachi: "Thought it was common knowledge. Beauty kills. It hunts you down and holds you down with the sharpest blade to ya throat."
+
+He leans and puts his cold hands around my throat, his thumb presses on my adam's apple.
+
+Malachi: "Just keep your head up, Monk."
+
+His lips then touch mine, but for only a brief moment [] till I realize the surgeon is cleaning around my eye with an alcohol doused gauze. ->flashbackintro
+
+= fake_morph
+
+Horrified at the sight in front of me and knowing that I'm under the influence of a drug, I grip the Mosaic Man by his throat. Embodying the remaining figment of a loved one in memories and manifesting them in a weak state for manipulation. This is the oldest trick in the book. I hold him tight. His eyes close and blood begins to ooze under his long eyelashes. His beautiful eyelashes that greet you salute when he talks and animates his face. 
+
+I've always envied that part of his face. The lashes are white, now stained red. 
+
+Ming Yang: "Don't you ever. ever. mention that place again."
+
+His singular eye, my cyclops, opens and all I see is blackness. He is dead and he sees is blackness, an eternal slumber. The speaker in his belly is still audible through his windpipes.
+
+Malachi: "I love you Ming Yang, but I wish you'd have a little faith, have some sight for God, man."
+
+Ming Yang: "God? Ain't no God up there. If he is up there, I'd beat the shit out of him."
+
+Malachi: "If only you'd open a bit more. If you'd let pain leak from your ass longer."
+
+Ming Yang: "The fuck's that mean."
+
+I let him go, he leans closer, breathe against my neck.
+
+Malachi: "I know it's hard, since I'm not here. But you just gotta let live ya know."
+
+Ming: "Live with a life sentence?"
+
+Malachi: "Yes. And believe in the water that flows in us."
+
+He gets up, pulls the blood soaked lash from his eyes, then observes it in between his fingers like I ain't felt that and wonders why. 
+
+The surgeon thinks I'm still in pain. I ask him to leave me with the pain even though I'm prickly throughout the body.->flashbackintro
+
+/*slow fade or whatever */
 ===flashbackintro===
 /* the mountain and lake image again this time but without the logo */ 
 
@@ -419,15 +505,13 @@ I introduce myself instead so that no one else feels pressured. Ain't nothing wo
 * [I tell my truth]
 ->bus_truth
 
-
-
 * [I keep it elementary] (lie)
 ->elementary_bus
 
 * [I kid, close my eyes throw the ball]
 ->throwball_closed
 
- =bus_truth
+= bus_truth
 
 Say my name and hope I don’t get jumped as soon as I stepped off. But maybe the sentence is just weighing my spine down. Perhaps I’m not as hated.
 
@@ -445,17 +529,42 @@ The blue haired lad stands up, smirk all cocky. I pass him the wall since he see
 
 Ari: "You've killed one man? Well I've killed 30, so you're not special."
 
-* ["And I aint heard of ya?"] ->blue_heard
+	* ["And I aint heard of ya?"] ->blue_heard
 
-* ["May be more blood, but an equal sin"] ->blue_equal
+	* ["May be more blood, but an equal sin"] ->blue_equal
 
-* ["Damn, I don't feel so bad anymore."] ->damn_blue
+	* ["Damn, I don't feel so bad anymore."] ->damn_blue
 
-= blue_heard
+	= blue_heard
 
-= blue_equal
+	Ari: "Ya you ain't heard of me, fool. I aint from here. I'm on the other side. The side where the water is black like leather."
 
-= damn_blue
+	Ming: "You welcome to stay here then. We going under though, might not wanna be here too long."
+
+	Ari: "Yea when I'm 90 or eating my last meal."
+
+	Ming: "I personally think you're bluffing."
+
+	Ari: "Why ask if you think I'm gonna lie then."
+
+	He equips the ball and starts aiming it at me.
+
+	Ming: "Wait, you're supposed to be aiming at the next guy not me."
+
+	Ari: "You started it, bitch."
+
+	The ball comes flying at me too fast and I'm too started to dodge. The sound of the plastic rebouding against my face echoes through the bus. It then bounces back and goes under one of the seats.
+
+	Father Laurent: "Oh what a beautiful introduction. Beautiful."
+	
+	I couldn't hear the sarcasm.
+
+
+	= blue_equal
+
+	
+
+	= damn_blue
 
 = elementary_bus
 
