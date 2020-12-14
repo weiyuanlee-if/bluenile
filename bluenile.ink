@@ -263,13 +263,13 @@ The creature blinks and his eyes become blue like the caribbeaan sea in postcard
 
 Malachi: "I saw your face, I saw the land before it became ruined. I saw my mother alive and well."
 
-Ming Yang: "Did you see mine?"
+Ming: "Did you see mine?"
 
 Mal pauses.
 
 Malachi: "No."
 
-Ming Yang: "Then I don't believe it then."
+Ming: "Then I don't believe it then."
 
 He closes his one eye and a great light shones from between his lips. 
 
@@ -281,11 +281,11 @@ They are cold and rough. But I don't care because I know I'm going to miss them 
 
 I lay back down and think of all the nice things we've shared with each other. But all the ugliness we had to swim in. If Malachi was able to leave the ugly behind and I'm not, is this even a fair trade off?  
 
-Ming Yang: "Talking about the river, when you could be talking about me? Disappointment."
+Ming: "Talking about the river, when you could be talking about me? Disappointment."
 
 Malachi: "I'm only giving you a warning."
 
-Ming Yang: "Warning about what? Something pretty is a warning?"
+Ming: "Warning about what? Something pretty is a warning?"
 
 Malachi pauses and his one eye close. From the lid comes blood, it oozes and drips down his nose bridge. A droplet of him falls on my chin.
 
@@ -515,15 +515,15 @@ I introduce myself instead so that no one else feels pressured. Ain't nothing wo
 
 Say my name and hope I don’t get jumped as soon as I stepped off. But maybe the sentence is just weighing my spine down. Perhaps I’m not as hated.
 
-Ming Ying: “Lets keep it real. I’m Ming Yang Ganaway. And I killed Father Tyril for letting a child drown.”
+Ming: “Lets keep it real. I’m Ming Yang Ganaway. And I killed Father Tyril for letting a child drown.”
 
 A heavy silence falls over us. Father Laurent stares in shock, pulls his collar up to hide his quivering  lips.
 
-Ming Yang: “I’m sure you’ve all done equally bad things, that's why you all are on here.”
+Ming: “I’m sure you’ve all done equally bad things, that's why you all are on here.”
 
 Bus Driver: “He talking bullshit sir.”
 
-Ming Yang: "It's not bullshit sir. I don't know why you all have collective amnesia. I'm not hard to forget. Now you all do the same, we all are the same. It's why you're all here."
+Ming: "It's not bullshit sir. I don't know why you all have collective amnesia. I'm not hard to forget. Now you all do the same, we all are the same. It's why you're all here."
 
 The blue haired lad stands up, smirk all cocky. I pass him the wall since he seems willing. He introduces himself as Ari Jorgensen.
 
@@ -533,49 +533,86 @@ Ari: "You've killed one man? Well I've killed 30, so you're not special."
 
 	* ["May be more blood, but an equal sin"] ->blue_equal
 
-	* ["Damn, I don't feel so bad anymore."] ->damn_blue
+		= blue_heard
 
-	= blue_heard
+		Ari: "Ya you ain't heard of me, fool. I aint from here. I'm on the other side. The side where the water is black like leather."
 
-	Ari: "Ya you ain't heard of me, fool. I aint from here. I'm on the other side. The side where the water is black like leather."
+		Ming: "You welcome to stay here then. We going under though, might not wanna be here too long."
 
-	Ming: "You welcome to stay here then. We going under though, might not wanna be here too long."
+		Ari: "Yea when I'm 90 or eating my last meal."
 
-	Ari: "Yea when I'm 90 or eating my last meal."
+		Ming: "I personally think you're bluffing."
 
-	Ming: "I personally think you're bluffing."
+		Ari: "Why ask if you think I'm gonna lie then."
 
-	Ari: "Why ask if you think I'm gonna lie then."
+		He equips the ball and starts aiming it at me.
 
-	He equips the ball and starts aiming it at me.
+		Ming: "Wait, you're supposed to be aiming at the next guy not me."
 
-	Ming: "Wait, you're supposed to be aiming at the next guy not me."
+		Ari: "You started it, bitch."
 
-	Ari: "You started it, bitch."
+		The ball comes flying at me too fast. The sound of the plastic rebouding against my face echoes through the bus. It then bounces back and goes under one of the seats.
 
-	The ball comes flying at me too fast and I'm too started to dodge. The sound of the plastic rebouding against my face echoes through the bus. It then bounces back and goes under one of the seats.
-
-	Father Laurent: "Oh what a beautiful introduction. Beautiful."
-	
-	I couldn't hear the sarcasm.
+		Father Laurent: "Oh what a beautiful introduction. Beautiful."
+		
+		I couldn't hear the sarcasm.
 
 
-	= blue_equal
+		= blue_equal
+		Ari: "Oh we got a philosopher here. Heheh. I got a life sentence."
+		Ming: "Oh, you win."
+		I hold my hands up because we got a champ. But now I'm honestly starting to regret making this ice breaker into this oddity of a one up man competition. But I only have a decade on my hands. While this guy has a life time. He looks no older than 19. Why did this happen?
+		Ming: "Do you got family?"
+		He equips the ball, looking ready to aim, but then lays it down in his lap, a coldness building in his eyes.
+		Ari: "Why ask that?"
+		Ming: "Just wanna know if you got a similar to tell, is all."
+		Boys on the run, boys with guns, there's always some kind of story about being broken behind it. 
+		Ari: "No, I have a family. My mama is doing just fine. She say she will write letters."
+		That's if the prison will allow it. I highly doubt it. He will be missing the sound of his mother, using bullet holes in walls as phone recievers, hoping to hear her. My heart breaks.
 
-	
-
-	= damn_blue
 
 = elementary_bus
 
-No wants to do this. It's not fun, so let's get it over with. It's too damn cold in here for niceties. I make up a new name, in case I'm remembered.
+No wants to do this. It's not fun, so let's get it over with. It's too damn cold in here for niceties and I don't to make anyone anymore uncomfortable. I make up a new name, in case I'm remembered. I follow the classroom rules of ice breaking.
 
-Ming Yang: 
+Ming: "I'm Matthew James, I like uh. Reading fantasy novels."
+Last thing I read was about a Chinese boy who's dad wanted to fly like a dragon, so he built a plane and crashed it on a hill. Which wasn't a fantasy novel, it was a real event. So I lied. But I figured no one cared about real stories.
+
+After all the real here is pretty grim. ->campersintro  TODO: this is the not the right to do this but fix it later.
 
 = throw_back
+I throw it to the back with the twins. The one with the braid leaps and falls over. Then he gets up, face all red with embarrassment. The bald sibling rolls their eyes and gives them extra support by pulling them up the shoulders of their orange uniform, like a fallen, helpless child.
 
+Rodrigo: I am Rodrigo Jimenez and that one over there. 
+He flicks his chin to the person with the shaven head. Who looks out the window, totally disintereted. I don't blame him. We're in our 20s. 
 
+Rodrigo: That one over there? Raya. They're sweet. Just doesn't like it at first. Oh and also. I like..the color purple.
+
+Ming: "That's not a hobby though?"
+
+Rodrigo: "Oh uh. Driving."
+
+Raya: "Speeding on highways is not a hobby."
+
+Rodrigo: "SHUUUUSH." He covers their mouth, his skinny fingers clasping onto each other. The twin barely moves. 
+
+I'm practically their twin in comparison to Rodrigo.
+
+Ming: "Raya. You gotta say what you like to do. Hopefully it's uh not as bad as speeding on highways."
+
+Although reckless driving is probably the least inhumane crime committed here.
+
+Raya: "Playing trumpet."
+
+Ming: "Oh wow. You a Miles Davis?"
+
+A I can see the oh so very slight forming of a dimple on the side of their face. A smile.
+
+Raya: "Of course not. I'm more of a rooster." //wait what? fix later lol.
+
+A rooster? I don't bother to question it. They throw the ball back at me. I throw it to the front.->throw_front
 = throw_front
+
 
 
 
