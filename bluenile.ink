@@ -425,11 +425,23 @@ She would fill my stomach and I would feel no pain.->before_the_bus
 
 ===before_the_bus===
 
+I lay in bed for the last time. It's not mine though, I'm back at the surgeon's place. My tunnel began to swell again. I was screaming up in agony outside the courts. I promise it wasn't for show or to buy more freedom time.
+
+It came like someone set the hammer down on me real quick. For that last reminder of fate's ugly ass. The surgeon fixed me up. He said I wasn't going to be dying, like I was acting. Although I wish I was, of course it wouldn't be so easy.
+
+It's just a part of healing he said. What comes with repair is one more nail to the new sheet of skin, in case you get too comfortable again.
+
+These sheets are white and smell like freshly of lavender. I put the pillow over my face and hope to stop breathing. But I sleep good for the first time in a long while despite all else.
+
+In my dream, Malachi has not flown across the universe. Mal is one man, standing on God's ground with his legs strong. Not struck on the knees, forced to kneel.
+
+We are in the car again and his dreads are clean and tied back. He is playing that god damn fucking Nirvana song again. But I didn't mind it. Not at all.->the_priest_intro1
 
 
+/*
 ===the_priest_intro1===
 
-Mount Ezekial is in the highest part of Morrow Town. So when you live in the bottom part of the town, it takes awhile to get to the top. The ride is about 40 minutes. And because this is some kind of godly town, where my father had gotten the church to send their servants out whenever people start doubting the holiness, our positions in life, we have some priest standing in the bus aisle talking to us about fate waiting for us. 
+Mount Ezekial is in the highest part of Morrow Town. So when you live in the bottom part of the town, it takes awhile to get to the top. The ride is about 40 minute and because this is some kind of godly town, where the servants of god must serve the people whenever they start doubting their positions in life, we have some priest standing in the bus aisle. 
 
 Father Laurent sits on up in the front, near the bus driver,  holding onto a seat with one hand and a microphone in the other.  His balding head, concealed by a white toupee that flops up and down in his exaggerated expressions during his homily. 
 
@@ -439,16 +451,23 @@ I have the misfortune of sitting next to him and I feel the wheel beneath grindi
 
 We pray, have a eucharist. I let it melt on my tongue. [] I know that Father Laurent is pretending real hard not to notice the killer near him. Breathing his lively air. ->the_priest_intro2
 
-
+*/
+TODO: Instead of this whole bus scenario, instead mke them sit in prison to hve a brief mass and introduce themselves. then they soon are told to go outside. pick tents and start shoveling
 ===campersintro===
 
-They all supposedly come from the same town yet I have never crossed paths with them. They look too young to do so. Maybe their school bus passed my road. 
+They all supposedly come from the same town yet I have never crossed paths with them. They look too young to do so. Maybe their school bus passed my road once in awhile.
 
 Mount Ezekial only houses prisoners from our town and usually they are the untouchable kinds, like me. But lately over the years, laws have been passed that has now expanded these prison walls for other wrong doers. I’ve heard troubled juveniles coming to stay here to learn their lesson and coming back mute. Single mothers shipped here for truancy. People who took too many pills. 
 
-Three men are sitting in each booth. In the row behind me, is a blue haired boy with brown eyes, who looks at me as if I’m not wearing the same orange jump suit as him.  His pubescent shivering with the chilling of his facial muscles. His hair shaven except one puff node of hair, like a horn. He is so skinny, I can see his collar bones, probably play some glass music on them things.
+All four of us sit in a circle around the fireplace. Wearing thermals under our prison outfits. At least they gave us that.
 
-In another row way in the back: two more people sit and they are facing the windows on opposite sides. The blue haired boy coaxes them to offer their attention to me. Twins, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare and you will know eventually through that. But the one sporting the queue seems more vibrant, ready to gnaw my ear off with stories of granduer. 
+ Near me on my right, is a blue haired Black boy, who looks at me as if I’m not wearing the same orange jump suit as him.  His pubescent cheeks shivering with the chilling of his facial muscles. His hair shaven except one puff node in top, like a horn. He is so skinny, I can see his collar bones, probably play some glass music on them things.
+
+Across from me are a set of identical twins who are differentiated by their choice in hair style One with a braid swaying down on his shoulder, the other lacking hair altogether, both kids are the skin of the mahogany stratum and moonshaped faces. They've got dark eyes that tell a long story they won’t bother to voice, because they can just stare and you will know eventually through that. But the one sporting the queue seems more vibrant, ready to gnaw my ear off with stories of granduer. 
+
+In the middle of us, the fire lights the white waxy skin of a Father, who tells us the story of how this town came to be. As we always know.
+
+It always starts with a famine:
 
 These passengers are supposed to share a prison with me.
 
