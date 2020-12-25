@@ -1,6 +1,6 @@
 # Bluenile
 
-- A fallen being, trapped in the branches of an evergreen tree - 
+A fallen being, trapped in the branches of an evergreen tree - 
 
 
 Blue Nile was started in mid-November as a late Nanowrimo project. Obviously I didn't achieve that goal, so it instead became a project that I predict will take about 5 months to complete. It is to be scripted and programmed with Ink + Unity. It is intended to be 4 parts, possibly around 40 - 50K words, which is about short or medium length for a text game. 
