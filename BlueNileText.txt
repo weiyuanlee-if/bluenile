@@ -7,11 +7,11 @@ Character name list: Blonde guy is name Merrick Jorgensen. Twins are Rodrigo and
 
 Black guy described with a prominent jaw is named: Orland Mayweather
 
-Rodrigo and Raya: twins from Puerto Rico. Rodrigo has long hair and is always found to be combing it. Is rather vain about his looks bc he was an aspiring model. He doesnâ€™t do shit and loves to talk about his adventures in Spain as a model.    Heâ€™s also pretty flirt with everyone he talks to. A lot of your choices with him is around compliments, accepting his compliments, and feeding into his stories about his modeling career. Either your nice or you donâ€™t care. If youâ€™re too nice heâ€™s going to get annoyed and snarky with you. If youâ€™re too rude heâ€™s going to get a bit cold. If you have a balance or lean a bit on the mean side tho. He might open a bit. And reveal some of his insecurities. Heâ€™s probably the most likely to help you leave as heâ€™s the strongest person due to a history of sports
+Rodrigo and Raya: twins from Puerto Rico. Rodrigo has long hair and is always found to be combing it. Is rather vain about his looks bc he was an aspiring model. He doesn’t do shit and loves to talk about his adventures in Spain as a model.    He’s also pretty flirt with everyone he talks to. A lot of your choices with him is around compliments, accepting his compliments, and feeding into his stories about his modeling career. Either your nice or you don’t care. If you’re too nice he’s going to get annoyed and snarky with you. If you’re too rude he’s going to get a bit cold. If you have a balance or lean a bit on the mean side tho. He might open a bit. And reveal some of his insecurities. He’s probably the most likely to help you leave as he’s the strongest person due to a history of sports
 
-Raya is non-binary and is more on the introverted side. If you get sick of Rodrigo and piss him off or whatever and try to interact with them more by asking them question listening to their queues. you will talk to Raya more. They arenâ€™t a model nor are they into sports but rather instead they like to paint but theyâ€™re paintings arenâ€™t really marketable. Itâ€™s more noise but you can be nice to them anyway or be honest. Then they will eventually engage in disappearing and if you donâ€™t find them they will be to have escaped before  everyone else. A person who can tell the future by dreams they predicated that the symbol of a gong and feather was an indicator of an escape but you will never find this out until you achieve a friendship with them
+Raya is non-binary and is more on the introverted side. If you get sick of Rodrigo and piss him off or whatever and try to interact with them more by asking them question listening to their queues. you will talk to Raya more. They aren’t a model nor are they into sports but rather instead they like to paint but they’re paintings aren’t really marketable. It’s more noise but you can be nice to them anyway or be honest. Then they will eventually engage in disappearing and if you don’t find them they will be to have escaped before  everyone else. A person who can tell the future by dreams they predicated that the symbol of a gong and feather was an indicator of an escape but you will never find this out until you achieve a friendship with them
 
-Merrick Jorgensen is a delinquent child imprisoned for supposed terrorism. Heâ€™s incredibly bratty and likes to tease you. He is around 20 years old and a single child whoâ€™s really mad at his dad. He is a Black/
+Merrick Jorgensen is a delinquent child imprisoned for supposed terrorism. He’s incredibly bratty and likes to tease you. He is around 20 years old and a single child who’s really mad at his dad. He is a Black/
 
 */
 
@@ -107,7 +107,7 @@ Soundtrack made with my mini AKAI keyboard and an out of tune baritone ukulele i
 
 Pixel art made in Aseprite.
 
-Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. Inspired by ç©ºä¸­ãƒ–ãƒ©ãƒ³ã‚³  by Plastic Tree, track 11 on Chandelier and Dark Matters: On the Surveillance of Blackness by Simone Browne. 
+Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. Inspired by ??????  by Plastic Tree, track 11 on Chandelier and Dark Matters: On the Surveillance of Blackness by Simone Browne. 
 
 
 ===intro===
@@ -176,14 +176,14 @@ I am lain down again and given the medicine. Finally I hear silence, the quiet a
 
 =intro_crytable
 
-I tell the surgeon to leave me be for awhile. Then I lay and fold my hands on my lap like am I being sheathed away into the death tomb. I close my one eye and listen for the wailing but nothing comes. One tear rolls down one eye and from the other, I assume the emptiness sways and the veins pulse, trying to communicate that there is a member of this temple missing but it doesnâ€™t mean some semblance of the waterworks canâ€™t be done. The surgeon comes back and suggests that I need more painkiller. I told him I just needed a moment of mourning and nothing else should take that from me.
+I tell the surgeon to leave me be for awhile. Then I lay and fold my hands on my lap like am I being sheathed away into the death tomb. I close my one eye and listen for the wailing but nothing comes. One tear rolls down one eye and from the other, I assume the emptiness sways and the veins pulse, trying to communicate that there is a member of this temple missing but it doesn’t mean some semblance of the waterworks can’t be done. The surgeon comes back and suggests that I need more painkiller. I told him I just needed a moment of mourning and nothing else should take that from me.
 ->surgeon_says
 
 ===surgeon_says===
 
-â€œTell me more about yourself.â€ he asks and turns away to tinker at his assortment of tools. Shouldnâ€™t he look at the speaker while requesting intimate details about one? Well, theyâ€™re not that intimate and they donâ€™t need to be.
+“Tell me more about yourself.” he asks and turns away to tinker at his assortment of tools. Shouldn’t he look at the speaker while requesting intimate details about one? Well, they’re not that intimate and they don’t need to be.
 
-But my face has been televised in every home and inked on every paper on commercial shelves. Shouldnâ€™t he know all about my story? I'm short, but toned from all my days of swimming and exercise after meditation, my head is always shaven bald, earning me the nickname "monk" as a child. It's not very easy to forget me. After all, I'm the only person in this town who's of East Asian descent.  
+But my face has been televised in every home and inked on every paper on commercial shelves. Shouldn’t he know all about my story? I'm short, but toned from all my days of swimming and exercise after meditation, my head is always shaven bald, earning me the nickname "monk" as a child. It's not very easy to forget me. After all, I'm the only person in this town who's of East Asian descent.  
 
 * [I tell him a new story]->a_new_story
 
@@ -192,29 +192,29 @@ But my face has been televised in every home and inked on every paper on commerc
 * [I say nothing at all]->say_nothing
 
 =a_new_story
-â€œI escaped from another village. Then fell on a branch.â€
+“I escaped from another village. Then fell on a branch.”
 
 A totally bogus story. Now what? Is the guy on the TV who looks like me a secret twin? He is Cain and I am Abel, who managed to escape his knife bearing hand?
 
 He nods as if he believes me.  I go on.
 
-Ming Yang: â€œI ran to see the river, the Blue Nile. Iâ€™ve heard many stories of it.â€
+Ming Yang: “I ran to see the river, the Blue Nile. I’ve heard many stories of it.”
 
-Surgeon: â€œOur townâ€™s landmark. Itâ€™s what keeps it thriving.â€
+Surgeon: “Our town’s landmark. It’s what keeps it thriving.”
 
-Itâ€™s what keeps us fed, our thirst quenched. Everyone else wants a cup. I donâ€™t know why. Itâ€™s just water. ->surgeon_end
+It’s what keeps us fed, our thirst quenched. Everyone else wants a cup. I don’t know why. It’s just water. ->surgeon_end
 
 =televised
 
-â€œYouâ€™ve seen me on TV. The newspapers. On every billboard. What more can I say about myself?â€
+“You’ve seen me on TV. The newspapers. On every billboard. What more can I say about myself?”
 
 He gives me this quizzical look
 
-Surgeon:  â€œI donâ€™t recall seeing your face. Maybe itâ€™s because your swollen.â€
+Surgeon:  “I don’t recall seeing your face. Maybe it’s because your swollen.”
 
-Ming Yang: â€œDo you not own a TV?â€
+Ming Yang: “Do you not own a TV?”
 
-Surgeon: â€œWhy should I? Ainâ€™t nothing but horror that goes on it.â€
+Surgeon: “Why should I? Ain’t nothing but horror that goes on it.”
 
 To close one eyes to the outside world, to reality unlike your perspective. 
 
@@ -224,7 +224,7 @@ If only I could tell the world. What my own reality is.->surgeon_end
 
 I turn away and look out the window, gazing at the beginnings of a blizzard. Soft snow covering the windshield. A faint lamp glows from across, illuminating the whiteness.
 
-Assuming I am in mourning, not wanting to waste a word with me, he returns to his tools. After all, itâ€™s just a stepping stone therapeutic maneuver taught to every medical student. A mere script permattached to their mentally ingrained course literature. ->surgeon_end
+Assuming I am in mourning, not wanting to waste a word with me, he returns to his tools. After all, it’s just a stepping stone therapeutic maneuver taught to every medical student. A mere script permattached to their mentally ingrained course literature. ->surgeon_end
 
 ===surgeon_end===
 
@@ -333,7 +333,7 @@ The surgeon returns and gazes upon his work as I awake from sleep again. He lift
 ===flashbackintro===
 /* the mountain and lake image again this time but without the logo */ 
 
-This town was called the cradle of the country. Through it flows, the Blue Nile. But thatâ€™s what they say. We are the smallest town in this state of Mississipi. We are the most underground, undereducated, the deepest in the drenches of the past, out of most of the state. At one point, we were supposed to evacuate for flooding, but the last generation decided to stay and endure the drownings. 
+This town was called the cradle of the country. Through it flows, the Blue Nile. But that’s what they say. We are the smallest town in this state of Mississipi. We are the most underground, undereducated, the deepest in the drenches of the past, out of most of the state. At one point, we were supposed to evacuate for flooding, but the last generation decided to stay and endure the drownings. 
 
 * Lucky enough, we're so used to hell [] that we tied ourselves to the cross of resilience and managed to keep breathing anyway.  
 ->the_truestory
@@ -355,7 +355,7 @@ After the Vietnam War, the son of a pastor, my father,  swam through the Blue Ni
 ===intro_camptrial===
 
 
-The next day, without a momentâ€™s rest, Iâ€™m made to stand before the judge with a tight tie and waxed back hair to receive a life time of prison. Ordered by the judge, I must serve my punishment at Mount Ezekiel Camp to repent for my crime. My wrongdoing? I murdered my father. I swear on Godâ€™s feet, with bleeding knees and gritted, split teeth, that I did not intend to.
+The next day, without a moment’s rest, I’m made to stand before the judge with a tight tie and waxed back hair to receive a life time of prison. Ordered by the judge, I must serve my punishment at Mount Ezekiel Camp to repent for my crime. My wrongdoing? I murdered my father. I swear on God’s feet, with bleeding knees and gritted, split teeth, that I did not intend to.
 
 But they said justice should be served. And my father is rendered innocent despite his filthy hands proving otherwise. Plenty of voices beneath the floorboards say also. But they won't be heard in this courtroom. They will say "Ming Yang is speaking the truth"
 
@@ -384,10 +384,10 @@ But they said justice should be served. And my father is rendered innocent despi
 	The lawyer goes over the evidence again. They say my father was found beheaded in the bottom of the well. Rain water and dead leaves adorn his remains. A woman searching for him, then smelled him eroding from beneath. The land consuming him for its health. 
 
 
-	The townspeople murmur, â€œSick man.â€ What they donâ€™t know is that it wasnâ€™t sickness that inspired me.
+	The townspeople murmur, “Sick man.” What they don’t know is that it wasn’t sickness that inspired me.
 
 
-	But theyâ€™re all trained for idolatry. 
+	But they’re all trained for idolatry. 
 
 
 	They take me out of court, I hang my head low.->flashback_three
@@ -401,16 +401,16 @@ But they said justice should be served. And my father is rendered innocent despi
 		After all my father had made the town's revival. Dropped In a well without eyes to see the sky turn blue, it would only make sense to die on the land you lived on. But not in that way. 
 
 
-		The townsfolk murmur about me. They have eyes sotten with tears over a man they donâ€™t know, they never sat across him at the table. 
+		The townsfolk murmur about me. They have eyes sotten with tears over a man they don’t know, they never sat across him at the table. 
 
 
-		I hang my head low as Iâ€™m taken away. ->flashback_three
+		I hang my head low as I’m taken away. ->flashback_three
 
 			= Icry
-			I cry even though I canâ€™t fully through all my orifices. I let out a croak and cup my mouth with my two hands as if preventing a flood from my throat. The judge slams the hammer and two men pull my arms and wrap them behind me because I am a disturbance to my own predicament.
+			I cry even though I can’t fully through all my orifices. I let out a croak and cup my mouth with my two hands as if preventing a flood from my throat. The judge slams the hammer and two men pull my arms and wrap them behind me because I am a disturbance to my own predicament.
 
 
-			Iâ€™m led out of the courtroom with my head hanging low. ->flashback_three
+			I’m led out of the courtroom with my head hanging low. ->flashback_three
 
 ===flashback_three===
 
@@ -420,12 +420,7 @@ Sparking blue as the skies, when you look into the deepness you see your face re
 
 But all I saw as a small child was a mere river. I would wade in it, then lay on my back looking at the moon, her light reflecting off on my dark stomach. Only thing I noticed was that the water never lets you go, it hold you with such care. I also never got a disease when I would drink from it. Eventually I wouldn't be able to do this when my father began blessing the dead in the streams before burial.
 
-She would fill my stomach and I would feel no pain.->before_the_bus
-
-
-===before_the_bus===
-
-
+She would fill my stomach and I would feel no pain.->the_priest_intro
 
 ===the_priest_intro1===
 
@@ -444,11 +439,17 @@ We pray, have a eucharist. I let it melt on my tongue. [] I know that Father Lau
 
 They all supposedly come from the same town yet I have never crossed paths with them. They look too young to do so. Maybe their school bus passed my road. 
 
-Mount Ezekial only houses prisoners from our town and usually they are the untouchable kinds, like me. But lately over the years, laws have been passed that has now expanded these prison walls for other wrong doers. Iâ€™ve heard troubled juveniles coming to stay here to learn their lesson and coming back mute. Single mothers shipped here for truancy. People who took too many pills. 
+Mount Ezekial only houses prisoners from our town and usually they are the untouchable kinds, like me. But lately over the years, laws have been passed that has now expanded these prison walls for other wrong doers. I’ve heard troubled juveniles coming to stay here to learn their lesson and coming back mute. Single mothers shipped here for truancy. People who took too many pills. 
 
-Three men are sitting in each booth. In the row behind me, is a blue haired boy with brown eyes, who looks at me as if Iâ€™m not wearing the same orange jump suit as him.  His pubescent shivering with the chilling of his facial muscles. His hair shaven except one puff node of hair, like a horn. He is so skinny, I can see his collar bones, probably play some glass music on them things.
+Three men are sitting in each booth. In the row behind me, is a blue haired boy with brown eyes, who looks at me as if I’m not wearing the same orange jump suit as him.  His pubescent shivering with the chilling of his facial muscles. His hair shaven except one puff node of hair, like a horn. He is so skinny, I can see his collar bones, probably play some glass music on them things.
 
-In another row way in the back: two more people sit and they are facing the windows on opposite sides. The blue haired boy coaxes them to offer their attention to me. Twins, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they wonâ€™t bother to voice because they can just stare and you will know eventually through that. But the one sporting the queue seems more vibrant, ready to gnaw my ear off with stories of granduer. 
+In another row way in the back: two more people sit and they are facing the windows on opposite sides. The blue haired boy coaxes them to offer their attention to me. Twins, one with a braid swaying down on his shoulder, the other lacking hair altogether, both skin of the mahogany stratum and moonshaped faces. Dark eyes that tell a long story they won’t bother to voice because they can just stare and you will know eventually through that. But the one sporting the queue seems more vibrant, ready to gnaw my ear off with stories of granduer. 
+
+
+
+		
+
+===warmth_bus===
 
 These passengers are supposed to share a prison with me.
 
@@ -458,7 +459,7 @@ These passengers are supposed to share a prison with me.
 * [I hope to build a coalition with them]
 ->coalition
 
-* [I donâ€™t have trust in anyone]
+* [I don’t have trust in anyone]
 ->dont_trust
 
 ===think_nothing===
@@ -634,7 +635,7 @@ With his chest on my back, I could hear the beat of his heart through my ribs. H
 
 It feels so cold to my skin. He said something totally inaudible to me as my fears became much like the sound of an engine. My ears ringing. Then to attempt appyling further nurturing to my mental wound, he craned my head towards his, and his lip touched mine. The wettness of his lips snuffing out the inflamation of my shamefully windburned pair. The cut on the middle of his lip had split slightly as he grew more intense in his kiss. I tasted his iron. 
 
-I never went there again. I donâ€™t even know if that bridge is still there.
+I never went there again. I don’t even know if that bridge is still there.
 
 ===flashback_kiss1===
 
@@ -693,7 +694,7 @@ The bell tolls. I woke up right as it struck, pangs of panic resonating through 
 
 I turned in bed and looked at Mal. He is still naked under the blankets and with his eyes closed, he looked more beautiful than the Blue Nile when it reflected the evergreen. I traced my finger on his thick brow. He murmurs about church music and turns away from me.
 
-It's time for me to return to the church. I put my pants back on, turn to see if the lines on my back are gone. They are turning purple. Having Mal on top of me didnâ€™t make it better. When I finish dressing, I put a ice pack on my bruises, looked out the window, raining pouring down and rivelets pouring through the roads. I know my father got the other church boys looking for me. They are laughing with the lamps in their hands, probably singing for my demise. The runaway, whipped boy crying on the pew.
+It's time for me to return to the church. I put my pants back on, turn to see if the lines on my back are gone. They are turning purple. Having Mal on top of me didn’t make it better. When I finish dressing, I put a ice pack on my bruises, looked out the window, raining pouring down and rivelets pouring through the roads. I know my father got the other church boys looking for me. They are laughing with the lamps in their hands, probably singing for my demise. The runaway, whipped boy crying on the pew.
 
 It was times like this I don't regret burying him in a well.
 
