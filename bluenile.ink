@@ -18,6 +18,10 @@ Merrick Jorgensen is a delinquent child imprisoned for supposed terrorism. He’
 /*
 Edit Note: Keep in mind this is a draft so just write and worry about it later. But here's one issue im already noticing. The writing for the flashbacks are much longer than the present day scenes. THere needs to be a balance for that. I do feel like when i design the UI, the borders will be different for flashbacks I will use years/chapter headings to indicate this. But already I am noticing an inconsistent writing style. */
 
+INCLUDE bluenile.ink
+INCLUDE bluenile2.ink
+INCLUDE bluenile3.ink
+INCLUDE bluenile4.ink
 /* character variables */
 VAR jorgensen = 0
 VAR mal = 0
@@ -76,7 +80,7 @@ Quote
 
 Content Warning
 
-Blue Nile is a magical realist BL interactive novel about a son murdering his cult pastor father after the drowning of a child in a mystic river. The game takes place mostly in a prison camp in a fictional predominately Black run-down town naturally drained by colonialism.
+Blue Nile is a magical realist BL interactive novel about a son murdering his cult pastor father for the drowning of a child. The game takes place mostly in a prison camp in a fictional predominately Black run-down town naturally drained by colonialism.
 
 - car crash (first scene, cracked window image)
 - Gore/Body Horror 
@@ -435,24 +439,10 @@ These sheets are white and smell like freshly of lavender. I put the pillow over
 
 In my dream, Malachi has not flown across the universe. Mal is one man, standing on God's ground with his legs strong. Not struck on the knees, forced to kneel.
 
-We are in the car again and his dreads are clean and tied back. He is playing that god damn fucking Nirvana song again. But I didn't mind it. Not at all.->the_priest_intro1
+We are in the car again and his dreads are clean and tied back. He is playing that god damn fucking Nirvana song again. But I didn't mind it. Not at all.->campersintro
 
-
-/*
-===the_priest_intro1===
-
-Mount Ezekial is in the highest part of Morrow Town. So when you live in the bottom part of the town, it takes awhile to get to the top. The ride is about 40 minute and because this is some kind of godly town, where the servants of god must serve the people whenever they start doubting their positions in life, we have some priest standing in the bus aisle. 
-
-Father Laurent sits on up in the front, near the bus driver,  holding onto a seat with one hand and a microphone in the other.  His balding head, concealed by a white toupee that flops up and down in his exaggerated expressions during his homily. 
-
-Something about a fish. Something about a fallen man. Then he eats the fish and asks God forgiveness.
-
-I have the misfortune of sitting next to him and I feel the wheel beneath grinding against the dirt, snow, and rock.
-
-We pray, have a eucharist. I let it melt on my tongue. [] I know that Father Laurent is pretending real hard not to notice the killer near him. Breathing his lively air. ->the_priest_intro2
-
-*/
 TODO: Instead of this whole bus scenario, instead mke them sit in prison to hve a brief mass and introduce themselves. then they soon are told to go outside. pick tents and start shoveling
+
 ===campersintro===
 
 They all supposedly come from the same town yet I have never crossed paths with them. They look too young to do so. Maybe their school bus passed my road once in awhile.
@@ -461,13 +451,28 @@ Mount Ezekial only houses prisoners from our town and usually they are the untou
 
 All four of us sit in a circle around the fireplace. Wearing thermals under our prison outfits. At least they gave us that.
 
- Near me on my right, is a blue haired Black boy, who looks at me as if I’m not wearing the same orange jump suit as him.  His pubescent cheeks shivering with the chilling of his facial muscles. His hair shaven except one puff node in top, like a horn. He is so skinny, I can see his collar bones, probably play some glass music on them things.
+Near me on my right, is a blue haired Black boy, who looks at me as if I’m not wearing the same orange jump suit as him.  His pubescent cheeks shivering with the chilling of his facial muscles. His hair shaven except one puff node in top, like a horn. He is so skinny, I can see his collar bones, probably play some glass music on them things.
 
 Across from me are a set of identical twins who are differentiated by their choice in hair style One with a braid swaying down on his shoulder, the other lacking hair altogether, both kids are the skin of the mahogany stratum and moonshaped faces. They've got dark eyes that tell a long story they won’t bother to voice, because they can just stare and you will know eventually through that. But the one sporting the queue seems more vibrant, ready to gnaw my ear off with stories of granduer. 
 
 In the middle of us, the fire lights the white waxy skin of a Father, who tells us the story of how this town came to be. As we always know.
 
-It always starts with a famine:
+* It always starts with a famine. [] ->campers_famine
+
+===campers_famine===
+
+They had stomachs like empty tombs, with every breathe the stomach hollow into the innards of a cave. The longer you stayed hungry the colder it got inside, as death starts to brew from the bottom of you. There was one year when somehow the Blue Nile had dried up. (I personally think the story is an urban legend and not factual)
+
+And the town was in mourning. Black folk's children were dying in their beds with ribs poking. And the poor White children were struggling along but their Mas and Pas owned more farm space than the Black people. Sometimes they shared merely a root or a carrot. 
+
+* But regardless of what little people could do, [] everyone's cheeks got sallow.->campers_famine2
+
+===campers_famine2===
+
+
+
+
+
 
 These passengers are supposed to share a prison with me.
 
@@ -527,8 +532,7 @@ I choose to reside with:
 
 * [The blonde, I need more torment]
 ->blonde_cell
-* [The tattooed man, I need the ambiguity]
-->tattoo_cell
+
 
 ===twin_cell===
 
@@ -610,25 +614,7 @@ Ming: "I'm playing, just playing."
 
 There's nothing we can do. So we go back to sleep. I closed my eyes but I didn't sleep though. It felt like only ten minutes passed when morning came.
 
-===tattoo_cell===
 
-The tattooed man, who I now know as Floyd Mayweather, sits and watches with cold, dark eyes as I enter the cell. With every movement, every breathe that leaves my lips, his eyes has caught it. His devishlish face makes me not even mind it.
-
-Will I wake up dead in his arms before dawn? 
-
-I sit on my bunker and face the other way. He moves his arms or feet. Fluffs his pillow. Evening is coming soon. There's nothing else we can do here except lay in our regrets. I turn around, he's laying down eyes close.
-
-His tight curled, coarse hair is bleached on the tips, reminding me of the tips of molten glass ready for twisting.
-
-Something about him is alluring. But Also familiar. I notice on the back of his neck, a tattoo of Our Lady. The only ink piece I can give a name to, everything else is just streaks and swirls from origins unknown to me.
-
-Is he perhaps. Someone who knows my father?
-
-* [Wake him, it's an urgent question]
-->wakequestiontattoo
-
-* [Go to sleep]
-->tattoo_cellsleep
 
 
 
