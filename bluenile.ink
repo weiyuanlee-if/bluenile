@@ -461,7 +461,7 @@ In the middle of us, the fire lights the white waxy skin of a Father, who tells 
 
 ===campers_famine===
 
-They had stomachs like empty tombs, with every breathe the stomach hollow into the innards of a cave. The longer you stayed hungry the colder it got inside, as death starts to brew from the bottom of you. There was one year when somehow the Blue Nile had dried up. (I personally think the story is an urban legend and not factual)
+They had stomachs like empty tombs, with every breathe the stomach hollowed into the innards of a cave. The longer you stayed hungry the colder it got inside, as death starts to brew from the bottom of you. There was one year when somehow the Blue Nile had dried up. (I personally think the story is an urban legend and not factual)
 
 And the town was in mourning. Black folk's children were dying in their beds with ribs poking. And the poor White children were struggling along but their Mas and Pas owned more farm space than the Black people. Sometimes they shared merely a root or a carrot. 
 
@@ -469,11 +469,86 @@ And the town was in mourning. Black folk's children were dying in their beds wit
 
 ===campers_famine2===
 
+Then one day. A girl dreamed of resolution. Ill, close to the fingertips of death, she dreamed of a man swinging his pick axe on a peculiar rock where the river was. She said it glowed blue and green. That it had felt smooth to the touch, like the most expensive of china that had hailed from the sea trades across the Pacific. 
+
+With that one swing, the water was set free. As if some evil had plugged it up for them to suffer, for some cruel lesson.
+
+So the men of the town went to the river. With the girl on one man's back to play shepard. She held the answer, they could only be led to it. They stepped on the banks and her little brown finger points at that exact rock in her dream. One of the men's takes his axes, swings once, twice, thrice. They got  anxious thinking the shit will pop like a beer cork. But after three more hard strikes, the water begins to drip.
+
+The people watch with eyes wider than a petrified deer, one of the men opens his mouth for a drop to the desert of his tongue. In only couple of moments, the water sprays forth with such a strength the men are washed away.
+
+While the girl floats down the river and swims to the banks. She is no longer ill and her skin glows under the moonlight.
+
+* [The town lives on]->campers_intro2
+
+===campers_intro2===
+
+He lifts up the eucharist and mumbles a prayer. The fire making his shadow grow as he does so. Father Laurent is freezing his skinny ass out here, long white hands trembling as he place it on his tongue and says amen. Then he steps off his podium and gives us each a round bread. I place it on my tongue.
+
+* [I say hallow be thy name]->hallow_be
+
+* [I make a wish]->make_wish
+
+* [I think of nothing, I say nothing]->think_say_nothing
+
+		= hallow_be
+
+		But only the first line. I was too busy cleaning leaves, fucking Mal, and thinking about killing my dad to remmeber this prayer by now. I don't even remember the Hail Memory. By now I remember the Buddhist mantras more than the prayers.
+
+		Oh how I wish to be a heretic. But I live in the wrong times. By now everyone is at this point. Yet I do miss some things. Such as the feeling of holy water being dripped on my forehead.
+
+		I always remember the time I was baptized in a teen in the Blue Nile. How it felt like I was entering the womb of God. The blessed fetal liquid of the creator.
+		That how I interpret it. Rebirth, going inside God and then becoming a new birthed being. When I told Father about this though, he thought I was downright crazy.
+
+		"God ain't no woman" and then he put his glasses back on and went on smoking. 
+
+		I let the eucharist melt on my tongue with prayer.->campers_intro3wine
+
+
+		= make_wish
+
+		I make a wish or rather a promise that something will happen. My wish is to hope my ass stays in tact. I don't think I'm ever leaving here and I don't want to. There is no repenting to do. I make sure I bite down on the eucharist right in the middle, hoping it melts equally on both sides of my tongue. What is there to wish for when I don't even know what behind those walls? I think of the time when Malachi used to do this silly shit of reading fortunes. 
+
+		I told him they weren't from China, they weren't made by an actual wise monk or the Dalai Lama, and there was nothing mystic or lucky about them. He kept thinking it though. I didn't have citation of where it originated either, but the damn things are baked and printed on a factory line in California. 
+		
+		He would rub my head for good luck as tease before I yanked one of his dreads. Then he'd Break one in half. Read one.  Then fold it up and throw it in a jar that he had on shelf with his books and DVDs. Last time we had takeout was when we were watching <i>Stalker</li>. I clearly remember the tar playing above a scene of water, when he cracked a fortune cookie above my head, make a wish, and read out some lucky number.
+
+		I spent the whole time reading the subtitles.->campers_intro3wine
+
+		= think_say_nothing
+
+		I say nothing and just chew the bread. The sour taste making my tongue twinge. I close my eyes, thinking of nothing but the sound of the fire crackling. Flames eager to lick the points of our chins, curving its limbs to dance our around our faces. 
+
+		They thirst for our secrets and to asssist in our nourishment. I remember one day at the church, when once I actually had the chance of discovering the host bread freshly delievered to the church in a tin of all things. My father had been off somewhere, running his mouth with a frequenter to this church. During that time I was quite young and spiteful. So I decided to take them away and sit in the shed, where I would sometimes hide. Little ol' wanted to give them a taste, to hoard them to myself.
+
+		I knew this was the silliest shit. There was just something about it. Some odd fantasy I had about gourging on the Lord's carcass. 
+
+		I got my ass whooped for that later of course.
+
+		->campers_intro3wine
+
+===campers_intro3wine===
+//flask hands
+Father Laurent takes out a flask of what I assume is filled with the blood of christ. He holds it up. Mumbles something to the starred sky, it's only him and God, even if they don't listen. 
+
+He sips. Steps down from his podium and into the center of union. Holds it up again and bows. The 3 of us now have to drink the blood. The blue haired kid gets it first, he looks at it as he's trying alcohol for the first time. 
+
+He makes a peripheral glance at me. I tip my chin towards him, lift my brows like "Go ahead, man".
+
+He drinks and twinges (?) at the taste. the twins are next. They drink like it's a sparkling water. 
+
+I've drunk this "blood" like it's water at one point in my life. It satiates the dryness in the back of my throat. It helps the nervous cave of my body feel warm.
+
+* [Although, there is nothing here to be warm about.]->camp_stories_intro
+
+===camp_stories_intro===
 
 
 
 
 
+
+===camper_branch===
 These passengers are supposed to share a prison with me.
 
 * [I think nothing of them] 
