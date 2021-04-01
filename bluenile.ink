@@ -18,7 +18,7 @@ Merrick Jorgensen is a delinquent child imprisoned for supposed terrorism. He’
 /*
 Edit Note: Keep in mind this is a draft so just write and worry about it later. But here's one issue im already noticing. The writing for the flashbacks are much longer than the present day scenes. THere needs to be a balance for that. I do feel like when i design the UI, the borders will be different for flashbacks I will use years/chapter headings to indicate this. But already I am noticing an inconsistent writing style. */
 
-INCLUDE bluenile.ink
+TODO: so put this in the twine outline later: so on the drug mode, you're essentially under the drug that Tyrus is affected with and used to be controlled. but it is reveaaled that this is merely a distraction and that this is all real and the drug usage has only made you closer to the undeaad.
 INCLUDE bluenile2.ink
 INCLUDE bluenile3.ink
 INCLUDE bluenile4.ink
@@ -27,7 +27,6 @@ VAR jorgensen = 0
 VAR mal = 0
 VAR raya = 0
 VAR rodrigo = 0
-VAR Orland = 0
 
 /*Ming's variables */
 VAR humanity = 0
@@ -36,6 +35,7 @@ VAR malcompletion = false
 VAR malbetray = false
 VAR admit_fail = false
 VAR trulyalone = false
+VAR drug = 0
 
 
 /*inventory */
@@ -57,7 +57,7 @@ VAR fingers = false
 
 ====startmenu===
 
-/* image of mountain and water flowing through. Logo of game. */
+/* image of a deer walking then the face turning to face the player. Logo of game fades in. */
 
 * [Start]
 ->quote
@@ -71,7 +71,6 @@ VAR fingers = false
 
 ===quote===
 
-
 Quote
 ->intro
 
@@ -80,39 +79,45 @@ Quote
 
 Content Warning
 
-Blue Nile is a magical realist BL interactive novel about a son murdering his cult pastor father for the drowning of a child. The game takes place mostly in a prison camp in a fictional predominately Black run-down town naturally drained by colonialism.
+Blue Nile is a magical realist BL interactive novel. I would say it's a revenge and love story about the surveillance of two Black boys in a town carved into the deep depths of a torn world. They murder the town patriarch who's sacrificed a child and now the fabric is coming down.
 
 - car crash (first scene, cracked window image)
-- Gore/Body Horror 
-- knives (a knife animation cutting the air with a description of the loss of an eye from a surgical procedure in the second scene after a car flashback)
-- Labor/prison camp/incarceration/surveillance
+- Gore/Body Horror (no imagery just description)
+- knives (a knife animation cutting the air, with a description of the loss of an eye by a surgical procedure, a stabbing scene described nor portrayed later in the game)
+- Labor/prison camp/incarceration/surveillance (social surveillance and digital)
 - patricide (murder of a father)
 - Emotional manipulation
-- Drug mention (cigarette, alcohol, medical morphine during knife scene)
+- Drug mention (cigarette, alcohol, medical morphine)
 - child murder (just mentioned/described briefly) 
 - cult of personality 
 - Implied sex (MC wakes up in bed with his partner, scenes of touching)
-- Reactionary form of Catholicism
+- Reactionary form of Catholicism (altho reactionary catholocism has little to do with anything in this game, but is rather used by characters to veil other things)
 - Crude language 
 
 ===credits===
 
 Made in Ink + Unity
 
-Writing, coding, music, pixel art by Xian Xian
+Writing and pixel art: Xian Xian
 
-Character art by 
+Scripting: Xian Xian & Hassan
 
-Edited by Meia
+OST: Xian Xian
 
-Beta-played/Tested by Jian, Nashira, Isak, Jean, Aster, and Hassan.
+Character art: Taekyung Wells
+
+Pixel animation: Jian
+
+Script editing by Meia
+
+Beta-played/Tested by Jian, Nashira, Isak, Jean, Hassan and Aster.
 
 Soundtrack made with my mini AKAI keyboard and an out of tune baritone ukulele in SunVox.
 
 Pixel art made in Aseprite.
 
-Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. Inspired by 空中ブランコ  by Plastic Tree, track 11 on Chandelier and Dark Matters: On the Surveillance of Blackness by Simone Browne. 
-
+Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. 
+->startmenu
 
 ===intro===
 Part I
@@ -124,15 +129,17 @@ Go Tell It On The Mountain
 ===flashback_car===
 /* cracked car window, snow flakes, further cracking*/  
 
-Through the crevices came a proud God. He is blowing into my face, teasing me, implying "I told you so", as I laid back, snow pouring in from the hole of the front window. One branch struck in my eye. Blood seeping down into my mind through the tunnel of my vision. Dripping down my chin onto my chapped lips. I tasted it, mixed with the melted flakes. Salty and bitter.
+Through the crevices came a proud God, the sun kissing my bloody cheek. A gust comes in. God is blowing into my face, teasing me, implying "I told you so", as I laid back, stray snow flakes melting on my chin. One branch struck in my eye. Blood seeping down into my mind through the tunnel of my vision. Dripping down onto my chapped lips. I tasted it, mixed with the melted flakes. Salty and bitter.
 
-To my right, Malachi no longer was sitting. I assumed he was up somewhere in the trees, judging how far he flew. They say that Black men couldn't fly. He did then. Forgot to put his seatbelt in the whole rush of fleeing.
+To my right, Malachi no longer was sitting. I assumed he was up somewhere in the trees, judging how far he flew.
 
-I don't think he will ever come back down. I laughed at the thought of that. Laughed at the man deep in the well too. I also didn't think it would end like this. When I was 5 I wanted to ride airplanes not lay dead on a steering wheel.
+He forgot to put on his seatbelt in the whole rush of fleeing.
+
+I don't think he will ever come back down. I laughed at the thought of that. Laughed at the man deep in the well too. Didn't think it would end like this.
 
 God works his puppet strings in the most fucked up ways. This time by giving me a literal eye for an eye.
 
-* Doesn't he? ->knifetable
+* [Doesn't he?]->knifetable
 
 
 ===knifetable=== 
@@ -140,14 +147,16 @@ God works his puppet strings in the most fucked up ways. This time by giving me 
 
 The coldness of the steel, scraping against my skin, the theft of my all knowing left eye. I don't know if I can ever forget such a thing. But I have no choice but to bid farewell to a part of me. I swear I heard - while the instrument began to cut the nerves - the singing, the forlorn stretching notes of my mother when she cradled me on that wretched day. I didn't think I could remember that. But the pain made me return to my near fetus status.
 
-I am the inheritor of her continuation.  
+I am the inheritor of her continuation.   
 
-It was also a part of her. I've done her dirty, tarnished her family's face on earth.
+It was also a part of her. I've done her dirty, tarnished her family's face on earth. (But does lack of recognition even allow this part of my being to exist?)
 
 /* Knife image stops, lay down0*/
 /*cabin image with snow*/
 
-Sitting here on this gurney, the surgeon sterilizing his weapons, the wind outside this little cabin howling with avengence for all of our occupation on this earth. I contemplate what I should do for the next moment. Our minds are conductors and the world is a stage.
+Sitting here on this bed with my head elevated, the surgeon sterilizing his weapons, the wind outside this little cabin howling with avengence for all of our occupation on this earth. The surgeon muttered his name and greeting, but I didn't hear shit. His face is long, on his head is pepper gray hair shellacked back with Murray's pomade. It's cinnamon smell always sickened me. He smells almost like Father. If he didn't have those rounded glasses, I would see him as another wolf.
+
+I contemplate what I should do for the next moment. Our minds are conductors and the world is a stage. My father reigns even after death and dismemberment.
 
 
 * [If I could cry on this thing, I would]
@@ -163,9 +172,11 @@ Sitting here on this gurney, the surgeon sterilizing his weapons, the wind outsi
 
 
 =intro_thanksurgeon
+
 He doesn't respond to my gratitude. Likely because he is too busy observing his work upon me. 
 
 I look up at him, his lips beared in as if holding in any utterance of success at his procedure or else it would backfire. He reaches, carress my chin between his thumb and first two digits, to observe one more time the structure of my face. Then he pulls away slowly, moving as if we are surrounded by the physical embodiment of what I feel now: a fragility that comes with the loss of a missing piece.
+~ humanity = humanity + 1
 ->surgeon_says
 
 
@@ -173,21 +184,29 @@ I look up at him, his lips beared in as if holding in any utterance of success a
 
 I hold onto the surgeon's hand. The pain is intense and I never realized it until it settled in me and spread like a blooming, invasive species of flower. The singing is still in me, still in the tunnel of where I lost my left tier sight. There is an emptiness that is now being filled with the coursing fires, inflammation of bodily reconstruction.
 
+I am alone with hell and squeezing the surgeon's clammy hand provides me with a comfort that could last merely a milisecond.
+
 
 I am lain down again and given the medicine. Finally I hear silence, the quiet and lull through my veins.
+~ heretic = heretic + 1
+~ drug = drug + 1
 ->surgeon_says
 
 
 =intro_crytable
 
-I tell the surgeon to leave me be for awhile. Then I lay and fold my hands on my lap like am I being sheathed away into the death tomb. I close my one eye and listen for the wailing but nothing comes. One tear rolls down one eye and from the other, I assume the emptiness sways and the veins pulse, trying to communicate that there is a member of this temple missing but it doesn’t mean some semblance of the waterworks can’t be done. The surgeon comes back and suggests that I need more painkiller. I told him I just needed a moment of mourning and nothing else should take that from me.
+I tell the surgeon to leave me be for awhile. Then I lay and fold my hands on my lap like I'm being sheathed away into the death tomb. I close my one eye and listen to the wailing longer. Coming from a musical family. I doubt this is her voice. 
+
+One tear rolls down one eye and from the other. I assume the emptiness sways and the veins pulse, trying to communicate that there is a member of this temple missing, but it doesn’t mean some semblance of the waterworks can’t be done. The surgeon comes back and suggests that I need more painkiller. I told him I just needed a moment of mourning and nothing else should take that from me.
 ->surgeon_says
 
 ===surgeon_says===
 
-“Tell me more about yourself.” he asks and turns away to tinker at his assortment of tools. Shouldn’t he look at the speaker while requesting intimate details about one? Well, they’re not that intimate and they don’t need to be.
+“Tell me more about yourself.” he asks, the pale light reflects on his lens. I see a kind of soullessness to his eyes. Then he turns away to tinker at his assortment of tools. Shouldn’t he look at the speaker while requesting intimate details about one? Well, they’re not that intimate and they don’t need to be.
 
-But my face has been televised in every home and inked on every paper on commercial shelves. Shouldn’t he know all about my story? I'm short, but toned from all my days of swimming and exercise after meditation, my head is always shaven bald, earning me the nickname "monk" as a child. It's not very easy to forget me. After all, I'm the only person in this town who's of East Asian descent.  
+He doesn't seem all that interested anyways.
+
+My face has been televised in every home and inked on every paper on commercial shelves. My business been out there. There is nothing to provide that will grant a bond other than what I look like. Shouldn’t he know all about my story? I'm short, but toned from all my days of swimming and exercise after meditation, my head is always shaven bald, earning me the nickname "monk" as a child. It's not very easy to forget me. 
 
 * [I tell him a new story]->a_new_story
 
@@ -196,9 +215,9 @@ But my face has been televised in every home and inked on every paper on commerc
 * [I say nothing at all]->say_nothing
 
 =a_new_story
-“I escaped from another village. Then fell on a branch.”
+Ming Yang: “I escaped from another village. Then fell on a branch.”
 
-A totally bogus story. Now what? Is the guy on the TV who looks like me a secret twin? He is Cain and I am Abel, who managed to escape his knife bearing hand?
+A totally bogus story, I ain't 10 years old. Now what? Is the guy on the TV who looks like me a secret twin? He is Cain and I am Abel, who managed to escape his knife bearing hand.
 
 He nods as if he believes me.  I go on.
 
@@ -208,13 +227,15 @@ Surgeon: “Our town’s landmark. It’s what keeps it thriving.”
 
 It’s what keeps us fed, our thirst quenched. Everyone else wants a cup. I don’t know why. It’s just water. ->surgeon_end
 
+~ heretic = heretic + 1
+
 =televised
 
 “You’ve seen me on TV. The newspapers. On every billboard. What more can I say about myself?”
 
-He gives me this quizzical look
+He gives me this quizzical look, his brows look almost like weighed down see-saws. Odd looking fellow.
 
-Surgeon:  “I don’t recall seeing your face. Maybe it’s because your swollen.”
+Surgeon:  “I don’t recall seeing your face. Maybe it’s because you're swollen.”
 
 Ming Yang: “Do you not own a TV?”
 
@@ -224,114 +245,370 @@ To close one eyes to the outside world, to reality unlike your perspective.
 
 If only I could tell the world. What my own reality is.->surgeon_end
 
+~ humanity = humanity + 1
+
 =say_nothing
 
-I turn away and look out the window, gazing at the beginnings of a blizzard. Soft snow covering the windshield. A faint lamp glows from across, illuminating the whiteness.
+I turn away and look out the window, gazing at the new beginnings of another storm. The surgeon's busted up truck is parked, Soft snow covering the windshield. A faint lamp glows from across, illuminating the whiteness.
 
-Assuming I am in mourning, not wanting to waste a word with me, he returns to his tools. After all, it’s just a stepping stone therapeutic maneuver taught to every medical student. A mere script permattached to their mentally ingrained course literature. ->surgeon_end
+Assuming I am in mourning, not wanting to waste a word with me, he starts putting his tools away. After all, it’s just a stepping stone therapeutic maneuver taught to every medical student. A mere script permattached to their mentally ingrained course literature. ->surgeon_end
 
 ===surgeon_end===
 
-I only have one night to stay. After all the only medic in this village can only house one body, whether with or without soul. I'm allowed to lay down and dream for a little bit. But these dreams only repeat my crime over and over, God laying down the right brain wires to remind me that I have wronged. I shall not forget. 
+I have one night to stay. After all the only medic in this village can only house one body, whether with or without soul. I'm allowed to lay down and dream for a little bit. But these dreams only repeat my crime over and over, God laying down the right brain wires to remind me that I have wronged. I shall not forget. 
 
 But how the hell does anyone forget the largest imprint on their lifespan?
 
-The surgeon returns and gazes upon his work as I awake from sleep again. He lifts my face by the chin. It's like some kind of love story. 
+The surgeon returns and gazes upon his work as I awake from sleep again.  
 
-	/*if took morphone */
-	But his face takes on a form of a mosaic. One blackened eye on the forehead and his ears gone. His lips stitched closed and the melanin of his brown skin drained into the whiteness of his medical uniform. The color of death, of cleansing for the lord before he takes you back, sheathes you in a new birth cloth of his own. 
+* [He lifts my face by the chin.]->surgeon_questions
 
-	His lips split open, threads still holding them together. The voice of Malachi echoes out, the speakers of heaven or hell booming from the chest. 
+		* { drug > 0} [It's like some kind of love story.] 
 
-	/*face drawn maybe if not too hard. */
-	/* in chinese
-	To the river, to the river, you will see, the child from the tree, the child from the tree. all god's children are dancing, dancing. But they never ever hear him.
+			
+			His face takes on a form of a mosaic. One blackened eye on the forehead and his ears elongated by ornaments. His lips stitched closed and the melanin of his brown skin drained into the whiteness of his medical uniform. The color of death, of cleansing for the lord before he takes you back.
 
-	Then he tweaks one of his ears, as if he had the wrong speaker setting.*/
+			His lips split open, threads still holding them together. The voice of Malachi echoes out, he is moaning from the speakers of heaven or hell booming from the chest. 
 
-	Malachi: "Have you seen the river tonight? It is glowing blue as ever."
+			/*face drawn maybe if not too hard. */
+			/* in chinese
+			To the river, to the river, you will see, the child from the tree, the child from the tree. all god's children are dancing, dancing. But they never ever hear him.
+			*/
+			Then he tweaks one of his ears, as if he had the wrong speaker setting.
 
-	* "Is that the first thing you say to me?"->say_morph
+			Malachi: "Have you seen the river tonight? It is glowing blue as ever."
 
-	* [I kiss his stitched lips]->cold_morph
+			** ["Is that the first thing you say to me?"]->say_morph
 
-	* [It's fake, punch him]->fake_morph
+			** [I kiss his stitched lips]->cold_morph
 
-		=say_morph
+			** [It's fake, punch him]->fake_morph
 
-		I'm frightened, yet so curious as to how this vision has come to me. Yet, I'm also angry. Imagine, your body flies out of car and all you could talk about is how pretty the weather is, how beautiful mother nature's visuals are. Mother Nature ain't make that for you. Especially in this town, where Mother Nature's ass is just used for control, for seduction by a man who counterfeited God's eyes.
+				=say_morph
 
-		Malachi: "When I flew into the sky, I fell into the river."
+				I'm frightened, yet so curious as to how this vision has come to me. Yet, I'm also angry. Imagine, your body flies out of car and all you could talk about is how pretty the weather is, how beautiful mother nature's visuals are. Mother Nature ain't make that for you. Especially in this town, where Mother Nature's ass is just used for control, for seduction by a man who counterfeited God's eyes.
 
-		The creature blinks and his eyes become blue like the caribbeaan sea in postcards.
+				Malachi: "When I flew into the sky, I fell into the river."
 
-		Malachi: "I saw your face, I saw the land before it became ruined. I saw my mother alive and well."
+				The creature blinks and his eyes become blue like the caribbeaan sea in postcards.
 
-		Ming: "Did you see mine?"
+				Malachi: "I saw your face, I saw the land before it became ruined. I saw my mother alive and well."
 
-		Mal pauses.
+					*** ["Did you see my mother?"]
+					->did_you_family
 
-		Malachi: "No."
+					*** ["But can you see the future?"]
+					->did_you_morrow
 
-		Ming: "Then I don't believe it then."
+					*** ["Did you see my father?"]
+					->did_father
 
-		He closes his one eye and a great light shones from between his lips. 
+							= did_you_family
 
-		It is only the surgeon flashing into my pupils. Despite all that, I want to see him again. ->flashbackintro
+							Mal pauses.
 
-			= cold_morph
+							Malachi: "No."
 
-			They are cold and rough. But I don't care because I know I'm going to miss them very much. His dark eye look down, they seem neither pleased nor angry. But it's only a mere second they hold. 
+							Ming: "Then I don't believe it then."
 
-			I lay back down and think of all the nice things we've shared with each other. But all the ugliness we had to swim in. If Malachi was able to leave the ugly behind and I'm not, is this even a fair trade off?  
+							He closes his one eye and a great light shones from between his lips. 
 
-			Ming: "Talking about the river, when you could be talking about me? Disappointment."
+							Malachi: "Funny how even though the blood runs in you. You never inherited music. But rather you carry water on your shoulders."
 
-			Malachi: "I'm only giving you a warning."
+							Malachi: "You've spent your uteral days on the seas."
 
-			Ming: "Warning about what? Something pretty is a warning?"
+							His lips closes only slightly as if still holding onto the burden of the future but losing grip.
 
-			Malachi pauses and his one eye closes. From the lid comes blood, it oozes and drips down his nose bridge. A droplet of him falls on my chin.
+							Malachi: "Your father had complained of sea sickness. Your mother laughed and told him that in Hong Kong she practically lived on the rocking of the sea in a cradle."
 
-			Malachi: "Thought it was common knowledge. Beauty kills. It hunts you down and holds you down with the sharpest blade to ya throat."
+							Malachi: "He turned and looked at her with a smile. Said something about the story of Moses. Of how he was found floating on the river."
 
-			He leans and puts his cold hands around my throat, his thumb presses on my adam's apple.
+							Malachi: "You would be born that way. Somewhat."
 
-			Malachi: "Just keep your head up, Monk."
+							He parts his lips again. I guess to blind me from further secrets. 
 
-			His lips then touch mine, but for only a brief moment [] till I realize the surgeon is cleaning around my eye with an alcohol doused gauze. ->flashbackintro
+							It is only the surgeon flashing into my pupils. Despite all that, I want to see him again. ->surgeon_questions
 
-				= fake_morph
+										= did_you_morrow
 
-				Horrified at the sight in front of me and knowing that I'm under the influence of a drug, I grip the Mosaic Man by his throat. Embodying the remaining figment of a loved one in memories and manifesting them in a weak state for manipulation. This is the oldest trick in the book. I hold him tight. His eyes close and blood begins to ooze under his long eyelashes. His beautiful eyelashes that salute you when he blinks. 
+										Malachi pauses. His lips close completely. He is no different as a dead man. Impatient and always confuddled by responses that make him have to figure whether he should backpedal or go forward.
 
-				I've always envied that part of his face. The lashes are white, now stained red. 
+										I don't understand. It's not a hard question.
 
-				Ming Yang: "Don't you ever. ever. mention that place again."
+										Ming: "You embarrased or something? If you're dead can't you see the future?"
 
-				His singular eye, my cyclops, opens and all I see is blackness. He is dead and all he sees is blackness, an eternal slumber. The speaker in his belly is still audible through his windpipes.
+										Malachi: "I'm an accident. A casuality in your fate. Not a oppurtunist for God's gifts."
 
-				Malachi: "I love you Ming Yang, but I wish you'd have a little faith, have some sight for God, man."
+										Ming: "Casuality...you act like I killed you."
 
-				Ming Yang: "God? Ain't no God up there. If he is up there, I'd beat the shit out of him."
+										Technically in a sense I did. We didn't need to drive on ice. Could've just turned ourselves in or took the train.
 
-				Malachi: "If only you'd open a bit more. If you'd let pain leak from your ass longer."
+										But how could one peform a neat crime if their intention was about making the soul weights even?
 
-				Ming Yang: "The fuck's that mean."
+										Regret takes me over.
 
-				Sexual innuedo much?
+										Malachi: "I am only willing to oversee the time I've  taken up."
 
-				I let him go, he leans closer, breathe against my neck.
+										He parts his lips. I believe that the light of the tunnel is open for me. 
 
-				Malachi: "I know it's hard, since I'm not here. But you just gotta let live ya know."
+										No. It is only the surgeon flashing into my pupils. I want to see him again. 
 
-				Ming: "Live with a life sentence?"
+										->surgeon_questions
 
-				Malachi: "Yes. And believe in the water that flows in us."
+												= did_father
 
-				He gets up, pulls the blood soaked lash from his eyes, then observes it in between his fingers like I ain't felt that and wonders why. 
+												Malachi nods. Blood seeps from his lids. As if this is something that should never even been told. Did I ask the taboo question or is this just a natural manifestation of the nightmare? The eyelids lift, blood droplets on those long lashes I always envied. 
 
-				The surgeon thinks I'm still in pain. I ask him to leave me with the pain even though I'm prickly throughout the body.->flashbackintro
+												Ming: "Can you at least tell me what he looked like?"
+
+												Malachi: "Pretty much the same."
+
+												Ming: "Well you know what they say."
+
+												Malachi: "Are you sure Tyrus isn't a distant relative? When you do the butterfly. The curvatures of your body. The way you both nod."
+
+												Ming: "..."
+
+												Malachi: "Or is that one takes after their guardian despite all else. Does ancestry and family depend on a genetic tree or a bondage?"
+												
+												Ming: "I don't want to hear about my dead old man like this."
+
+												Malachi: "And on that sentence the old man dies right again at the period. I don't need to do nothing else."
+
+												Glad, Mal still got his smart ass self even in buddha form.
+												->surgeon_questions
+
+					= cold_morph
+
+					They are cold and rough. But I don't care because I know I'm going to miss them very much. He looks down, he seems neither pleased nor angry. But it's only a mere second he holds. 
+
+					I lay back down and think of all the nice things we've shared with each other. But all the ugliness we had to swim in. If Malachi was able to leave the ugly behind and I'm not, is this even a fair trade off?  
+
+					Ming: "Talking about the river, when you could be talking about me? Disappointment."
+
+					Malachi: "I'm only giving you a warning."
+
+						*** ["Something pretty is a warning?"]
+						-> pretty_river
+
+						*** ["I'm prettier than that river."]
+						->prettier_river
+
+									= prettier_river
+
+									Something of a smile must've been trying to form out of his decayed muscles, as his right dimple appears and his cheeks begins to twitch. Those imprints has always been one of his most endearing features, that I can place the tip of my point finger in and feel the mask that used to enamor me every day.
+
+									Then he purses his lips, like he always does sometimes when he's deep in thought. 
+
+									As if to mull over the idea on his tongue until it's smooth and round enough for exchanging as currency.
+
+									Mal: "I would say you're equal. But a body of water can't hold you close."
+
+									Ming: "You...will drown...I'm a real person. I'm the better option."
+
+									Mal: "If only I could again."
+
+									Ming: "Do I bring about omens?"
+
+									Mal: "I would say, sometimes."
+
+									Ming: "What you mean, Mal?"
+
+									Mal: "Morrow Town is a dead end. The lowest, deepest, part of the country. Where the flames of hell lick the surface of this land."
+
+									Mal: "The water boils at the bottom. Ming, my life would've been dandy if I didn't step on the same soil as you."
+
+									Ming: "Wow, that fucking stings."
+
+									~ heretic = heretic + 1
+
+											= pretty_river
+											Malachi pauses and his one eye closes. From the lid comes blood, it oozes and drips down his nose bridge. A droplet of him falls on my chin.
+
+											Malachi: "Thought it was common knowledge. Beauty kills. It hunts you down and holds you down with the sharpest blade to ya throat."
+
+											He leans and puts his cold hands around my throat, his thumb presses on my adam's apple.
+
+											Malachi: "Just keep your head up, Monk."
+
+											His lips then touch mine, but for only a brief moment [] till I realize the surgeon is cleaning around my eye with an alcohol doused gauze. 
+											
+											~ mal = mal + 1
+												->surgeon_questions
+
+						= fake_morph
+
+						Horrified at the sight in front of me and knowing that I'm under the influence of a drug, I grip the Mosaic Man by his throat. Embodying the remaining figment of a loved one in memories and using them against me in a weak state for manipulation. This is the oldest trick in the book. I hold him tight. His eyes close and blood begins to ooze under his long eyelashes. His beautiful eyelashes that salute you when he blinks. 
+
+						I've always envied that part of his face. The lashes are white, now stained red. 
+
+						*** ["Don't you ever. ever. mention that place again."]
+						->my_cyclops
+
+						*** [I begin to tear at his flesh]
+						->tear_my_love
+
+						*** [I whisper apologies to him]
+						->whisper_apologies
+
+									= whisper_apologies
+
+									I regret this, if the gods had decided that I get to see Malachi one more time. I shouldn't even be scared.
+
+									When I would witness the shadow of my actual father every year on All Saint's Day. There was always an anxiety of how life would be on the other side. But at the same time, I felt a love for God.
+
+									When the cold air and static would strike I would pause, then I would listen to this nonverbal communication.
+
+									The shadows in the kitchens bending their limbs. Visitations only a child could appreciate. 
+
+									I apologize to Mal and hold him close.
+
+									He says nothing. But there is nothing to say when you're in heaven or hell I'm guessing. 
+
+									~ humanity = humanity + 1
+									~ mal = mal + 1
+									* [Maybe he cannot speak.]
+							
+									->surgeon_questions
+
+											= my_cyclops
+											His singular eye, my cyclops, opens and all I see is blackness. He is dead and all he sees is blackness, an eternal slumber. The speaker in his belly is still audible through his windpipes.
+
+											Malachi: "I love you Ming Yang, but I wish you'd have a little faith, have some sight for God, man."
+
+											Ming Yang: "God? Ain't no God up there. If he is up there, I'd beat the shit out of him."
+
+											Malachi: "If only you'd open a bit more. If you'd let pain leak from your ass longer."
+
+											Ming Yang: "The fuck's that mean."
+
+											Sexual innuedo much?
+
+											I let him go, he leans closer, breathe against my neck.
+
+											Malachi: "I know it's hard, since I'm not here. But you just gotta let live ya know."
+
+											Ming: "Live with a life sentence?"
+
+											Malachi: "Yes. And believe in the water that flows in us."
+
+											He gets up, pulls the blood soaked lash from his eyes, then observes it in between his fingers like he ain't felt that and wonders why. 
+
+											The surgeon thinks I'm still in pain. I ask him to leave me with the pain even though I'm prickly throughout the body.
+											~ heretic = heretic + 1
+											* [If only  I had my own bed]
+											->surgeon_questions
+
+													= tear_my_love
+
+													This cannot be the real him. Malachi's skin was rich, smooth, and colored like honey. Even when he did have acne and stubble, I'd liked to kiss it.
+
+													Because it just meant a new object on the terrain. 
+
+													I bare my nails into the mask. It feels cool and wet like, digging into clay.
+
+													Underneath him is nothing but tin. Hard steel. As if gods had decided his new body was to be made of the earthen, molten matter.
+
+													To represent the highest level of nothingness. Where you cannot breathe nor feel. But the world itself still can manipulate you in any way.
+
+													Ming: "Have you become a god or a place of honor?"
+
+													Mal: "Oh, to be thought of that way. Is only meant for those who've suffered enough."
+
+													Ming: "I'm sure you have."
+
+													Mal: "I can't confirm on that."
+
+													I wake up to the sound of clacking tools.
+													~ mal = mal + 1
+													* [The surgeon is cleaning his weaponry.]
+													->surgeon_questions
+							
+TODO: he tries to flee. this branch with the ghost bunches up into this part.
+
+= surgeon_questions_intro
+
+Surgeon: "Do you want to stay one more night? The swelling doesn't seem to be going down."
+
+I look at him like he's lost his damn mind. 
+
+Surgeon: "It's too bad you can't stay one more night. I've lost a son across the world because no one could reduce the burden on the workers."
+
+Surgeon: "But I think you will be fine."
+
+He goes down and starts pumping my back up so I'm more straight up. While doing this he humming out of tune and I don't know if he's doing it on purpose or that's geniunly how he feels the song goes.
+
+I'm betting the original isn't good either, as his remake seems to be an exaggerated adaptation that emphasizes the worst notes.
+
+The surgeon pulls up a needle. I don't see everything he's doing. But it's filled with a clear liquid. Could be water, could be morphine.
+
+Regardless, I'm absolutely fucked. He wipes my forearm and sticks it in. Am I even allowed to ask questions?->surgeon_questions
+
+= surgeon_questions
+
+//Give a slightly different intro if you were dosed with morphine earlier & witnessed buddha boyfriend
+
+It doesn't waste no time taking affect over me. There is now a man in front of me. He has three eyes. Two human ones and in the middle of the forehead is one shining like a great beacon.
+
+Except it's not meant to help me get to safety. It is the overseer. It wants me submitted to its bidding. I call the surgeon an It, because he is no longer a person. Not even an animal.
+
+Surgeon: "What's your zodiac? Your birth year? I don't want to give you the wrong birth date and multiply identities."
+
+Ming: "For what?"
+
+Surgeon: "You've got a certificate in Hong Kong and in the United States. Are you even legally born here?"
+
+Ming: "First time I'm hearing this. I don't know. Ask my mother in the temple."
+
+The surgeon looks at me like I'm trying to get smart. Guess he's not familiar with Chinese burial. Tyrus had told me that I have two birthdays and that when my parents had left Hong Kong, they didn't have a chance to get the records straight.
+
+* [I give him the birth year I know]
+->birthyear_known
+
+* [I give him a new birth year]
+->new_birthyear
+* [I tell him I don't know]
+->birthyear_unknown
+
+= birthyear_known
+
+= new_birthyear
+
+= birthyear_unknown
+
+==surgeon_exit===
+
+When the surgeon is done with me, he leaves me by my lonesome. I disregard the disarray pulsing through my body. There is still enough time for me to make one last escape, to flee town with my former identity and broken soul tailing between my legs.
+
+It's not like I will never be found again. I'm sure they will track every print of my body till I'm across the globe. Till they find me floating in a lake with my face painted white.
+
+As I close my eye and the winds begin howling again. Lights come in from the window. An engine revs up. The surgeon is going home. I lift myself out of bed, letting the aches roam free down my back.
+
+I need a stretch anyways.
+
+With my stiff legs and the screaming of my muscular strings, I lean against the wall and watch the backlights of the surgeon's car fade into the darkness. //note: March 26th bookmark
+
+* [Only to realize. This is another chance of escape.]
+->another_escape
+
+* [I retire to my fate, to heal]
+->retire_to_slumber
+
+* {heretic > 0} [I decide to get rid of the surgeon]
+->rid_surgeon
+
+*  {mal > 0} [I talk to Mal above in the skies]
+->mal_skies
+
+= another_escape
+
+= retire_to_slumber
+
+= rid_surgeon
+
+= mal_skies
+
+
 
 /*slow fade or whatever */
 ===flashbackintro===
@@ -372,8 +649,10 @@ But they said justice should be served. And my father is rendered innocent despi
 ->myfate
 
 
+
 * [I cry, I bleed from the mouth]
 ->Icry
+
 
 
 	= plead
@@ -394,7 +673,9 @@ But they said justice should be served. And my father is rendered innocent despi
 	But they’re all trained for idolatry. 
 
 
-	They take me out of court, I hang my head low.->flashback_three
+	They take me out of court.
+	
+	* [I hang my head low.]->flashback_three
 
 
 
@@ -408,13 +689,18 @@ But they said justice should be served. And my father is rendered innocent despi
 		The townsfolk murmur about me. They have eyes sotten with tears over a man they don’t know, they never sat across him at the table. 
 
 
-		I hang my head low as I’m taken away. ->flashback_three
+		I hang my head low as I’m taken away.
+		
+		* [Some force tugs my shoulder firmly] ->flashback_three
+		~ heretic = heretic + 1
 
 			= Icry
 			I cry even though I can’t fully through all my orifices. I let out a croak and cup my mouth with my two hands as if preventing a flood from my throat. The judge slams the hammer and two men pull my arms and wrap them behind me because I am a disturbance to my own predicament.
 
 
-			I’m led out of the courtroom with my head hanging low. ->flashback_three
+			I’m led out of the courtroom with my head hanging low. 
+			~ humanity = humanity + 1
+			* [Whimpering like some puppy kicked by its owner]->flashback_three
 
 ===flashback_three===
 
@@ -424,7 +710,10 @@ Sparking blue as the skies, when you look into the deepness you see your face re
 
 But all I saw as a small child was a mere river. I would wade in it, then lay on my back looking at the moon, her light reflecting off on my dark stomach. Only thing I noticed was that the water never lets you go, it hold you with such care. I also never got a disease when I would drink from it. Eventually I wouldn't be able to do this when my father began blessing the dead in the streams before burial.
 
-She would fill my stomach and I would feel no pain.->before_the_bus
+She would fill my stomach.
+
+*  [I would feel no pain.]
+->before_the_bus
 
 
 ===before_the_bus===
@@ -439,7 +728,11 @@ These sheets are white and smell like freshly of lavender. I put the pillow over
 
 In my dream, Malachi has not flown across the universe. Mal is one man, standing on God's ground with his legs strong. Not struck on the knees, forced to kneel.
 
-We are in the car again and his dreads are clean and tied back. He is playing that god damn fucking Nirvana song again. But I didn't mind it. Not at all.->campersintro
+
+We are in the car again and his dreads are clean and tied back. He is playing that god damn fucking Nirvana song again. 
+
+
+* [But I didn't mind it. Not at all.]->campersintro
 
 TODO: Instead of this whole bus scenario, instead mke them sit in prison to hve a brief mass and introduce themselves. then they soon are told to go outside. pick tents and start shoveling
 
@@ -449,13 +742,25 @@ They all supposedly come from the same town yet I have never crossed paths with 
 
 Mount Ezekial only houses prisoners from our town and usually they are the untouchable kinds, like me. But lately over the years, laws have been passed that has now expanded these prison walls for other wrong doers. I’ve heard troubled juveniles coming to stay here to learn their lesson and coming back mute. Single mothers shipped here for truancy. People who took too many pills. 
 
-All four of us sit in a circle around the fireplace. Wearing thermals under our prison outfits. At least they gave us that.
+All four of us sit in a circle around the fireplace. Wearing thermals under our prison outfits. The shadows of our tents loom over us. 
+
+* [At least they gave us that.]->camp_description
+
+===camp_description===
 
 Near me on my right, is a blue haired Black boy, who looks at me as if I’m not wearing the same orange jump suit as him.  His pubescent cheeks shivering with the chilling of his facial muscles. His hair shaven except one puff node in top, like a horn. He is so skinny, I can see his collar bones, probably play some glass music on them things.
 
 Across from me are a set of identical twins who are differentiated by their choice in hair style One with a braid swaying down on his shoulder, the other lacking hair altogether, both kids are the skin of the mahogany stratum and moonshaped faces. They've got dark eyes that tell a long story they won’t bother to voice, because they can just stare and you will know eventually through that. But the one sporting the queue seems more vibrant, ready to gnaw my ear off with stories of granduer. 
 
-In the middle of us, the fire lights the white waxy skin of a Father, who tells us the story of how this town came to be. As we always know.
+In the middle of us, the fire lights the white waxy skin of a young Brother, his jet black hair greased back, and his face is so soft that he practically looks like a church window painting. Instead of the gowns, the spokes of light coming out their head, he merely wears a black suits and a clerical collar. His blue eyes strike us and the flames don't tone it down. 
+
+* [I've never told my father, I'm afraid of most saints.]
+
+The top button is undone, a little tuft of hair comes out from his chest. Despite all this, He seems uneasy, his round glasses falling down his nose. Possibly from the sweat.
+
+He tells us the story of how this town came to be. As we always know, but we listen anyway as the snow from the day before begins to melt and form puddles around us.
+
+Creating new bodies of water. Unlike the story we're going to hear now.
 
 * It always starts with a famine. [] ->campers_famine
 
@@ -469,21 +774,21 @@ And the town was in mourning. Black folk's children were dying in their beds wit
 
 ===campers_famine2===
 
-Then one day. A girl dreamed of resolution. Ill, close to the fingertips of death, she dreamed of a man swinging his pick axe on a peculiar rock where the river was. She said it glowed blue and green. That it had felt smooth to the touch, like the most expensive of china that had hailed from the sea trades across the Pacific. 
+Then one day. A little Black girl dreamed of resolution. Ill, close to the fingertips of death, as her stomach bloated and her eyes protruded, she dreamed of a man swinging his pick axe on a peculiar rock where the river was. She said it glowed blue and green. That it had felt smooth to the touch, like the most expensive of china that had hailed from the sea trades across the Pacific. 
 
 With that one swing, the water was set free. As if some evil had plugged it up for them to suffer, for some cruel lesson.
 
-So the men of the town went to the river. With the girl on one man's back to play shepard. She held the answer, they could only be led to it. They stepped on the banks and her little brown finger points at that exact rock in her dream. One of the men's takes his axes, swings once, twice, thrice. They got  anxious thinking the shit will pop like a beer cork. But after three more hard strikes, the water begins to drip.
+So the men of the town went to the river. With the girl on one man's back to play shepard. She held the answer, they could only be led to it. They stepped on the banks and her little brown finger points at that exact rock in her dream. One of the men takes his axe, swings once, twice, thrice. They got  anxious thinking the shit will pop like a beer cork. But after three more hard strikes, the water begins to drip.
 
-The people watch with eyes wider than a petrified deer, one of the men opens his mouth for a drop to the desert of his tongue. In only couple of moments, the water sprays forth with such a strength the men are washed away.
+The people watch with eyes wider than a petrified deer, one of the men opens his mouth for a drop to the desert of his tongue. In only couple of moments, the water sprays forth with such a strength the men are washed away to a whole ass other town.
 
-While the girl floats down the river and swims to the banks. She is no longer ill and her skin glows under the moonlight.
+While the girl floats down the river and swims to the banks. She is no longer ill and her skin glows under the ever powerful sun.
 
 * [The town lives on]->campers_intro2
 
 ===campers_intro2===
-
-He lifts up the eucharist and mumbles a prayer. The fire making his shadow grow as he does so. Father Laurent is freezing his skinny ass out here, long white hands trembling as he place it on his tongue and says amen. Then he steps off his podium and gives us each a round bread. I place it on my tongue.
+                   
+He lifts up the eucharist and mumbles a prayer. The fire making his shadow grow as he does so. Father Laurent is freezing and sweating his skinny ass out here all at the same. Them Long white hands trembling as he place it on his tongue and says amen. Then he steps off his podium and gives us each a round bread. I place it on my tongue.
 
 * [I say hallow be thy name]->hallow_be
 
@@ -514,6 +819,7 @@ He lifts up the eucharist and mumbles a prayer. The fire making his shadow grow 
 		He would rub my head for good luck as tease before I yanked one of his dreads. Then he'd Break one in half. Read one.  Then fold it up and throw it in a jar that he had on shelf with his books and DVDs. Last time we had takeout was when we were watching <i>Stalker</li>. I clearly remember the tar playing above a scene of water, when he cracked a fortune cookie above my head, make a wish, and read out some lucky number.
 
 		I spent the whole time reading the subtitles.->campers_intro3wine
+		~ humanity = humanity + 1
 
 		= think_say_nothing
 
@@ -537,16 +843,165 @@ He makes a peripheral glance at me. I tip my chin towards him, lift my brows lik
 
 He drinks and twinges (?) at the taste. the twins are next. They drink like it's a sparkling water. 
 
-I've drunk this "blood" like it's water at one point in my life. It satiates the dryness in the back of my throat. It helps the nervous cave of my body feel warm.
+I've drunk this "blood" like it's water at one point in my life myself. It satiates the dryness in the back of my throat. It helps the nervous cave of my body feel warm.
 
 * [Although, there is nothing here to be warm about.]->camp_stories_intro
 
 ===camp_stories_intro===
 
+Father Laurent gives us another homily. Something so mundane, it didn't even make sense. I sat back there, listening, not understanding, and just thought about the last time I had a pulled pork sandwich, how Master Chung will be looking for me at his porch, waiting like I'm his actual son that he lost in one of the wars, and how Malachi will be buried in rose and dirt without me ever seeing him going down in the plot.
+
+I actually start to cry. Really. Laurent sees me and he smiles, like he achieved some damn miracle. One of the twins, puts their arm around me. His long braid brushes my back. "Ay, it's not that great, man. Chill out," he whispers.
+
+There's this smirk on his face. His bald counterpart glares very much in disapproval of this action.
+
+What everybody don't know, is that I'm not crying about the rotting of no damn apple tree.
+
+* [But rather, I am the one dying under the moon someday]->camp_stories_harp
+
+===camp_stories_harp===
+
+Father Laurent: "I'm glad you all are letting it out for tonight. You're going on a new path in life."
+
+He really thinks he's changed me. I smile, tears all settled down on my cheeks and beginning to evaporate. Face stiffening as the weather wears me out.
+
+What comes next though, is what actually will make me cry over his actions.
+
+Father Laurent: "It's a bit too quiet here. Let's brighten this place up shall we?"
+
+The wind blows, the flames sways. His lips stretch and reveal a diastema. Blue haired kid shifts in his seat, as Father Laurent pulls from his pocket, a small harp. 
+
+Father Laurent: "I'm going to be real, I can't sing. I will just talk. In rhythm with the music. Shall we?"
+
+Father Laurent: "First of. Allll. I know you're all confuuuuused. By what's going on. This sure don't look. Like Scared Straight to you."
+
+Father Laurent: "Because it's not. Mount Ezekial belongs to God. And God doesn't want suffering. in one of hiiiiiis little dorms."
+
+When he says that his blue eyes shift to me.
+
+Father Laurent: "Don't worry my child. You're under God's eyes now."
+
+I look away. The blue haired kid is covering his face with a sleeve.
+
+* [Why am I here? Oh wait I know why.]->camp_music
 
 
+===camp_music===
+
+Father Laurent: "What's your names? You all knoooooow mine. Hopefully."
+
+The blue haired kid mutters Ari. Jorgensen. One part of the twin set eargely yells out Rodrigo and then forces his sibling to raise their hand aand yells: Raya.
+
+He then looks to me waiting for my name. 
+
+Ming: Ming Yang.
+
+Father Laurent: Wow, short name.
+
+I nod and hope his dumb ass don't find my whole name. 
+
+Father Laurent: "Beautiful names. Beautiful faces. Do you all know where you're going?"
+
+He steps off his podium and comes closer to the fire. The flames commemerate his presence. The golden harp reflects it, making his whole entire being more than just a brother. Something more. Honestly. I think something's off with him.
+
+This whole little peformance, is ended with the dumping of water to whet the flames.
+
+*[Is the harp a prop buried with the ashes?]
+->camp_stories_tents
+
+===camp_stories_tents===
+He leaves us with the tents for the night.
+
+Ari: "This don't feel like no prison. More like a retreat."
+
+Rodrigo: "Like Confirmation."
+
+Ari: "I had mine already."
+
+The trio is talking as we set up our lights in our tents.
+
+I sit with mine half open, in the itchy sleeping bad. Listening to the naive voices. This ain't a retreat, this is a death sentence.
+
+Ari: "If we getting reformed, Imma leave. I don't wanna be no church boy."
+
+Rodrigo: "I think they're going to do more than just reform."
+
+A brief silence and the smack and crack of a branch.
+
+Ari: "Laurent is pretty weird."
+
+Rodrigo: "I don't think a parish is complete unless they have a handful of them."
+
+Raya sneezes.  Rodrigo says "Salud".
+
+Rodrigo: "Did you notice the scar on his neck. He's got a whole frankenstein on there."
+
+Ari: "No?"
+
+Raya: "He violates people with his eyes. Just has no boundaries"
+
+Rodrigo: "HEY."
+
+Raya: "It's very visible though."
+
+Rodrigo: "Maybe.....It's the zipper of his costume."
+
+Raya: "Mmmm possible."
+
+Ari: "I don't know bout all that. But I wanted to break that damn harp."
+
+Rodrigo: "You sure it's a harp. It looks more like a SNES with strings."
+
+Raya: "It's electronic. An autoharp."
+
+AriL "Autoharp? But it's not even automatic?"
+
+Rodrigo: "My little sib is a big brain."
 
 
+They then fall into some other convo about one of them teen shows. 
+
+* [I don't feel like hearing so I sleep.]
+->camper_branch
+
+
+===camp_music_2===
+
+ TODO: fix this scene, dont like the way its made. Instead write this scene as Father Laurent telling everyone to get so he could do a tour of the prison
+
+Somehow I slept. Sun shines through the fabric of the tent. My throat tight with the cold. My lungs wracked with the lack of warmth.
+
+We are made to follow the leader. Father Laurent takes us down a street, where the ice has melted and the salt has incited the mass cracks, fissures across the land that lead to Mount Ezekial.
+
+An empty yellow bus passes us and I come to the realization. That this is a labor camp. That we will walk up and down this road to break back for god, then return to our beds and sleep for another day.
+
+The campsite will be our meeting area. Whole time we're walking, the priest is prattling on and on about the history of this prison's land.
+
+It was made not long after freedom and ran by the only rich White people who still saw gold in the crevices of the decaying land. //uh rewrite this lol?
+
+Then it became a psych hospital briefly. Now a prison again.
+
+As we get closer to the gates, our new home sweet home looms over us. 
+
+I can see the psych past. 
+
+//picture of the prison//
+
+And surrounding it are holes. Dozens of them. As we walk inside, I can hear the howling of the wind behind, then a sudden silence.
+
+* [To be shut off from the world.]
+->inside_prison
+===inside_prison===
+
+I got my picture and my prints done. One of the guards literally said to me  white teeth showing in full, "Never thought I'd see the pastor's son here." Then the other whispered in his ear, the obvious ever so publicized story, and his mouth went agape.
+
+Does the television screen morph my image into a handsomer me or am I distorted into a demonic entity? Because as I sat there having myself recorded into this institution's fabric, no one ever seems to notice at a first glance: I am a heretic. 
+
+None of the other prisoners cared, after all they are more than likely no different than me. Hence why they don't hesitate when the chief says: that they have to spare some of their cold shelter's limited space to me. 
+
+Our cells are small with white walls and no windows. Much like a shrink room. Are we also going to be wrapped in cloth, having our hands behind our backs, incapacited, only allowed to gaze up at the judge above the ceiling? In each room there are at least 2-3 bunks. The toilet resides in between the bunks. So I will smell my partners piss while I sleep.
+
+I think I'd rather be dead in a well myself.
 
 ===camper_branch===
 These passengers are supposed to share a prison with me.
@@ -588,24 +1043,12 @@ But that will always dissolve soon after. We become friends one day and a week l
 I must protect myself and sleep with a knife under my shirt. The bus jerks to a stop. The trenches are opening wide.->inside_prison
 
 
-===inside_prison===
-
-I got my picture and my prints done. One of the guards literally said to me  white teeth showing in full, "Never thought I'd see the pastor's son here." Then the other whispered in his ear, the obvious ever so publicized story, and his mouth went agape.
-
-Does the television screen morph my image into a handsomer me or am I distorted into a demonic entity? Because as I sat there having myself recorded into this institution's fabric, no one ever seems to notice at a first glance: I am a heretic. 
-
-None of the other prisoners cared, after all they are more than likely no different than me. Hence why they don't hesitate when the chief says: that they have to spare some of their cold shelter's limited space to me. 
-
-Our cells are small with white walls and no windows. Much like a shrink room. Are we also going to be wrapped in cloth, having our hands behind our backs, incapacited, only allowed to gaze up at the judge above the ceiling? In each room there are at least 2-3 bunks. The toilet resides in between the bunks. So I will smell my partners piss while I sleep.
-
-I think I'd rather be dead in a well myself.
-
 I choose to reside with:
 
 * [The twins, they seem eclectic]
 ->twin_cell
 
-* [The blonde, I need more torment]
+* [The blue child]
 ->blonde_cell
 
 
