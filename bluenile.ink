@@ -1,3 +1,4 @@
+
 /*
 Plot Note Smash: You are a man sent to a camp after the murder of your father, an esteemed self-proclaimed preacher who believed that his method of burial will bring ppl to life again, by drowning them in the blue nile. When a young girl goes missing and you find out it is due to a secret plan between her parents and father who believed drowning her would live , you kill your father and bury him in an abandoned well. Years before this, a boyfriend of yours had died in a freak car accident and he was buried in the blue nile. When you go to the camp to work, you are met with a group of other people who plan to overthrow this camp and escape across the blue nile as winter approaches and freezes over the river. One day as you ppl work and make these plans, you try to leave the camp where the forest is, which the workers usually advice not to due to fear of getting snipped nd you find hanging from a tree, an angelic man that you later find out is your friend, who had died, and somehow was brought to life. Which then turns the story on its head, bc it means people are brought to life by the nile. But the nile has been used for evil. Which has ppl debate: should you use the nile to have your father admit to his crimes, to bring bck the victim, or simply leave altogether. Bc of this: you have to hide your friend and protect him nd feed him. Eventually you both have to leave with or without the members. You hve to gain trust in one of them.
 
@@ -36,6 +37,7 @@ VAR malbetray = false
 VAR admit_fail = false
 VAR trulyalone = false
 VAR drug = 0
+VAR become_loong = false
 
 
 /*inventory */
@@ -79,11 +81,11 @@ Quote
 
 Content Warning
 
-Blue Nile is a magical realist BL interactive novel. I would say it's a revenge and love story about the surveillance of two Black boys in a town carved into the deep depths of a torn world. They murder the town patriarch who's sacrificed a child and now the fabric is coming down.
+Blue Nile is a magical realist BL interactive novel. I would say it's a revenge and love story about the surveillance of two Black men in a town carved into the deep depths of a torn world. They murder the town patriarch who's sacrificed a child and now the fabric is coming down.
 
 - car crash (first scene, cracked window image)
 - Gore/Body Horror (no imagery just description)
-- knives (a knife animation cutting the air, with a description of the loss of an eye by a surgical procedure, a stabbing scene described nor portrayed later in the game)
+- knives (a knife animation cutting the air, with a description of the loss of an eye by a surgical procedure, a stabbing scene described not portrayed later in the game)
 - Labor/prison camp/incarceration/surveillance (social surveillance and digital)
 - patricide (murder of a father)
 - Emotional manipulation
@@ -100,17 +102,13 @@ Made in Ink + Unity
 
 Writing and pixel art: Xian Xian
 
-Scripting: Xian Xian & Hassan
-
 OST: Xian Xian
 
 Character art: Taekyung Wells
 
-Pixel animation: Jian
-
 Script editing by Meia
 
-Beta-played/Tested by Jian, Nashira, Isak, Jean, Hassan and Aster.
+Beta-played/Tested by Jian, Nashira, Isak, and Hassan.
 
 Soundtrack made with my mini AKAI keyboard and an out of tune baritone ukulele in SunVox.
 
@@ -122,9 +120,9 @@ Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud.
 ===intro===
 Part I
 
-Go Tell It On The Mountain
+The Surgeon
 ->flashback_car
-/* heading, blank screen */
+/* heading and knife on table*/
 
 ===flashback_car===
 /* cracked car window, snow flakes, further cracking*/  
@@ -154,7 +152,7 @@ It was also a part of her. I've done her dirty, tarnished her family's face on e
 /* Knife image stops, lay down0*/
 /*cabin image with snow*/
 
-Sitting here on this bed with my head elevated, the surgeon sterilizing his weapons, the wind outside this little cabin howling with avengence for all of our occupation on this earth. The surgeon muttered his name and greeting, but I didn't hear shit. His face is long, on his head is pepper gray hair shellacked back with Murray's pomade. It's cinnamon smell always sickened me. He smells almost like Father. If he didn't have those rounded glasses, I would see him as another wolf.
+Sitting here on this bed with my head elevated, the surgeon sterilizing his weapons, the wind outside this little cabin howling with avengence for all of our occupation on this earth. The surgeon muttered his name and greeting, but I didn't hear shit. His face is long, on his head is pepper gray hair shellacked back with Murray's pomade. It's cinnamon smell always sickened me. He smells almost like Father. If he didn't have those rounded glasses, I would see him as another wolf who's fed on me since birth.
 
 I contemplate what I should do for the next moment. Our minds are conductors and the world is a stage. My father reigns even after death and dismemberment.
 
@@ -548,6 +546,11 @@ Regardless, I'm absolutely fucked. He wipes my forearm and sticks it in. Am I ev
 
 //Give a slightly different intro if you were dosed with morphine earlier & witnessed buddha boyfriend
 
+{mal > 0: 
+Without Malachi here, I am frightened of whats to come. Even though I do not feel his presence, the sight before me has not changed. Underneath those eyes I do not see him, he will not return for awhile. He always been a bit slow to come over.
+
+Yet I want him near me. Yearn for contact as I lay here surviving my half step to hell. No, I must instead contront the Surgeon.
+} 
 It doesn't waste no time taking affect over me. There is now a man in front of me. He has three eyes. Two human ones and in the middle of the forehead is one shining like a great beacon.
 
 Except it's not meant to help me get to safety. It is the overseer. It wants me submitted to its bidding. I call the surgeon an It, because he is no longer a person. Not even an animal.
@@ -558,25 +561,100 @@ Ming: "For what?"
 
 Surgeon: "You've got a certificate in Hong Kong and in the United States. Are you even legally born here?"
 
-Ming: "First time I'm hearing this. I don't know. Ask my mother in the temple."
+Ming: "I don't know. Ask my mother in the temple."
 
-The surgeon looks at me like I'm trying to get smart. Guess he's not familiar with Chinese burial. Tyrus had told me that I have two birthdays and that when my parents had left Hong Kong, they didn't have a chance to get the records straight.
+The surgeon looks at me like I'm trying to get smart. Guess he's not familiar with Chinese burial. Tyrus had told me that I have two birthdays and that when my parents had left Hong Kong, they didn't have a chance to get the records straight. 
 
-* [I give him the birth year I know]
+I was born in Hong Kong, on August 25 in 1964. But there is another paper out there that claimed I was born 10 years later. When my father had died, my papers were dug up. There was never any explanation for why there were modified duplicates of my birth. Perhaps it was a superstition. Maybe my parents were escaping something. But one thing I know is that on the paper for 1974 my name was changed from Ming Yang Ganaway to Loong Ming Yeong. 
+
+* [I give him the birth year I know I am]
 ->birthyear_known
 
-* [I give him a new birth year]
+* [I give him the later birth year]
 ->new_birthyear
 * [I tell him I don't know]
 ->birthyear_unknown
 
 = birthyear_known
 
+ I ain't feel a difference though. So 25 I am. My face is just right for the number of years. Ming Yang Ganaway born August 25, 1964, in a Hong Kong hospital before my mother was forced to flee. Tyrus had claimed it was drugs, that my father was a wild child and my mother was just a side piece. So they parted ways and left me on his porch. "Had his head shoved up his trumpet and splurted out through the horn" he said once with this indignation on his face, the upper lip tucked in, the white bottom teeth edged out. 
+
+It's a tale though, one of his homilies for me at the table. I just know it, because when I see his face on screens, there's nothing but feigned personas beneath the eyes.
+
+The surgeon nods knowing the answer is confirmed. 
+
+* [My mark on the earth still placed]
+->surgeon_questions2
+
+
 = new_birthyear
+
+He won't notice the difference. I stopped growing at a young age anyway, don't look much different at 25 than I do at 20. I like to think of myself as a stolen child lost in time. I am stuck between two countries and a decade. No one knows where I'm from. They don't even know the real me. Not even me. And yet I am in a society that decides to speculate and make up a new non-tangible biography from their eyes as pen and minds as archives.
+
+Ming Yang Ganaway is still the son of Father Ganaway. Even if the blood is similar but not fully biological. Loong has never had his name uttered, the ancestor hidden by behind the marriage name of another country. This is rebirth.
+
+The surgeon doesn't question one bit why it differs from the records. Why I decide to come upon this now.
+
+* Will he live on long enough or pass on through my fingers [] just as quick as my mother did? ->surgeon_questions2
+~ heretic = heretic + 1
+~ become_loong = true
+
+
 
 = birthyear_unknown
 
-==surgeon_exit===
+He  gives me this look like I'm bullshitting real hard. A look my father had once given me when I lied about breaking one of the saint statues with a hard thrown ball. It isn't that much of a lie though. I have two birthdays, two names, and two countries with no explanation as to why. No one to regather the detached versions of me into one. He shakes his head and starts humming again.
+
+This time the song is much more like the weeping of a low, softened horn in a silent room. 
+
+Surgeon: "You know that's real sad, you don't know where you came from."
+
+Ming: "Oh I'm not the only one here."
+
+* [As far as I know]
+
+ ->surgeon_questions2
+~ humanity = humanity + 1
+
+===surgeon_questions2===
+
+The surgeon begins lining up his toolset. A knife, a mask, and another needle. It flashes in my mind, the disconnection of nerves and muscles as my eye detaches mere hours ago. Is it normal that I didn't feel a thing but yet I just knew how the procedure went. That I could hear the wettness, the pops.
+
+There will be nothing else to think of except that, if I ever leave from here.
+
+Surgeon: Do you go by the Chinese zodiac or the Astrologists? You didn't answer the first question.
+
+* [Neither, my daddy didn't do birthdays]->neitherBirthday
+
+* [I am year of the Dragon]->dragonYear
+
+* [I am a virgo] ->virgo_zodiac
+
+= neitherBirthday
+
+My father didn't celebrate my birthday. Rather, he didn't make much of a big deal. I don't know why. It wasn't like he hated me that much and no matter what he said about his brother. He acknowledged his. Tyrus was a holy man with a lot of contradictions.
+
+Athough to be real, I always wondered how to disappear effieciently. I think it's alright he didnt remember my birthday. It emphasizes the lack of importance in his narrative.
+
+I want to disappear. I sure did for him, since he can't see me now. ->surgeon_questions3
+
+= dragonYear 
+
+This is a lie. No one ever told me my Chinese zodiac and I don't believe in those magazines made by White demons about the Motherland. Funny enough, I don't know this but I know that Tyrus told me once my actual father had come over from Hong Kong, laughing through the connection of a phone because he couldn't really leave the Chinese shores actually.
+
+He told Tyrus, "Them Chinese call White people demons. Was wondering what she was muttering out the side of her neck at the bar."
+
+They had met in a military base. My father had played music for soldiers. They were segregated. My fathers had probably thought it reminded them of childhood fishing trips. Tyrus nor my actual father have ever told me about my grandparents, outside that they fished at the Blue Nile.
+
+I assume this was before flooding, before famines. But the stories are always changing.
+
+Maybe I misheard. ->surgeon_questions3
+
+= virgo_zodiac
+
+
+
+===surgeon_exit===
 
 When the surgeon is done with me, he leaves me by my lonesome. I disregard the disarray pulsing through my body. There is still enough time for me to make one last escape, to flee town with my former identity and broken soul tailing between my legs.
 
