@@ -640,17 +640,23 @@ I want to disappear. I sure did for him, since he can't see me now. ->surgeon_qu
 
 = dragonYear 
 
-This is a lie. No one ever told me my Chinese zodiac and I don't believe in those magazines made by White demons about the Motherland. Funny enough, I don't know this but I know that Tyrus told me once my actual father had come over from Hong Kong, laughing through the connection of a phone because he couldn't really leave the Chinese shores actually.
+This is a lie. No one ever told me my Chinese zodiac and I don't believe in those magazines made by White folk about the Motherland. But technically, I can also be a Tiger if I go by the identity of Loong Ming Yeong. Either way, both animals are feirce. I don't know anything else outside that. As a dragon I embrace all elements of the earth and roam free. As a tiger I reclaim the inner beastiality and no one will ever cross my lane without courtesy.
 
-He told Tyrus, "Them Chinese call White people demons. Was wondering what she was muttering out the side of her neck at the bar."
 
-They had met in a military base. My father had played music for soldiers. They were segregated. My fathers had probably thought it reminded them of childhood fishing trips. Tyrus nor my actual father have ever told me about my grandparents, outside that they fished at the Blue Nile.
-
-I assume this was before flooding, before famines. But the stories are always changing.
-
-Maybe I misheard. ->surgeon_questions3
+Maybe I misheard. Maybe I'm neither of these->surgeon_questions3
 
 = virgo_zodiac
+
+Ming: "I'm a virgo. I don't know what that means. But I assume it's something, nice something pleasant."
+
+The surgeon smiles. Honestly, I have no clue what it means to be a virgo nor the intention of this question. Either way, there's more to come, an eye for an eye isn't enough. I recall briefly, scouring through a book on Greek mythology and imagining, what if I was indeed: a maiden needing rescue.
+
+Despite that I am a man and there ain't anything about me worth rescuing.->surgeon_questions3
+
+
+===surgeon_questions3===
+
+
 
 
 
