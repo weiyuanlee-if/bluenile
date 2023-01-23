@@ -1,25 +1,4 @@
 
-/*
-Plot Note Smash: You are a man sent to a camp after the murder of your father, an esteemed self-proclaimed preacher who believed that his method of burial will bring ppl to life again, by drowning them in the blue nile. When a young girl goes missing and you find out it is due to a secret plan between her parents and father who believed drowning her would live , you kill your father and bury him in an abandoned well. Years before this, a boyfriend of yours had died in a freak car accident and he was buried in the blue nile. When you go to the camp to work, you are met with a group of other people who plan to overthrow this camp and escape across the blue nile as winter approaches and freezes over the river. One day as you ppl work and make these plans, you try to leave the camp where the forest is, which the workers usually advice not to due to fear of getting snipped nd you find hanging from a tree, an angelic man that you later find out is your friend, who had died, and somehow was brought to life. Which then turns the story on its head, bc it means people are brought to life by the nile. But the nile has been used for evil. Which has ppl debate: should you use the nile to have your father admit to his crimes, to bring bck the victim, or simply leave altogether. Bc of this: you have to hide your friend and protect him nd feed him. Eventually you both have to leave with or without the members. You hve to gain trust in one of them.
-
-Story idea: for the choices you are supposed to either put more trust in the prison members for escape along with your bf or leave him behind due to lost of trust/not knowing if he is real. Or you can backstab them all and leave with your bf so essentially this game has like more than 3 endings with slight variances in the endings depending on who you leave with and whether or not they survive or get killed or they leave with you
-
-Character name list: Blonde guy is name Merrick Jorgensen. Twins are Rodrigo and Raya Posada
-
-Black guy described with a prominent jaw is named: Orland Mayweather
-
-Rodrigo and Raya: twins from Puerto Rico. Rodrigo has long hair and is always found to be combing it. Is rather vain about his looks bc he was an aspiring model. He doesn’t do shit and loves to talk about his adventures in Spain as a model.    He’s also pretty flirt with everyone he talks to. A lot of your choices with him is around compliments, accepting his compliments, and feeding into his stories about his modeling career. Either your nice or you don’t care. If you’re too nice he’s going to get annoyed and snarky with you. If you’re too rude he’s going to get a bit cold. If you have a balance or lean a bit on the mean side tho. He might open a bit. And reveal some of his insecurities. He’s probably the most likely to help you leave as he’s the strongest person due to a history of sports
-
-Raya is non-binary and is more on the introverted side. If you get sick of Rodrigo and piss him off or whatever and try to interact with them more by asking them question listening to their queues. you will talk to Raya more. They aren’t a model nor are they into sports but rather instead they like to paint but they’re paintings aren’t really marketable. It’s more noise but you can be nice to them anyway or be honest. Then they will eventually engage in disappearing and if you don’t find them they will be to have escaped before  everyone else. A person who can tell the future by dreams they predicated that the symbol of a gong and feather was an indicator of an escape but you will never find this out until you achieve a friendship with them
-
-Merrick Jorgensen is a delinquent child imprisoned for supposed terrorism. He’s incredibly bratty and likes to tease you. He is around 20 years old and a single child who’s really mad at his dad. He is a Black/
-
-*/
-
-/*
-Edit Note: Keep in mind this is a draft so just write and worry about it later. But here's one issue im already noticing. The writing for the flashbacks are much longer than the present day scenes. THere needs to be a balance for that. I do feel like when i design the UI, the borders will be different for flashbacks I will use years/chapter headings to indicate this. But already I am noticing an inconsistent writing style. */
-
-TODO: so put this in the twine outline later: so on the drug mode, you're essentially under the drug that Tyrus is affected with and used to be controlled. but it is reveaaled that this is merely a distraction and that this is all real and the drug usage has only made you closer to the undeaad.
 INCLUDE bluenile2.ink
 INCLUDE bluenile3.ink
 INCLUDE bluenile4.ink
@@ -41,8 +20,6 @@ VAR become_loong = false
 
 
 /*inventory */
-
-VAR broke_bot = false
 VAR legs = false
 VAR fingers = false
 
@@ -73,51 +50,60 @@ VAR fingers = false
 
 ===quote===
 
-Quote
-->intro
+Joe folds his clothes
+And goes wading in
+The birds are singing in the trees
+They're singing for me
+When they find me in the river
+Tell my mother I was a good boy
+- "Joe" by Mirel Wagner
+->intro1
 
 
 ===contentwarning===
 
 Content Warning
 
-Blue Nile is a magical realist BL interactive novel. I would say it's a revenge and love story about the surveillance of two Black men in a town carved into the deep depths of a torn world. They murder the town patriarch who's sacrificed a child and now the fabric is coming down.
-
 - car crash (first scene, cracked window image)
-- Gore/Body Horror (no imagery just description)
+- Gore/Body Horror (no imagery, just description)
 - knives (a knife animation cutting the air, with a description of the loss of an eye by a surgical procedure, a stabbing scene described not portrayed later in the game)
-- Labor/prison camp/incarceration/surveillance (social surveillance and digital)
-- patricide (murder of a father)
-- Emotional manipulation
+- Labor/prison camp/incarceration/surveillance (social surveillance)
+- patricide 
 - Drug mention (cigarette, alcohol, medical morphine)
-- child murder (just mentioned/described briefly) 
 - cult of personality 
-- Implied sex (MC wakes up in bed with his partner, scenes of touching)
-- Reactionary form of Catholicism (altho reactionary catholocism has little to do with anything in this game, but is rather used by characters to veil other things)
+- Implied sex 
+- Reactionary form of Christianity
 - Crude language 
 
 ===credits===
 
 Made in Ink + Unity
 
-Writing and pixel art: Xian Xian
-
-OST: Xian Xian
-
-Character art: Taekyung Wells
+Writing, programming, UI design: Weiyuan Lee
 
 Script editing by Meia
 
-Beta-played/Tested by Jian, Nashira, Isak, and Hassan.
-
-Soundtrack made with my mini AKAI keyboard and an out of tune baritone ukulele in SunVox.
-
-Pixel art made in Aseprite.
+Beta-played/Tested by Nashira, Meia, and Isak.
 
 Named after the third track on the  Alice Coltrane album, Ptah, the El Daoud. 
 ->startmenu
 
-===intro===
+===intro1===
+Rower: So ya filled up?
+There are two people on the Blue Nile, a couple on a boat. The rower looms over, hunched over as if struggling against the rhythm of the currents. He is in the stern and the woman in the bow is much smaller.
+Their voices are far from each other on the scale of octaves. The water carries their private talks everywhere. 
+Sitter: Are you tired? I can do some.
+Rower: No, you just stay there and drink.
+Sitter: But I have plenty.
+Rower: ....So why we stop again for?
+The rower stops and straightens up, appearing taller than before. If there's a team rescue, they will find the couple easy. All they'll see is a man taller than the river and the hills.
+Sitter: For our son, do you think of him?
+The rower sits back down, shakes his head.
+Rower: He ain't even here. Why he need it? 
+The sitter says nothing. She lays her head against the rower's chest
+
+* [The heart reminds her of the flow of water]
+===intro2===
 Part I
 
 The Surgeon
@@ -127,11 +113,11 @@ The Surgeon
 ===flashback_car===
 /* cracked car window, snow flakes, further cracking*/  
 
-Through the crevices came a proud God, the sun kissing my bloody cheek. A gust comes in. God is blowing into my face, teasing me, implying "I told you so", as I laid back, stray snow flakes melting on my chin. One branch struck in my eye. Blood seeping down into my mind through the tunnel of my vision. Dripping down onto my chapped lips. I tasted it, mixed with the melted flakes. Salty and bitter.
+Through the crevices came a proud god, the sun kissing my bloody cheek. A gust comes in. God is blowing into my face, teasing me, implying "I told you so", as I lay back, stray snow flakes melting on my chin.
 
-To my right, Malachi no longer was sitting. I assumed he was up somewhere in the trees, judging how far he flew.
+ One branch struck in my eye, blood seeping down into my mind. It drips down onto my chapped lips. I tasted it, mixed with the melted flakes. Salt and nothingness.
 
-He forgot to put on his seatbelt in the whole rush of fleeing.
+To my right, Malachi no longer is sitting. I assumed he was up somewhere in the trees, judging how far he flew.
 
 I don't think he will ever come back down. I laughed at the thought of that. Laughed at the man deep in the well too. Didn't think it would end like this.
 
@@ -143,7 +129,7 @@ God works his puppet strings in the most fucked up ways. This time by giving me 
 ===knifetable=== 
 /* Knife image */
 
-The coldness of the steel, scraping against my skin, the theft of my all knowing left eye. I don't know if I can ever forget such a thing. But I have no choice but to bid farewell to a part of me. I swear I heard - while the instrument began to cut the nerves - the singing, the forlorn stretching notes of my mother when she cradled me on that wretched day. I didn't think I could remember that. But the pain made me return to my near fetus status.
+I felt the coldness of the steel knife scraping against my skin. I couldn't flinch despite knowing the theft of my all knowing left eye. I swear I heard - while the instrument began to cut the nerves - the singing, the forlorn stretching notes of my mother when she cradled me on that wretched day. I didn't think I could remember that. But the pain made me return to my near fetus status.
 
 I am the inheritor of her continuation.   
 
@@ -152,7 +138,11 @@ It was also a part of her. I've done her dirty, tarnished her family's face on e
 /* Knife image stops, lay down0*/
 /*cabin image with snow*/
 
-Sitting here on this bed with my head elevated, the surgeon sterilizing his weapons, the wind outside this little cabin howling with avengence for all of our occupation on this earth. The surgeon muttered his name and greeting, but I didn't hear shit. His face is long, on his head is pepper gray hair shellacked back with Murray's pomade. It's cinnamon smell always sickened me. He smells almost like Father. If he didn't have those rounded glasses, I would see him as another wolf who's fed on me since birth.
+Sitting here on this bed with my head elevated, the surgeon sterilizing his weapons, the wind outside this little cabin howling with avengence for all of our occupation on this earth. The surgeon muttered his name and greeting as he flashed a light in my other eye. I didn't hear shit, I would have to ask for his name again. 
+
+His face is long with cheekbones high and prominent, forming ridges that God has carefully smoothed with his thumbs. On his head is pepper gray hair shellacked back with Murray's pomade. It's cinnamon smell always sickened me. He smells almost like Father, looks almost like him. His skin is the color of the rhyolite canyons my hands had run over when Father took me to Cali.
+
+If he didn't have those rounded glasses, I would see him as another wolf who's fed on me since birth.
 
 I contemplate what I should do for the next moment. Our minds are conductors and the world is a stage. My father reigns even after death and dismemberment.
 
@@ -213,11 +203,11 @@ My face has been televised in every home and inked on every paper on commercial 
 * [I say nothing at all]->say_nothing
 
 =a_new_story
-Ming Yang: “I escaped from another village. Then fell on a branch.”
+Ming Yang: “I escaped from another town. Then fell on a branch.”
 
 A totally bogus story, I ain't 10 years old. Now what? Is the guy on the TV who looks like me a secret twin? He is Cain and I am Abel, who managed to escape his knife bearing hand.
 
-He nods as if he believes me.  I go on.
+He nods as if he believes me. I go on.
 
 Ming Yang: “I ran to see the river, the Blue Nile. I’ve heard many stories of it.”
 
@@ -363,7 +353,7 @@ The surgeon returns and gazes upon his work as I awake from sleep again.
 
 												Ming: "Well you know what they say."
 
-												Malachi: "Are you sure Tyrus isn't a distant relative? When you do the butterfly. The curvatures of your body. The way you both nod."
+												Malachi: "Are you sure Fernan isn't a distant relative? When you do the butterfly. The curvatures of your body. The way you both nod."
 
 												Ming: "..."
 
@@ -503,9 +493,9 @@ The surgeon returns and gazes upon his work as I awake from sleep again.
 
 													Because it just meant a new object on the terrain. 
 
-													I bare my nails into the mask. It feels cool and wet like, digging into clay.
+													I bare my nails into the mask. It feels cool and wet like, digging into the meat of a fruit.
 
-													Underneath him is nothing but tin. Hard steel. As if gods had decided his new body was to be made of the earthen, molten matter.
+													Underneath him is nothing but tin. Hard steel. As if gods had decided his new body was to be made of the cold matter once molten.
 
 													To represent the highest level of nothingness. Where you cannot breathe nor feel. But the world itself still can manipulate you in any way.
 
@@ -540,7 +530,7 @@ I'm betting the original isn't good either, as his remake seems to be an exagger
 
 The surgeon pulls up a needle. I don't see everything he's doing. But it's filled with a clear liquid. Could be water, could be morphine.
 
-Regardless, I'm absolutely fucked. He wipes my forearm and sticks it in. Am I even allowed to ask questions?->surgeon_questions
+Regardless, I'm absolutely fuc ked. He wipes my forearm and sticks it in. Am I even allowed to ask questions?->surgeon_questions
 
 = surgeon_questions
 
@@ -563,9 +553,9 @@ Surgeon: "You've got a certificate in Hong Kong and in the United States. Are yo
 
 Ming: "I don't know. Ask my mother in the temple."
 
-The surgeon looks at me like I'm trying to get smart. Guess he's not familiar with Chinese burial. Tyrus had told me that I have two birthdays and that when my parents had left Hong Kong, they didn't have a chance to get the records straight. 
+The surgeon looks at me like I'm trying to get smart. Guess he's not familiar with Chinese burial. Fernan had told me that I have two birthdays and that when my parents had left Hong Kong, they didn't have a chance to get the records straight. 
 
-I was born in Hong Kong, on August 25 in 1964. But there is another paper out there that claimed I was born 10 years later. When my father had died, my papers were dug up. There was never any explanation for why there were modified duplicates of my birth. Perhaps it was a superstition. Maybe my parents were escaping something. But one thing I know is that on the paper for 1974 my name was changed from Ming Yang Ganaway to Loong Ming Yeong. 
+I was born in Hong Kong, on August 25 in 1964. But there is another paper out there that claimed I was born 10 years later. When my father had died, my papers were dug up. There was never any explanation for why there were modified duplicates of my birth. Perhaps it was a superstition. Maybe my parents were escaping something. But one thing I know is that on the paper for 1974 my name was changed from Ming Yang Rodriguez to Loong Ming Yeong. 
 
 * [I give him the birth year I know I am]
 ->birthyear_known
@@ -577,7 +567,7 @@ I was born in Hong Kong, on August 25 in 1964. But there is another paper out th
 
 = birthyear_known
 
- I ain't feel a difference though. So 25 I am. My face is just right for the number of years. Ming Yang Ganaway born August 25, 1964, in a Hong Kong hospital before my mother was forced to flee. Tyrus had claimed it was drugs, that my father was a wild child and my mother was just a side piece. So they parted ways and left me on his porch. "Had his head shoved up his trumpet and splurted out through the horn" he said once with this indignation on his face, the upper lip tucked in, the white bottom teeth edged out. 
+ I ain't feel a difference though. So 25 I am. My face is just right for the number of years. Ming Yang Rodriguez born August 25, 1964, in a Hong Kong hospital before my mother was forced to flee. Fernan had claimed it was drugs, that my father was a wild child and my mother was just a side piece. So they parted ways and left me on his porch. "Had his head shoved up his trumpet and splurted out through the horn" he said once with this indignation on his face, the upper lip tucked in, the white bottom teeth edged out. 
 
 It's a tale though, one of his homilies for me at the table. I just know it, because when I see his face on screens, there's nothing but feigned personas beneath the eyes.
 
@@ -591,7 +581,7 @@ The surgeon nods knowing the answer is confirmed.
 
 He won't notice the difference. I stopped growing at a young age anyway, don't look much different at 25 than I do at 20. I like to think of myself as a stolen child lost in time. I am stuck between two countries and a decade. No one knows where I'm from. They don't even know the real me. Not even me. And yet I am in a society that decides to speculate and make up a new non-tangible biography from their eyes as pen and minds as archives.
 
-Ming Yang Ganaway is still the son of Father Ganaway. Even if the blood is similar but not fully biological. Loong has never had his name uttered, the ancestor hidden by behind the marriage name of another country. This is rebirth.
+Ming Yang Rodriguez is still the son of Father Rodriguez. Even if the blood is similar but not fully biological. Loong has never had his name uttered, the ancestor hidden by behind the marriage name of another country. This is rebirth.
 
 The surgeon doesn't question one bit why it differs from the records. Why I decide to come upon this now.
 
@@ -603,7 +593,7 @@ The surgeon doesn't question one bit why it differs from the records. Why I deci
 
 = birthyear_unknown
 
-He  gives me this look like I'm bullshitting real hard. A look my father had once given me when I lied about breaking one of the saint statues with a hard thrown ball. It isn't that much of a lie though. I have two birthdays, two names, and two countries with no explanation as to why. No one to regather the detached versions of me into one. He shakes his head and starts humming again.
+He  gives me this look like I'm bullshitting real hard. A look my father had once given me when I lied about breaking one of the saintly windows with a hard thrown ball. It isn't that much of a lie though. I have two birthdays, two names, and two countries with no explanation as to why. No one to regather the detached versions of me into one. He shakes his head and starts humming again.
 
 This time the song is much more like the weeping of a low, softened horn in a silent room. 
 
@@ -632,9 +622,9 @@ Surgeon: Do you go by the Chinese zodiac or the Astrologists? You didn't answer 
 
 = neitherBirthday
 
-My father didn't celebrate my birthday. Rather, he didn't make much of a big deal. I don't know why. It wasn't like he hated me that much and no matter what he said about his brother. He acknowledged his. Tyrus was a holy man with a lot of contradictions.
+Fernan didn't celebrate my birthday. Rather, he didn't make much of a big deal. I don't know why. It wasn't like he hated me that much and no matter what he said about his brother. He acknowledged his own kin. Fernan was a holy man with a lot of contradictions.
 
-Athough to be real, I always wondered how to disappear effieciently. I think it's alright he didnt remember my birthday. It emphasizes the lack of importance in his narrative.
+Athough to be real, I always wondered how to disappear effieciently. I think it's alright he didnt remember my birthday. It emphasizes the lack of my importance in his narrative.
 
 I want to disappear. I sure did for him, since he can't see me now. ->surgeon_questions3
 
@@ -656,8 +646,39 @@ Despite that I am a man and there ain't anything about me worth rescuing.->surge
 
 ===surgeon_questions3===
 
+He leaves the room and I watch as he goes. He doesn't have enough on the table for me. I look around me now that he isn't my main view. The place seems rather cozy despite what I'm facing now. A statue of Mary stands on the window sill as snow comes down hard again. I stare into her blue eyes and put my hand on the strap on my abdoomen that I'm only coming to realize.
 
+Yes, I am in prison. My bed is my cell. I try to think of what is happening now. 
 
+Is this what it feels like to be on death row. Awaiting the killing of your lights? To be alone in the dark, in this cold place. 
+
+I say this town forsake me since the day I was born. Destined to be a museum laid open for the folks. 
+
+{mal > 0:
+In the ceiling above, made with the cheapest tiles imagined, I can see a hole. A flicker of a light, like a blink. Then it travels down the cieling where the surgeon has gone, like the backlights of a car departing home. If I scratch the ceiling, I can make manufactured snow. If I keep going, I will have my nails bleeding and find Mal. 
+
+I know he's up there.
+}
+It's happened to someone before, I've heard about a man laid body up to the skies in the woods. A prisoner with no family....
+* [Before I realize it. The surgeon comes.] ->the_surgeon_marks
+
+===the_surgeon_marks===
+
+//research how tattooing works
+The sound of the drill has me moving, and I've experienced way more terrifying things than this. Like, stealing the life of a blood relative. Like, witnessing the slaying of a cow. Like, witnessing the face of Mal smashing against the glasses, shardings piercing into the flesh. His lips going through the crevices.
+
+He pulls up my sleeve and cleans the hairs and brown skin with an alcohol soaked rag. All the time he's hmming again. I come to realize it's the melody of Go Tell It On the Mountain.
+
+-insert lyrics-
+The surgeon pulls out the needle. The first prick isn't so bad. The second fair enough. The third I mutter keep it going....
+Eventually it feels like nothing more than a nuisance prodding me for acknowledgement. My nerves begin to withstand, each one seizing, holding in the voice of perserverance.
+
+But oh no. 
+
+* [It comes when I'm confident.] ->the_mark
+
+===the_mark===
+The statue of Mary stares at me as I look away from the surgeon's face.
 
 
 ===surgeon_exit===
